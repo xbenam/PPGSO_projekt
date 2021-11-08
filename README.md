@@ -1,2 +1,0 @@
-# PPGSO_village
- 
