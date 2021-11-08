@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PPGSO_projekt.dir/main.cpp.obj"
+  "CMakeFiles/PPGSO_projekt.dir/src/village.cpp.obj"
   "PPGSO_projekt.exe"
   "PPGSO_projekt.exe.manifest"
   "PPGSO_projekt.pdb"

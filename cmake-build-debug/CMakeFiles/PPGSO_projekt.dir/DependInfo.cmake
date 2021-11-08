@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Skola/FIIT/3._semester/PPGSO_projekt/main.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/PPGSO_projekt.dir/main.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/village.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/PPGSO_projekt.dir/src/village.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

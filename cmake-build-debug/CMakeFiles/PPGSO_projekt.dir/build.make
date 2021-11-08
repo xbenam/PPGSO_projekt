@@ -76,27 +76,27 @@ include CMakeFiles/PPGSO_projekt.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PPGSO_projekt.dir/flags.make
 
-CMakeFiles/PPGSO_projekt.dir/main.cpp.obj: CMakeFiles/PPGSO_projekt.dir/flags.make
-CMakeFiles/PPGSO_projekt.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PPGSO_projekt.dir/main.cpp.obj"
-	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PPGSO_projekt.dir\main.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\main.cpp
+CMakeFiles/PPGSO_projekt.dir/src/village.cpp.obj: CMakeFiles/PPGSO_projekt.dir/flags.make
+CMakeFiles/PPGSO_projekt.dir/src/village.cpp.obj: ../src/village.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PPGSO_projekt.dir/src/village.cpp.obj"
+	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\PPGSO_projekt.dir\src\village.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\village.cpp
 
-CMakeFiles/PPGSO_projekt.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPGSO_projekt.dir/main.cpp.i"
-	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Skola\FIIT\3._semester\PPGSO_projekt\main.cpp > CMakeFiles\PPGSO_projekt.dir\main.cpp.i
+CMakeFiles/PPGSO_projekt.dir/src/village.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPGSO_projekt.dir/src/village.cpp.i"
+	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Skola\FIIT\3._semester\PPGSO_projekt\src\village.cpp > CMakeFiles\PPGSO_projekt.dir\src\village.cpp.i
 
-CMakeFiles/PPGSO_projekt.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPGSO_projekt.dir/main.cpp.s"
-	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Skola\FIIT\3._semester\PPGSO_projekt\main.cpp -o CMakeFiles\PPGSO_projekt.dir\main.cpp.s
+CMakeFiles/PPGSO_projekt.dir/src/village.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPGSO_projekt.dir/src/village.cpp.s"
+	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Skola\FIIT\3._semester\PPGSO_projekt\src\village.cpp -o CMakeFiles\PPGSO_projekt.dir\src\village.cpp.s
 
 # Object files for target PPGSO_projekt
 PPGSO_projekt_OBJECTS = \
-"CMakeFiles/PPGSO_projekt.dir/main.cpp.obj"
+"CMakeFiles/PPGSO_projekt.dir/src/village.cpp.obj"
 
 # External object files for target PPGSO_projekt
 PPGSO_projekt_EXTERNAL_OBJECTS =
 
-PPGSO_projekt.exe: CMakeFiles/PPGSO_projekt.dir/main.cpp.obj
+PPGSO_projekt.exe: CMakeFiles/PPGSO_projekt.dir/src/village.cpp.obj
 PPGSO_projekt.exe: CMakeFiles/PPGSO_projekt.dir/build.make
 PPGSO_projekt.exe: CMakeFiles/PPGSO_projekt.dir/linklibs.rsp
 PPGSO_projekt.exe: CMakeFiles/PPGSO_projekt.dir/objects1.rsp

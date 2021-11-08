@@ -142,32 +142,32 @@ PPGSO_projekt/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PPGSO_projekt.dir\build.make CMakeFiles/PPGSO_projekt.dir/build
 .PHONY : PPGSO_projekt/fast
 
-main.obj: main.cpp.obj
+src/village.obj: src/village.cpp.obj
 
-.PHONY : main.obj
+.PHONY : src/village.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PPGSO_projekt.dir\build.make CMakeFiles/PPGSO_projekt.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/village.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PPGSO_projekt.dir\build.make CMakeFiles/PPGSO_projekt.dir/src/village.cpp.obj
+.PHONY : src/village.cpp.obj
 
-main.i: main.cpp.i
+src/village.i: src/village.cpp.i
 
-.PHONY : main.i
+.PHONY : src/village.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PPGSO_projekt.dir\build.make CMakeFiles/PPGSO_projekt.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/village.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PPGSO_projekt.dir\build.make CMakeFiles/PPGSO_projekt.dir/src/village.cpp.i
+.PHONY : src/village.cpp.i
 
-main.s: main.cpp.s
+src/village.s: src/village.cpp.s
 
-.PHONY : main.s
+.PHONY : src/village.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PPGSO_projekt.dir\build.make CMakeFiles/PPGSO_projekt.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/village.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PPGSO_projekt.dir\build.make CMakeFiles/PPGSO_projekt.dir/src/village.cpp.s
+.PHONY : src/village.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PPGSO_projekt
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/village.obj
+	@echo ... src/village.i
+	@echo ... src/village.s
 .PHONY : help
 
 

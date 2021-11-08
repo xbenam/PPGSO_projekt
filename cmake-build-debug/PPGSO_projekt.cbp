@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/main.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/village.cpp">
 			<Option target="PPGSO_projekt"/>
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/CMakeLists.txt">
