@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PPGSO_projekt.dir/src/village.cpp.obj"
-  "PPGSO_projekt.exe"
-  "PPGSO_projekt.exe.manifest"
+  "CMakeFiles/PPGSO_projekt.dir/src/Village/village.cpp.o"
+  "CMakeFiles/PPGSO_projekt.dir/src/village.cpp.o"
+  "PPGSO_projekt"
   "PPGSO_projekt.pdb"
-  "libPPGSO_projekt.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

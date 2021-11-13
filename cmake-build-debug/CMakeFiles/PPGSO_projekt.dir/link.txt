@@ -1,3 +1,1 @@
-"D:\Program files\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PPGSO_projekt.dir/objects.a
-"D:\Program files\CLion 2020.2.3\mingw64\bin\ar.exe" cr CMakeFiles\PPGSO_projekt.dir/objects.a @CMakeFiles\PPGSO_projekt.dir\objects1.rsp
-"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" -g   -Wl,--whole-archive CMakeFiles\PPGSO_projekt.dir/objects.a -Wl,--no-whole-archive  -o PPGSO_projekt.exe -Wl,--out-implib,libPPGSO_projekt.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PPGSO_projekt.dir\linklibs.rsp
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/PPGSO_projekt.dir/src/village.cpp.o CMakeFiles/PPGSO_projekt.dir/src/Village/village.cpp.o -o PPGSO_projekt 
