@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_13__11__2021_23_31_[Default_Changelist]1" date="1636842678855" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13__11__2021_23_31_[Default_Changelist]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 13. 11. 2021 23:31 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/libshaders.a" />
+    <option name="AFTER_PATH" value="cmake-build-debug/libshaders.a" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13__11__2021_23_31_[Default_Changelist]1/libshaders.a" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/libppgso.a" />
+    <option name="AFTER_PATH" value="cmake-build-debug/libppgso.a" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13__11__2021_23_31_[Default_Changelist]1/libppgso.a" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_13__11__2021_23_31_[Default_Changelist]1/ompver_CXX.bin" />
+  </binary>
+</changelist>
