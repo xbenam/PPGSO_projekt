@@ -75,6 +75,28 @@ CMAKE_BINARY_DIR = "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy poč�
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"/Users/mariokolenic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	"/Users/mariokolenic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +118,30 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"/Users/mariokolenic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"/Users/mariokolenic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"/Users/mariokolenic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	"/Users/mariokolenic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,44 +176,502 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PPGSO_projekt
+# Target rules for targets named village
 
 # Build rule for target.
-PPGSO_projekt: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PPGSO_projekt
-.PHONY : PPGSO_projekt
+village: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 village
+.PHONY : village
 
 # fast build rule for target.
-PPGSO_projekt/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PPGSO_projekt.dir/build.make CMakeFiles/PPGSO_projekt.dir/build
-.PHONY : PPGSO_projekt/fast
+village/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/build
+.PHONY : village/fast
 
-src/village.o: src/village.cpp.o
+#=============================================================================
+# Target rules for targets named ppgso
 
-.PHONY : src/village.o
+# Build rule for target.
+ppgso: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ppgso
+.PHONY : ppgso
+
+# fast build rule for target.
+ppgso/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/build
+.PHONY : ppgso/fast
+
+#=============================================================================
+# Target rules for targets named shaders
+
+# Build rule for target.
+shaders: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shaders
+.PHONY : shaders
+
+# fast build rule for target.
+shaders/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/build
+.PHONY : shaders/fast
+
+ppgso/image.o: ppgso/image.cpp.o
+
+.PHONY : ppgso/image.o
 
 # target to build an object file
-src/village.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PPGSO_projekt.dir/build.make CMakeFiles/PPGSO_projekt.dir/src/village.cpp.o
-.PHONY : src/village.cpp.o
+ppgso/image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/image.cpp.o
+.PHONY : ppgso/image.cpp.o
 
-src/village.i: src/village.cpp.i
+ppgso/image.i: ppgso/image.cpp.i
 
-.PHONY : src/village.i
+.PHONY : ppgso/image.i
 
 # target to preprocess a source file
-src/village.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PPGSO_projekt.dir/build.make CMakeFiles/PPGSO_projekt.dir/src/village.cpp.i
-.PHONY : src/village.cpp.i
+ppgso/image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/image.cpp.i
+.PHONY : ppgso/image.cpp.i
 
-src/village.s: src/village.cpp.s
+ppgso/image.s: ppgso/image.cpp.s
 
-.PHONY : src/village.s
+.PHONY : ppgso/image.s
 
 # target to generate assembly for a file
-src/village.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PPGSO_projekt.dir/build.make CMakeFiles/PPGSO_projekt.dir/src/village.cpp.s
-.PHONY : src/village.cpp.s
+ppgso/image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/image.cpp.s
+.PHONY : ppgso/image.cpp.s
+
+ppgso/image_bmp.o: ppgso/image_bmp.cpp.o
+
+.PHONY : ppgso/image_bmp.o
+
+# target to build an object file
+ppgso/image_bmp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/image_bmp.cpp.o
+.PHONY : ppgso/image_bmp.cpp.o
+
+ppgso/image_bmp.i: ppgso/image_bmp.cpp.i
+
+.PHONY : ppgso/image_bmp.i
+
+# target to preprocess a source file
+ppgso/image_bmp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/image_bmp.cpp.i
+.PHONY : ppgso/image_bmp.cpp.i
+
+ppgso/image_bmp.s: ppgso/image_bmp.cpp.s
+
+.PHONY : ppgso/image_bmp.s
+
+# target to generate assembly for a file
+ppgso/image_bmp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/image_bmp.cpp.s
+.PHONY : ppgso/image_bmp.cpp.s
+
+ppgso/image_raw.o: ppgso/image_raw.cpp.o
+
+.PHONY : ppgso/image_raw.o
+
+# target to build an object file
+ppgso/image_raw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/image_raw.cpp.o
+.PHONY : ppgso/image_raw.cpp.o
+
+ppgso/image_raw.i: ppgso/image_raw.cpp.i
+
+.PHONY : ppgso/image_raw.i
+
+# target to preprocess a source file
+ppgso/image_raw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/image_raw.cpp.i
+.PHONY : ppgso/image_raw.cpp.i
+
+ppgso/image_raw.s: ppgso/image_raw.cpp.s
+
+.PHONY : ppgso/image_raw.s
+
+# target to generate assembly for a file
+ppgso/image_raw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/image_raw.cpp.s
+.PHONY : ppgso/image_raw.cpp.s
+
+ppgso/mesh.o: ppgso/mesh.cpp.o
+
+.PHONY : ppgso/mesh.o
+
+# target to build an object file
+ppgso/mesh.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/mesh.cpp.o
+.PHONY : ppgso/mesh.cpp.o
+
+ppgso/mesh.i: ppgso/mesh.cpp.i
+
+.PHONY : ppgso/mesh.i
+
+# target to preprocess a source file
+ppgso/mesh.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/mesh.cpp.i
+.PHONY : ppgso/mesh.cpp.i
+
+ppgso/mesh.s: ppgso/mesh.cpp.s
+
+.PHONY : ppgso/mesh.s
+
+# target to generate assembly for a file
+ppgso/mesh.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/mesh.cpp.s
+.PHONY : ppgso/mesh.cpp.s
+
+ppgso/shader.o: ppgso/shader.cpp.o
+
+.PHONY : ppgso/shader.o
+
+# target to build an object file
+ppgso/shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/shader.cpp.o
+.PHONY : ppgso/shader.cpp.o
+
+ppgso/shader.i: ppgso/shader.cpp.i
+
+.PHONY : ppgso/shader.i
+
+# target to preprocess a source file
+ppgso/shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/shader.cpp.i
+.PHONY : ppgso/shader.cpp.i
+
+ppgso/shader.s: ppgso/shader.cpp.s
+
+.PHONY : ppgso/shader.s
+
+# target to generate assembly for a file
+ppgso/shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/shader.cpp.s
+.PHONY : ppgso/shader.cpp.s
+
+ppgso/texture.o: ppgso/texture.cpp.o
+
+.PHONY : ppgso/texture.o
+
+# target to build an object file
+ppgso/texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/texture.cpp.o
+.PHONY : ppgso/texture.cpp.o
+
+ppgso/texture.i: ppgso/texture.cpp.i
+
+.PHONY : ppgso/texture.i
+
+# target to preprocess a source file
+ppgso/texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/texture.cpp.i
+.PHONY : ppgso/texture.cpp.i
+
+ppgso/texture.s: ppgso/texture.cpp.s
+
+.PHONY : ppgso/texture.s
+
+# target to generate assembly for a file
+ppgso/texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/texture.cpp.s
+.PHONY : ppgso/texture.cpp.s
+
+ppgso/tiny_obj_loader.o: ppgso/tiny_obj_loader.cpp.o
+
+.PHONY : ppgso/tiny_obj_loader.o
+
+# target to build an object file
+ppgso/tiny_obj_loader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/tiny_obj_loader.cpp.o
+.PHONY : ppgso/tiny_obj_loader.cpp.o
+
+ppgso/tiny_obj_loader.i: ppgso/tiny_obj_loader.cpp.i
+
+.PHONY : ppgso/tiny_obj_loader.i
+
+# target to preprocess a source file
+ppgso/tiny_obj_loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/tiny_obj_loader.cpp.i
+.PHONY : ppgso/tiny_obj_loader.cpp.i
+
+ppgso/tiny_obj_loader.s: ppgso/tiny_obj_loader.cpp.s
+
+.PHONY : ppgso/tiny_obj_loader.s
+
+# target to generate assembly for a file
+ppgso/tiny_obj_loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/tiny_obj_loader.cpp.s
+.PHONY : ppgso/tiny_obj_loader.cpp.s
+
+ppgso/window.o: ppgso/window.cpp.o
+
+.PHONY : ppgso/window.o
+
+# target to build an object file
+ppgso/window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/window.cpp.o
+.PHONY : ppgso/window.cpp.o
+
+ppgso/window.i: ppgso/window.cpp.i
+
+.PHONY : ppgso/window.i
+
+# target to preprocess a source file
+ppgso/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/window.cpp.i
+.PHONY : ppgso/window.cpp.i
+
+ppgso/window.s: ppgso/window.cpp.s
+
+.PHONY : ppgso/window.s
+
+# target to generate assembly for a file
+ppgso/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/ppgso/window.cpp.s
+.PHONY : ppgso/window.cpp.s
+
+shaders/color_frag_glsl.o: shaders/color_frag_glsl.cpp.o
+
+.PHONY : shaders/color_frag_glsl.o
+
+# target to build an object file
+shaders/color_frag_glsl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/color_frag_glsl.cpp.o
+.PHONY : shaders/color_frag_glsl.cpp.o
+
+shaders/color_frag_glsl.i: shaders/color_frag_glsl.cpp.i
+
+.PHONY : shaders/color_frag_glsl.i
+
+# target to preprocess a source file
+shaders/color_frag_glsl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/color_frag_glsl.cpp.i
+.PHONY : shaders/color_frag_glsl.cpp.i
+
+shaders/color_frag_glsl.s: shaders/color_frag_glsl.cpp.s
+
+.PHONY : shaders/color_frag_glsl.s
+
+# target to generate assembly for a file
+shaders/color_frag_glsl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/color_frag_glsl.cpp.s
+.PHONY : shaders/color_frag_glsl.cpp.s
+
+shaders/color_vert_glsl.o: shaders/color_vert_glsl.cpp.o
+
+.PHONY : shaders/color_vert_glsl.o
+
+# target to build an object file
+shaders/color_vert_glsl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/color_vert_glsl.cpp.o
+.PHONY : shaders/color_vert_glsl.cpp.o
+
+shaders/color_vert_glsl.i: shaders/color_vert_glsl.cpp.i
+
+.PHONY : shaders/color_vert_glsl.i
+
+# target to preprocess a source file
+shaders/color_vert_glsl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/color_vert_glsl.cpp.i
+.PHONY : shaders/color_vert_glsl.cpp.i
+
+shaders/color_vert_glsl.s: shaders/color_vert_glsl.cpp.s
+
+.PHONY : shaders/color_vert_glsl.s
+
+# target to generate assembly for a file
+shaders/color_vert_glsl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/color_vert_glsl.cpp.s
+.PHONY : shaders/color_vert_glsl.cpp.s
+
+shaders/convolution_frag_glsl.o: shaders/convolution_frag_glsl.cpp.o
+
+.PHONY : shaders/convolution_frag_glsl.o
+
+# target to build an object file
+shaders/convolution_frag_glsl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/convolution_frag_glsl.cpp.o
+.PHONY : shaders/convolution_frag_glsl.cpp.o
+
+shaders/convolution_frag_glsl.i: shaders/convolution_frag_glsl.cpp.i
+
+.PHONY : shaders/convolution_frag_glsl.i
+
+# target to preprocess a source file
+shaders/convolution_frag_glsl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/convolution_frag_glsl.cpp.i
+.PHONY : shaders/convolution_frag_glsl.cpp.i
+
+shaders/convolution_frag_glsl.s: shaders/convolution_frag_glsl.cpp.s
+
+.PHONY : shaders/convolution_frag_glsl.s
+
+# target to generate assembly for a file
+shaders/convolution_frag_glsl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/convolution_frag_glsl.cpp.s
+.PHONY : shaders/convolution_frag_glsl.cpp.s
+
+shaders/convolution_vert_glsl.o: shaders/convolution_vert_glsl.cpp.o
+
+.PHONY : shaders/convolution_vert_glsl.o
+
+# target to build an object file
+shaders/convolution_vert_glsl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/convolution_vert_glsl.cpp.o
+.PHONY : shaders/convolution_vert_glsl.cpp.o
+
+shaders/convolution_vert_glsl.i: shaders/convolution_vert_glsl.cpp.i
+
+.PHONY : shaders/convolution_vert_glsl.i
+
+# target to preprocess a source file
+shaders/convolution_vert_glsl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/convolution_vert_glsl.cpp.i
+.PHONY : shaders/convolution_vert_glsl.cpp.i
+
+shaders/convolution_vert_glsl.s: shaders/convolution_vert_glsl.cpp.s
+
+.PHONY : shaders/convolution_vert_glsl.s
+
+# target to generate assembly for a file
+shaders/convolution_vert_glsl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/convolution_vert_glsl.cpp.s
+.PHONY : shaders/convolution_vert_glsl.cpp.s
+
+shaders/diffuse_frag_glsl.o: shaders/diffuse_frag_glsl.cpp.o
+
+.PHONY : shaders/diffuse_frag_glsl.o
+
+# target to build an object file
+shaders/diffuse_frag_glsl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/diffuse_frag_glsl.cpp.o
+.PHONY : shaders/diffuse_frag_glsl.cpp.o
+
+shaders/diffuse_frag_glsl.i: shaders/diffuse_frag_glsl.cpp.i
+
+.PHONY : shaders/diffuse_frag_glsl.i
+
+# target to preprocess a source file
+shaders/diffuse_frag_glsl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/diffuse_frag_glsl.cpp.i
+.PHONY : shaders/diffuse_frag_glsl.cpp.i
+
+shaders/diffuse_frag_glsl.s: shaders/diffuse_frag_glsl.cpp.s
+
+.PHONY : shaders/diffuse_frag_glsl.s
+
+# target to generate assembly for a file
+shaders/diffuse_frag_glsl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/diffuse_frag_glsl.cpp.s
+.PHONY : shaders/diffuse_frag_glsl.cpp.s
+
+shaders/diffuse_vert_glsl.o: shaders/diffuse_vert_glsl.cpp.o
+
+.PHONY : shaders/diffuse_vert_glsl.o
+
+# target to build an object file
+shaders/diffuse_vert_glsl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/diffuse_vert_glsl.cpp.o
+.PHONY : shaders/diffuse_vert_glsl.cpp.o
+
+shaders/diffuse_vert_glsl.i: shaders/diffuse_vert_glsl.cpp.i
+
+.PHONY : shaders/diffuse_vert_glsl.i
+
+# target to preprocess a source file
+shaders/diffuse_vert_glsl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/diffuse_vert_glsl.cpp.i
+.PHONY : shaders/diffuse_vert_glsl.cpp.i
+
+shaders/diffuse_vert_glsl.s: shaders/diffuse_vert_glsl.cpp.s
+
+.PHONY : shaders/diffuse_vert_glsl.s
+
+# target to generate assembly for a file
+shaders/diffuse_vert_glsl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/diffuse_vert_glsl.cpp.s
+.PHONY : shaders/diffuse_vert_glsl.cpp.s
+
+shaders/texture_frag_glsl.o: shaders/texture_frag_glsl.cpp.o
+
+.PHONY : shaders/texture_frag_glsl.o
+
+# target to build an object file
+shaders/texture_frag_glsl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/texture_frag_glsl.cpp.o
+.PHONY : shaders/texture_frag_glsl.cpp.o
+
+shaders/texture_frag_glsl.i: shaders/texture_frag_glsl.cpp.i
+
+.PHONY : shaders/texture_frag_glsl.i
+
+# target to preprocess a source file
+shaders/texture_frag_glsl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/texture_frag_glsl.cpp.i
+.PHONY : shaders/texture_frag_glsl.cpp.i
+
+shaders/texture_frag_glsl.s: shaders/texture_frag_glsl.cpp.s
+
+.PHONY : shaders/texture_frag_glsl.s
+
+# target to generate assembly for a file
+shaders/texture_frag_glsl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/texture_frag_glsl.cpp.s
+.PHONY : shaders/texture_frag_glsl.cpp.s
+
+shaders/texture_vert_glsl.o: shaders/texture_vert_glsl.cpp.o
+
+.PHONY : shaders/texture_vert_glsl.o
+
+# target to build an object file
+shaders/texture_vert_glsl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.o
+.PHONY : shaders/texture_vert_glsl.cpp.o
+
+shaders/texture_vert_glsl.i: shaders/texture_vert_glsl.cpp.i
+
+.PHONY : shaders/texture_vert_glsl.i
+
+# target to preprocess a source file
+shaders/texture_vert_glsl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.i
+.PHONY : shaders/texture_vert_glsl.cpp.i
+
+shaders/texture_vert_glsl.s: shaders/texture_vert_glsl.cpp.s
+
+.PHONY : shaders/texture_vert_glsl.s
+
+# target to generate assembly for a file
+shaders/texture_vert_glsl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.s
+.PHONY : shaders/texture_vert_glsl.cpp.s
+
+src/Village/village.o: src/Village/village.cpp.o
+
+.PHONY : src/Village/village.o
+
+# target to build an object file
+src/Village/village.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/village.cpp.o
+.PHONY : src/Village/village.cpp.o
+
+src/Village/village.i: src/Village/village.cpp.i
+
+.PHONY : src/Village/village.i
+
+# target to preprocess a source file
+src/Village/village.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/village.cpp.i
+.PHONY : src/Village/village.cpp.i
+
+src/Village/village.s: src/Village/village.cpp.s
+
+.PHONY : src/Village/village.s
+
+# target to generate assembly for a file
+src/Village/village.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/village.cpp.s
+.PHONY : src/Village/village.cpp.s
 
 # Help Target
 help:
@@ -176,11 +680,65 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... PPGSO_projekt"
-	@echo "... src/village.o"
-	@echo "... src/village.i"
-	@echo "... src/village.s"
+	@echo "... ppgso"
+	@echo "... shaders"
+	@echo "... village"
+	@echo "... ppgso/image.o"
+	@echo "... ppgso/image.i"
+	@echo "... ppgso/image.s"
+	@echo "... ppgso/image_bmp.o"
+	@echo "... ppgso/image_bmp.i"
+	@echo "... ppgso/image_bmp.s"
+	@echo "... ppgso/image_raw.o"
+	@echo "... ppgso/image_raw.i"
+	@echo "... ppgso/image_raw.s"
+	@echo "... ppgso/mesh.o"
+	@echo "... ppgso/mesh.i"
+	@echo "... ppgso/mesh.s"
+	@echo "... ppgso/shader.o"
+	@echo "... ppgso/shader.i"
+	@echo "... ppgso/shader.s"
+	@echo "... ppgso/texture.o"
+	@echo "... ppgso/texture.i"
+	@echo "... ppgso/texture.s"
+	@echo "... ppgso/tiny_obj_loader.o"
+	@echo "... ppgso/tiny_obj_loader.i"
+	@echo "... ppgso/tiny_obj_loader.s"
+	@echo "... ppgso/window.o"
+	@echo "... ppgso/window.i"
+	@echo "... ppgso/window.s"
+	@echo "... shaders/color_frag_glsl.o"
+	@echo "... shaders/color_frag_glsl.i"
+	@echo "... shaders/color_frag_glsl.s"
+	@echo "... shaders/color_vert_glsl.o"
+	@echo "... shaders/color_vert_glsl.i"
+	@echo "... shaders/color_vert_glsl.s"
+	@echo "... shaders/convolution_frag_glsl.o"
+	@echo "... shaders/convolution_frag_glsl.i"
+	@echo "... shaders/convolution_frag_glsl.s"
+	@echo "... shaders/convolution_vert_glsl.o"
+	@echo "... shaders/convolution_vert_glsl.i"
+	@echo "... shaders/convolution_vert_glsl.s"
+	@echo "... shaders/diffuse_frag_glsl.o"
+	@echo "... shaders/diffuse_frag_glsl.i"
+	@echo "... shaders/diffuse_frag_glsl.s"
+	@echo "... shaders/diffuse_vert_glsl.o"
+	@echo "... shaders/diffuse_vert_glsl.i"
+	@echo "... shaders/diffuse_vert_glsl.s"
+	@echo "... shaders/texture_frag_glsl.o"
+	@echo "... shaders/texture_frag_glsl.i"
+	@echo "... shaders/texture_frag_glsl.s"
+	@echo "... shaders/texture_vert_glsl.o"
+	@echo "... shaders/texture_vert_glsl.i"
+	@echo "... shaders/texture_vert_glsl.s"
+	@echo "... src/Village/village.o"
+	@echo "... src/Village/village.i"
+	@echo "... src/Village/village.s"
 .PHONY : help
 
 

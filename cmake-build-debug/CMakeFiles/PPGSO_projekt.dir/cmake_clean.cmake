@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PPGSO_projekt.dir/src/Village/village.cpp.o"
   "CMakeFiles/PPGSO_projekt.dir/src/village.cpp.o"
   "PPGSO_projekt"
   "PPGSO_projekt.pdb"
