@@ -232,10 +232,16 @@
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_frag_glsl.cpp.rule">
 			<Option target="shaders"/>
 		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_frag_glsl.h">
+			<Option target="shaders"/>
+		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.cpp">
 			<Option target="shaders"/>
 		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.cpp.rule">
+			<Option target="shaders"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.h">
 			<Option target="shaders"/>
 		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.cpp">
@@ -244,10 +250,16 @@
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.cpp.rule">
 			<Option target="shaders"/>
 		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.h">
+			<Option target="shaders"/>
+		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.cpp">
 			<Option target="shaders"/>
 		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.cpp.rule">
+			<Option target="shaders"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.h">
 			<Option target="shaders"/>
 		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.cpp">
@@ -256,10 +268,16 @@
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.cpp.rule">
 			<Option target="shaders"/>
 		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.h">
+			<Option target="shaders"/>
+		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.cpp">
 			<Option target="shaders"/>
 		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.cpp.rule">
+			<Option target="shaders"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.h">
 			<Option target="shaders"/>
 		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.cpp">
@@ -268,10 +286,16 @@
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.cpp.rule">
 			<Option target="shaders"/>
 		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.h">
+			<Option target="shaders"/>
+		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.cpp">
 			<Option target="shaders"/>
 		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.cpp.rule">
+			<Option target="shaders"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.h">
 			<Option target="shaders"/>
 		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image.cpp">
