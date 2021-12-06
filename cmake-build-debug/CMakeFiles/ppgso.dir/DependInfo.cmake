@@ -4,16 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image_bmp.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image_bmp.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image_raw.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image_raw.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/mesh.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/mesh.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/shader.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/shader.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/texture.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/texture.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/tiny_obj_loader.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/tiny_obj_loader.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/window.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/window.cpp.o"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/image.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/image_bmp.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image_bmp.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/image_raw.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image_raw.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/mesh.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/mesh.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/shader.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/shader.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/texture.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/texture.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/tiny_obj_loader.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/tiny_obj_loader.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/window.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/window.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/scene.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -23,9 +24,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso"
-  "/usr/local/include"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt"
+  "../ppgso"
+  "../dependencies/include"
+  "../"
   "."
   )
 

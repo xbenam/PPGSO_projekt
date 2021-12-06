@@ -1,9 +1,9 @@
-/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/install/local.dir
-/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/list_install_components.dir
-/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir
-/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir
-/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/install/strip.dir
-/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/install.dir
-/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir
+D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir
+D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/install.dir
+D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/install/local.dir
+D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir
+D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir
+D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/list_install_components.dir
+D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/install/strip.dir
