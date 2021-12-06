@@ -8,360 +8,368 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
+				<Option working_dir="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install/local">
-				<Option working_dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="list_install_components">
-				<Option working_dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="village">
-				<Option output="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/village" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DGLM_FORCE_RADIANS"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add directory="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt"/>
-					<Add directory="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 village"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="village/fast">
-				<Option output="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/village" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DGLM_FORCE_RADIANS"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add directory="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt"/>
-					<Add directory="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 village/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ppgso">
-				<Option output="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/libppgso.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DGLM_FORCE_RADIANS"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add directory="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt"/>
-					<Add directory="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 ppgso"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ppgso/fast">
-				<Option output="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/libppgso.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DGLM_FORCE_RADIANS"/>
-					<Add option="-DGLEW_STATIC"/>
-					<Add directory="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt"/>
-					<Add directory="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 ppgso/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install/strip">
-				<Option working_dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install">
-				<Option working_dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="shaders">
-				<Option output="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/libshaders.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
+				<Option output="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/libshaders.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 shaders"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 shaders"/>
+					<CompileFile command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="shaders/fast">
-				<Option output="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/libshaders.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
+				<Option output="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/libshaders.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 shaders/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 shaders/fast"/>
+					<CompileFile command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ppgso">
+				<Option output="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/libppgso.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 ppgso"/>
+					<CompileFile command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ppgso/fast">
+				<Option output="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/libppgso.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 ppgso/fast"/>
+					<CompileFile command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="village">
+				<Option output="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/village.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 village"/>
+					<CompileFile command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="village/fast">
+				<Option output="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/village.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt"/>
+					<Add directory="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program files/CLion 2020.2.3/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 village/fast"/>
+					<CompileFile command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program files/CLion 2020.2.3/mingw64/bin/mingw32-make.exe -f &quot;D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_frag_glsl.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/color_frag_glsl.cpp">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_frag_glsl.cpp.rule">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/color_frag_glsl.cpp.rule">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_frag_glsl.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/color_frag_glsl.h">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.cpp">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.cpp.rule">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.cpp.rule">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.h">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.cpp">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.cpp.rule">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.cpp.rule">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.h">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.cpp">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.cpp.rule">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.cpp.rule">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.h">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.cpp">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.cpp.rule">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.cpp.rule">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.h">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.cpp">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.cpp.rule">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.cpp.rule">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.h">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.cpp">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.cpp.rule">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.cpp.rule">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.h">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.cpp">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.cpp.rule">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.cpp.rule">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.h">
 			<Option target="shaders"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/image.cpp">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/image.h">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image_bmp.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/image_bmp.cpp">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image_bmp.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/image_bmp.h">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image_raw.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/image_raw.cpp">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image_raw.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/image_raw.h">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/mesh.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/mesh.cpp">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/mesh.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/mesh.h">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/shader.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/shader.cpp">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/shader.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/shader.h">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/texture.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/texture.cpp">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/texture.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/texture.h">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/tiny_obj_loader.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/tiny_obj_loader.cpp">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/tiny_obj_loader.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/tiny_obj_loader.h">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/window.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/window.cpp">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/window.h">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/window.h">
 			<Option target="ppgso"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/village.cpp">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.cpp">
+			<Option target="ppgso"/>
 			<Option target="village"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/CMakeLists.txt">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/village.cpp">
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake/FindGLEW.cmake">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake/FindGLEW.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake/FindGLFW3.cmake">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake/FindGLFW3.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake/FindGLM.cmake">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake/FindGLM.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake/add_resources.cmake">
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake/add_resources.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
 	</Project>

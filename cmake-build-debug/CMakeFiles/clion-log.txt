@@ -1,13 +1,9 @@
-<<<<<<< Updated upstream
-"/Users/mariokolenic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt"
--- Found GLFW3: /usr/local/lib/libglfw.dylib;/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/IOKit.framework;/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreVideo.framework;/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/Cocoa.framework
-FIND_PATH /usr/local/include
--- Found GLEW: /usr/local/include
--- GLEW_LIBRARIES: /usr/local/lib/libGLEW.dylib
--- GLM_INCLUDE_DIR = /usr/local/include
-=======
 "D:\Program files\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Skola\FIIT\3._semester\PPGSO_projekt
->>>>>>> Stashed changes
+-- Found GLFW3: D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/lib/mingw/libglfw3.a
+FIND_PATH D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include
+-- Found GLEW: D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include
+-- GLEW_LIBRARIES: D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/lib/mingw/libglew32.a
+-- GLM_INCLUDE_DIR = D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug
+-- Build files have been written to: D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug

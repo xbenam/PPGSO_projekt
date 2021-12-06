@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_frag_glsl.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/color_frag_glsl.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/color_vert_glsl.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/convolution_frag_glsl.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/convolution_vert_glsl.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/diffuse_frag_glsl.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/diffuse_vert_glsl.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/texture_frag_glsl.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.o"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/color_frag_glsl.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/color_frag_glsl.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/color_vert_glsl.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/convolution_frag_glsl.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/convolution_vert_glsl.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/diffuse_frag_glsl.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/diffuse_vert_glsl.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/texture_frag_glsl.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
@@ -22,14 +22,14 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Pairs of files generated by the same build rule.
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_frag_glsl.h" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_frag_glsl.cpp"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.h" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.cpp"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.h" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.cpp"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.h" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.cpp"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.h" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.cpp"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.h" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.cpp"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.h" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.cpp"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.h" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.cpp"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/color_frag_glsl.h" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/color_frag_glsl.cpp"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.h" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/color_vert_glsl.cpp"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.h" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/convolution_frag_glsl.cpp"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.h" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/convolution_vert_glsl.cpp"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.h" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/diffuse_frag_glsl.cpp"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.h" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/diffuse_vert_glsl.cpp"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.h" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/texture_frag_glsl.cpp"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.h" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/shaders/texture_vert_glsl.cpp"
   )
 
 
