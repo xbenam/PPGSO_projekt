@@ -1,32 +1,24 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image_bmp.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image_bmp.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image_raw.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/image_raw.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/mesh.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/mesh.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/shader.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/shader.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/texture.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/texture.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/tiny_obj_loader.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/tiny_obj_loader.cpp.o"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/window.cpp" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles/ppgso.dir/ppgso/window.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "GLEW_STATIC"
-  "GLM_FORCE_RADIANS"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso"
-  "/usr/local/include"
-  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt"
-  "."
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image.cpp" "CMakeFiles/ppgso.dir/ppgso/image.cpp.o" "gcc" "CMakeFiles/ppgso.dir/ppgso/image.cpp.o.d"
+  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image_bmp.cpp" "CMakeFiles/ppgso.dir/ppgso/image_bmp.cpp.o" "gcc" "CMakeFiles/ppgso.dir/ppgso/image_bmp.cpp.o.d"
+  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/image_raw.cpp" "CMakeFiles/ppgso.dir/ppgso/image_raw.cpp.o" "gcc" "CMakeFiles/ppgso.dir/ppgso/image_raw.cpp.o.d"
+  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/mesh.cpp" "CMakeFiles/ppgso.dir/ppgso/mesh.cpp.o" "gcc" "CMakeFiles/ppgso.dir/ppgso/mesh.cpp.o.d"
+  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/shader.cpp" "CMakeFiles/ppgso.dir/ppgso/shader.cpp.o" "gcc" "CMakeFiles/ppgso.dir/ppgso/shader.cpp.o.d"
+  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/texture.cpp" "CMakeFiles/ppgso.dir/ppgso/texture.cpp.o" "gcc" "CMakeFiles/ppgso.dir/ppgso/texture.cpp.o.d"
+  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/tiny_obj_loader.cpp" "CMakeFiles/ppgso.dir/ppgso/tiny_obj_loader.cpp.o" "gcc" "CMakeFiles/ppgso.dir/ppgso/tiny_obj_loader.cpp.o.d"
+  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/window.cpp" "CMakeFiles/ppgso.dir/ppgso/window.cpp.o" "gcc" "CMakeFiles/ppgso.dir/ppgso/window.cpp.o.d"
+  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/ground.cpp" "CMakeFiles/ppgso.dir/src/Village/ground.cpp.o" "gcc" "CMakeFiles/ppgso.dir/src/Village/ground.cpp.o.d"
+  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/object.cpp" "CMakeFiles/ppgso.dir/src/Village/object.cpp.o" "gcc" "CMakeFiles/ppgso.dir/src/Village/object.cpp.o.d"
+  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/scene.cpp" "CMakeFiles/ppgso.dir/src/Village/scene.cpp.o" "gcc" "CMakeFiles/ppgso.dir/src/Village/scene.cpp.o.d"
   )
 
 # Targets to which this target links.
