@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_7__12__2021_17_53_[Default_Changelist]" date="1638895995635" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_53_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 7. 12. 2021 17:53 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_53_[Default_Changelist]/a.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_53_[Default_Changelist]/CMakeDetermineCompilerABI_CXX.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_53_[Default_Changelist]/ompver_CXX.bin" />
+  </binary>
+</changelist>

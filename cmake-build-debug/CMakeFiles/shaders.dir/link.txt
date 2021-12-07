@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libshaders.a CMakeFiles/shaders.dir/shaders/color_vert_glsl.cpp.o CMakeFiles/shaders.dir/shaders/color_frag_glsl.cpp.o CMakeFiles/shaders.dir/shaders/convolution_vert_glsl.cpp.o CMakeFiles/shaders.dir/shaders/convolution_frag_glsl.cpp.o CMakeFiles/shaders.dir/shaders/diffuse_vert_glsl.cpp.o CMakeFiles/shaders.dir/shaders/diffuse_frag_glsl.cpp.o CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.o CMakeFiles/shaders.dir/shaders/texture_frag_glsl.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libshaders.a

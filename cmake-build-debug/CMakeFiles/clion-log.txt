@@ -1,9 +1,46 @@
-"/Users/mariokolenic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt"
--- Found GLFW3: /usr/local/lib/libglfw.dylib;/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/IOKit.framework;/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreVideo.framework;/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/Cocoa.framework
-FIND_PATH /usr/local/include
--- Found GLEW: /usr/local/include
--- GLEW_LIBRARIES: /usr/local/lib/libGLEW.dylib
--- GLM_INCLUDE_DIR = /usr/local/include
+"D:\Program files\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Skola\FIIT\3._semester\PPGSO_projekt
+-- The CXX compiler identification is GNU 8.1.0
+-- Check for working CXX compiler: D:/Program files/CLion 2020.2.3/mingw64/bin/g++.exe
+-- Check for working CXX compiler: D:/Program files/CLion 2020.2.3/mingw64/bin/g++.exe - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found GLFW3: D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/lib/mingw/libglfw3.a
+FIND_PATH D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include
+-- Found GLEW: D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include  
+-- Found GLEW: D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include
+-- GLEW_LIBRARIES: D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/lib/mingw/libglew32.a
+-- Found GLM: D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include  
+-- GLM_INCLUDE_DIR = D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include
+-- Found OpenGL: opengl32   
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
 -- Configuring done
--- Generating done
--- Build files have been written to: /Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug
+CMake Error at CMakeLists.txt:74 (add_library):
+  Cannot find source file:
+
+    src/Village/scene.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:105 (add_executable):
+  Cannot find source file:
+
+    src/Village/village.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:74 (add_library):
+  No SOURCES given to target: ppgso
+
+
+CMake Error at CMakeLists.txt:105 (add_executable):
+  No SOURCES given to target: village
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
