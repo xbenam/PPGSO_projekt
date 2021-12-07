@@ -1,30 +1,41 @@
-// Playground
-// - You can use this template project for quick C++ experiments
-
-#include <glm/glm.hpp>
-#include <ppgso/ppgso.h>
+//
+// Created by Mário Kolenič on 13/11/2021.
+//
+#include <iostream>
+#include <ppgso.h>
 
 #include <shaders/texture_vert_glsl.h>
 #include <shaders/texture_frag_glsl.h>
 
-const unsigned int SIZE = 1024;
-class MeshWindow : public ppgso::Window {
+#include "ground.h"
+#include "scene.h"
+#include "camera.h"
+
+using namespace std;
+using namespace glm;
+using namespace ppgso;
+
+class SceneWindow : public Window {
 private:
-    // Initialize resources
-
+    Scene beginScene;
     ppgso::Shader program = {texture_vert_glsl, texture_frag_glsl};
-    ppgso::Texture vrtula_texture = {ppgso::image::loadBMP("Material_baseColor.bmp")};
-    ppgso::Texture base_texture = {ppgso::image::loadBMP("base.bmp")};
-    ppgso::Texture ground_texture = {ppgso::image::loadBMP("ground.bmp")};
+    ppgso::Texture horse_texture = {ppgso::image::loadBMP("HorseShape_texture1.bmp")};
 
-    ppgso::Mesh cube = {"cube.obj"};
-    ppgso::Mesh vrtula = {"vrtula.obj"};
-    ppgso::Mesh mill_base = {"mill_base.obj"};
+    ppgso::Mesh horse = {"horse.obj"};
 
-    int speed = 1;
+    void initScene() {
+        beginScene.objects.clear();
 
+        // Create a camera
+        auto camera = std::make_unique<Camera>(60.0f, 1.0f, 0.1f, 100.0f);
+        camera->position.z = -15.0f;
+        beginScene.camera = move(camera);
+
+        // Add space background
+        beginScene.objects.push_back(std::make_unique<Ground>());
+    }
 public:
-    MeshWindow() : Window{"Village", SIZE, SIZE} {
+    SceneWindow() : Window{"Village", 1000, 1000} {
 
         // Enable Z-buffer
         glEnable(GL_DEPTH_TEST);
@@ -35,18 +46,6 @@ public:
         glFrontFace(GL_CCW);
         glCullFace(GL_BACK);
     }
-
-    void onKey(int key, int scanCode, int action, int mods) override {
-
-        if (key == GLFW_KEY_W)
-        {
-            speed += 1;
-        }
-        if (key == GLFW_KEY_S)
-        {
-            speed -= 1;
-        }
-    }
     void onIdle() override {
 
         // Set gray background
@@ -56,43 +55,28 @@ public:
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 
-        auto floor = glm::translate(glm::mat4{1.0f}, {0.0f, 1.25f, 0.0f}) * glm::scale(glm::mat4{1}, {1000,0.1,1000});
-
-        program.setUniform("ModelMatrix", floor);
-        program.setUniform("Texture", ground_texture);
-        cube.render();
-
-        auto mill = glm::scale(glm::mat4{1}, {.1,.1,.1});
-        auto vrt = glm::translate(glm::mat4{1.0f}, {5.0f, 30.0f, 0.0f}) * glm::rotate(glm::mat4{1}, (float) glfwGetTime() * speed, {1.0f, 0.0f, 0.0f}) *
-                   glm::scale(glm::mat4{1}, {.1,.1,.1});
+        auto horseMatrix = glm::translate(glm::mat4{1.0f}, {1.0f, 1.0f, 1.0f}) *
+                   glm::scale(glm::mat4{1}, {1,1,1});
         auto cameraMat = translate(glm::mat4{1.0f}, {0.0f, -15.0f, -50});
 
-
-
 //        program.setUniform("ViewMatrix", glm::lookAt({cos((float) glfwGetTime())* 75,75.0f,sin((float) glfwGetTime())*-75.0f},{0.0f,1.0f,0.0f},glm::vec3{0.0f,1,0.0f}));
-        program.setUniform("ViewMatrix", glm::lookAt({100 * sin ((float) glfwGetTime()/5),cos((float) glfwGetTime()*5)*0.2f + 5.0f,-75.0f},{0.0f,1.0f,0.0f},glm::vec3{0.0f,1,0.0f}));
+        program.setUniform("ViewMatrix", glm::lookAt({1, 30, -50.0f},{0,0,0},glm::vec3{0.0f,1,0.0f}));
 
 //        program.setUniform("ViewMatrix", cameraMat);
         program.setUniform("ProjectionMatrix", glm::perspective((ppgso::PI / 180.f) * 60.0f, 1.0f, 0.1f, 250.0f));
 
-        program.setUniform("ModelMatrix", mill);
-        program.setUniform("Texture", base_texture);
-        mill_base.render();
-
-        program.setUniform("ModelMatrix", vrt);
-        program.setUniform("Texture", vrtula_texture);
-        vrtula.render();
+        program.setUniform("ModelMatrix", horseMatrix);
+        program.setUniform("Texture", horse_texture);
+        horse.render();
 
     }
-
-
 };
 
 int main() {
-    // Create instance of our mesh window
-    MeshWindow window;
+    // Initialize our window
+    SceneWindow window;
 
-    // Poll events in loop
+    // Main execution loop
     while (window.pollEvents()) {}
 
     return EXIT_SUCCESS;
