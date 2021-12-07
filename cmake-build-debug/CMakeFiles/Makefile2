@@ -148,8 +148,8 @@ CMakeFiles/ppgso.dir/clean:
 # Target rules for target CMakeFiles/village.dir
 
 # All Build rule for target.
-CMakeFiles/village.dir/all: CMakeFiles/shaders.dir/all
 CMakeFiles/village.dir/all: CMakeFiles/ppgso.dir/all
+CMakeFiles/village.dir/all: CMakeFiles/shaders.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=30,31,32,33,34 "Built target village"
