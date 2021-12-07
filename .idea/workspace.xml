@@ -31,10 +31,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c384f26d-1ebe-4fb0-8eed-456a31ef2c5d" name="Default Changelist" comment="Ground $ Objekt class">
+    <list default="true" id="c384f26d-1ebe-4fb0-8eed-456a31ef2c5d" name="Default Changelist" comment="Blbá zmena 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libppgso.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libppgso.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/village" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/village" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Village/ground.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/ground.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Village/object.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/object.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Village/village.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/village.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638894268420</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Blbá zmena 2">
+      <created>1638897413532</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638897413532</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +155,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -153,6 +176,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ground $ Objekt class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ground $ Objekt class" />
+    <MESSAGE value="Blbá zmena" />
+    <MESSAGE value="Blbá zmena 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Blbá zmena 2" />
   </component>
 </project>
