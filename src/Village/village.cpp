@@ -31,8 +31,8 @@ private:
         camera->position.z = -15.0f;
         beginScene.camera = move(camera);
 
-        // Add space background
-        beginScene.objects.push_back(std::make_unique<Ground>());
+        auto ground = std::make_unique<Ground>();
+        beginScene.objects.push_back(move(ground));
     }
 public:
     SceneWindow() : Window{"Village", 1000, 1000} {
@@ -45,6 +45,8 @@ public:
         glEnable(GL_CULL_FACE);
         glFrontFace(GL_CCW);
         glCullFace(GL_BACK);
+
+        initScene();
     }
     void onIdle() override {
 
@@ -68,6 +70,10 @@ public:
         program.setUniform("ModelMatrix", horseMatrix);
         program.setUniform("Texture", horse_texture);
         horse.render();
+
+        // Update and render all objects
+        beginScene.update();
+        beginScene.render();
 
     }
 };
