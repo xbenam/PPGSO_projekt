@@ -181,24 +181,10 @@ CMakeFiles/ppgso.dir/ppgso/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ppgso.dir/ppgso/window.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/window.cpp" -o CMakeFiles/ppgso.dir/ppgso/window.cpp.s
 
-CMakeFiles/ppgso.dir/src/Village/scene.cpp.o: CMakeFiles/ppgso.dir/flags.make
-CMakeFiles/ppgso.dir/src/Village/scene.cpp.o: /Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/src/Village/scene.cpp
-CMakeFiles/ppgso.dir/src/Village/scene.cpp.o: CMakeFiles/ppgso.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ppgso.dir/src/Village/scene.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ppgso.dir/src/Village/scene.cpp.o -MF CMakeFiles/ppgso.dir/src/Village/scene.cpp.o.d -o CMakeFiles/ppgso.dir/src/Village/scene.cpp.o -c "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/scene.cpp"
-
-CMakeFiles/ppgso.dir/src/Village/scene.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ppgso.dir/src/Village/scene.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/scene.cpp" > CMakeFiles/ppgso.dir/src/Village/scene.cpp.i
-
-CMakeFiles/ppgso.dir/src/Village/scene.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ppgso.dir/src/Village/scene.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/scene.cpp" -o CMakeFiles/ppgso.dir/src/Village/scene.cpp.s
-
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.o: CMakeFiles/ppgso.dir/flags.make
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.o: /Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/src/Village/ground.cpp
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.o: CMakeFiles/ppgso.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ppgso.dir/src/Village/ground.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ppgso.dir/src/Village/ground.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ppgso.dir/src/Village/ground.cpp.o -MF CMakeFiles/ppgso.dir/src/Village/ground.cpp.o.d -o CMakeFiles/ppgso.dir/src/Village/ground.cpp.o -c "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/ground.cpp"
 
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.i: cmake_force
@@ -212,7 +198,7 @@ CMakeFiles/ppgso.dir/src/Village/ground.cpp.s: cmake_force
 CMakeFiles/ppgso.dir/src/Village/object.cpp.o: CMakeFiles/ppgso.dir/flags.make
 CMakeFiles/ppgso.dir/src/Village/object.cpp.o: /Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/src/Village/object.cpp
 CMakeFiles/ppgso.dir/src/Village/object.cpp.o: CMakeFiles/ppgso.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ppgso.dir/src/Village/object.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ppgso.dir/src/Village/object.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ppgso.dir/src/Village/object.cpp.o -MF CMakeFiles/ppgso.dir/src/Village/object.cpp.o.d -o CMakeFiles/ppgso.dir/src/Village/object.cpp.o -c "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/object.cpp"
 
 CMakeFiles/ppgso.dir/src/Village/object.cpp.i: cmake_force
@@ -222,6 +208,20 @@ CMakeFiles/ppgso.dir/src/Village/object.cpp.i: cmake_force
 CMakeFiles/ppgso.dir/src/Village/object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ppgso.dir/src/Village/object.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/object.cpp" -o CMakeFiles/ppgso.dir/src/Village/object.cpp.s
+
+CMakeFiles/ppgso.dir/src/Village/scene.cpp.o: CMakeFiles/ppgso.dir/flags.make
+CMakeFiles/ppgso.dir/src/Village/scene.cpp.o: /Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/src/Village/scene.cpp
+CMakeFiles/ppgso.dir/src/Village/scene.cpp.o: CMakeFiles/ppgso.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ppgso.dir/src/Village/scene.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ppgso.dir/src/Village/scene.cpp.o -MF CMakeFiles/ppgso.dir/src/Village/scene.cpp.o.d -o CMakeFiles/ppgso.dir/src/Village/scene.cpp.o -c "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/scene.cpp"
+
+CMakeFiles/ppgso.dir/src/Village/scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ppgso.dir/src/Village/scene.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/scene.cpp" > CMakeFiles/ppgso.dir/src/Village/scene.cpp.i
+
+CMakeFiles/ppgso.dir/src/Village/scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ppgso.dir/src/Village/scene.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/scene.cpp" -o CMakeFiles/ppgso.dir/src/Village/scene.cpp.s
 
 # Object files for target ppgso
 ppgso_OBJECTS = \
@@ -233,9 +233,9 @@ ppgso_OBJECTS = \
 "CMakeFiles/ppgso.dir/ppgso/image_raw.cpp.o" \
 "CMakeFiles/ppgso.dir/ppgso/texture.cpp.o" \
 "CMakeFiles/ppgso.dir/ppgso/window.cpp.o" \
-"CMakeFiles/ppgso.dir/src/Village/scene.cpp.o" \
 "CMakeFiles/ppgso.dir/src/Village/ground.cpp.o" \
-"CMakeFiles/ppgso.dir/src/Village/object.cpp.o"
+"CMakeFiles/ppgso.dir/src/Village/object.cpp.o" \
+"CMakeFiles/ppgso.dir/src/Village/scene.cpp.o"
 
 # External object files for target ppgso
 ppgso_EXTERNAL_OBJECTS =
@@ -248,9 +248,9 @@ libppgso.a: CMakeFiles/ppgso.dir/ppgso/image_bmp.cpp.o
 libppgso.a: CMakeFiles/ppgso.dir/ppgso/image_raw.cpp.o
 libppgso.a: CMakeFiles/ppgso.dir/ppgso/texture.cpp.o
 libppgso.a: CMakeFiles/ppgso.dir/ppgso/window.cpp.o
-libppgso.a: CMakeFiles/ppgso.dir/src/Village/scene.cpp.o
 libppgso.a: CMakeFiles/ppgso.dir/src/Village/ground.cpp.o
 libppgso.a: CMakeFiles/ppgso.dir/src/Village/object.cpp.o
+libppgso.a: CMakeFiles/ppgso.dir/src/Village/scene.cpp.o
 libppgso.a: CMakeFiles/ppgso.dir/build.make
 libppgso.a: CMakeFiles/ppgso.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library libppgso.a"

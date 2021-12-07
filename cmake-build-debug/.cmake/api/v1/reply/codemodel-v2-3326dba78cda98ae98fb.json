@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ppgso::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ppgso-Debug-c298aa6c6db74b9e3e62.json",
+					"jsonFile" : "target-ppgso-Debug-9515cb2651ce6cf97c4e.json",
 					"name" : "ppgso",
 					"projectIndex" : 0
 				},
@@ -58,7 +58,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "village::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-village-Debug-d12968c6a9b4757bda08.json",
+					"jsonFile" : "target-village-Debug-c4ebe96ad8bd19fba0bf.json",
 					"name" : "village",
 					"projectIndex" : 0
 				}
