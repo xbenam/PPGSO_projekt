@@ -8,6 +8,8 @@
 #include <shaders/texture_frag_glsl.h>
 
 #include "ground.h"
+#include "scene.h"
+#include "camera.h"
 
 using namespace std;
 using namespace glm;
@@ -15,12 +17,23 @@ using namespace ppgso;
 
 class SceneWindow : public Window {
 private:
+    Scene beginScene;
     ppgso::Shader program = {texture_vert_glsl, texture_frag_glsl};
     ppgso::Texture horse_texture = {ppgso::image::loadBMP("HorseShape_texture1.bmp")};
 
     ppgso::Mesh horse = {"horse.obj"};
 
+    void initScene() {
+        beginScene.objects.clear();
 
+        // Create a camera
+        auto camera = std::make_unique<Camera>(60.0f, 1.0f, 0.1f, 100.0f);
+        camera->position.z = -15.0f;
+        beginScene.camera = move(camera);
+
+        // Add space background
+        beginScene.objects.push_back(std::make_unique<Ground>());
+    }
 public:
     SceneWindow() : Window{"Village", 1000, 1000} {
 

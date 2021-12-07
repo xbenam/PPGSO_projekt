@@ -584,6 +584,33 @@ shaders/texture_vert_glsl.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.s
 .PHONY : shaders/texture_vert_glsl.cpp.s
 
+src/Village/camera.o: src/Village/camera.cpp.o
+.PHONY : src/Village/camera.o
+
+# target to build an object file
+src/Village/camera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/camera.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/camera.cpp.o
+.PHONY : src/Village/camera.cpp.o
+
+src/Village/camera.i: src/Village/camera.cpp.i
+.PHONY : src/Village/camera.i
+
+# target to preprocess a source file
+src/Village/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/camera.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/camera.cpp.i
+.PHONY : src/Village/camera.cpp.i
+
+src/Village/camera.s: src/Village/camera.cpp.s
+.PHONY : src/Village/camera.s
+
+# target to generate assembly for a file
+src/Village/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/camera.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/camera.cpp.s
+.PHONY : src/Village/camera.cpp.s
+
 src/Village/ground.o: src/Village/ground.cpp.o
 .PHONY : src/Village/ground.o
 
@@ -752,6 +779,9 @@ help:
 	@echo "... shaders/texture_vert_glsl.o"
 	@echo "... shaders/texture_vert_glsl.i"
 	@echo "... shaders/texture_vert_glsl.s"
+	@echo "... src/Village/camera.o"
+	@echo "... src/Village/camera.i"
+	@echo "... src/Village/camera.s"
 	@echo "... src/Village/ground.o"
 	@echo "... src/Village/ground.i"
 	@echo "... src/Village/ground.s"

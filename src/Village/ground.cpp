@@ -1,4 +1,5 @@
 #include "ground.h"
+#include "scene.h"
 
 #include <shaders/texture_vert_glsl.h>
 #include <shaders/texture_frag_glsl.h>
@@ -14,30 +15,21 @@ Ground::Ground() {
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("cube.obj");
 }
 
-void Ground::update() {
+bool Ground::update() {
     modelMatrix = glm::translate(glm::mat4{1.0f}, {0.0f, 1.25f, 0.0f}) * glm::scale(glm::mat4{1}, {1000,0.1,1000});
+    return true;
 }
 
-void Ground::render() {
+void Ground::render(Scene &scene) {
     shader->use();
 
-    auto floor = glm::translate(glm::mat4{1.0f}, {0.0f, 1.25f, 0.0f}) * glm::scale(glm::mat4{1}, {1000,0.1,1000});
+    // use camera
+    shader->setUniform("ProjectionMatrix", scene.camera->projectionMatrix);
+    shader->setUniform("ViewMatrix", scene.camera->viewMatrix);
+
 
     shader->setUniform("ModelMatrix", modelMatrix);
     shader->setUniform("Texture", *texture);
 
-    // Disable depth testing
-    glDisable(GL_DEPTH_TEST);
-
-    // Enable blending
-    glEnable(GL_BLEND);
-    // Additive blending
-    glBlendFunc(GL_SRC_ALPHA, GL_ONE);
-
     mesh->render();
-
-    // Disable blending
-    glDisable(GL_BLEND);
-    // Enable depth test
-    glEnable(GL_DEPTH_TEST);
 }

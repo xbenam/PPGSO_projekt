@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/village.dir/src/Village/camera.cpp.o"
+  "CMakeFiles/village.dir/src/Village/camera.cpp.o.d"
   "CMakeFiles/village.dir/src/Village/ground.cpp.o"
   "CMakeFiles/village.dir/src/Village/ground.cpp.o.d"
   "CMakeFiles/village.dir/src/Village/object.cpp.o"

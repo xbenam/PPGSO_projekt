@@ -1,3 +1,5 @@
+#pragma once
+
 #include <iostream>
 #include <vector>
 #include <ppgso/ppgso.h>
@@ -15,7 +17,7 @@ private:
 public:
     Ground();
 
-    void update();
+    bool update();
 
-    void render();
+    void render(Scene &scene) override;
 };

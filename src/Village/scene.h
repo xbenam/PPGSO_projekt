@@ -1,47 +1,43 @@
-//
-// Created by Mário Kolenič on 07/12/2021.
-//
+#ifndef _PPGSO_SCENE_H
+#define _PPGSO_SCENE_H
 
-#ifndef PPGSO_SCENE_H
-#define PPGSO_SCENE_H
-
-
-#include <ppgso/ppgso.h>
+#include <memory>
+#include <map>
+#include <list>
 
 #include "object.h"
+#include "camera.h"
 
-/*!
- * This object renders the scene background
- * It does not use the camera so it uses different 2D shader program
- * Background animation is achieved by passing an offset to the fragment shader that offsets texture mapping
+/*
+ * Scene is an object that will aggregate all scene related data
+ * Objects are stored in a list of objects
+ * Keyboard and Mouse states are stored in a map and struct
  */
-class Space final : public Object {
-private:
-    // Static resources (Shared between instances)
-    static std::unique_ptr<ppgso::Mesh> mesh;
-    static std::unique_ptr<ppgso::Shader> shader;
-    static std::unique_ptr<ppgso::Texture> texture;
-
-    glm::vec2 textureOffset;
+class Scene {
 public:
-    /*!
-     * Create new Space background
-     */
-    Space();
+    void update(float time);
 
-    /*!
-     * Update space background
-     * @param scene Scene to update
-     * @param dt Time delta
-     * @return true to delete the object
-     */
-    bool update(Scene &scene, float dt) override;
+    void render();
 
-    /*!
-     * Render space background
-     * @param scene Scene to render in
-     */
-    void render(Scene &scene) override;
+    std::vector<Object*> intersect(const glm::vec3 &position, const glm::vec3 &direction);
+
+    // Camera object
+    std::unique_ptr<Camera> camera;
+
+    // All objects to be rendered in scene
+    std::list< std::unique_ptr<Object> > objects;
+
+    // Keyboard state
+    std::map< int, int > keyboard;
+
+    // Lights, in this case using only simple directional diffuse lighting
+    glm::vec3 lightDirection{-1.0f, -1.0f, -1.0f};
+
+    // Store cursor state
+    struct {
+        double x, y;
+        bool left, right;
+    } cursor;
 };
 
-#endif //PPGSO_SCENE_H
+#endif // _PPGSO_SCENE_H

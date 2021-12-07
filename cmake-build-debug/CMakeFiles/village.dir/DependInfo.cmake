@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/camera.cpp" "CMakeFiles/village.dir/src/Village/camera.cpp.o" "gcc" "CMakeFiles/village.dir/src/Village/camera.cpp.o.d"
   "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/ground.cpp" "CMakeFiles/village.dir/src/Village/ground.cpp.o" "gcc" "CMakeFiles/village.dir/src/Village/ground.cpp.o.d"
   "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/object.cpp" "CMakeFiles/village.dir/src/Village/object.cpp.o" "gcc" "CMakeFiles/village.dir/src/Village/object.cpp.o.d"
   "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/scene.cpp" "CMakeFiles/village.dir/src/Village/scene.cpp.o" "gcc" "CMakeFiles/village.dir/src/Village/scene.cpp.o.d"

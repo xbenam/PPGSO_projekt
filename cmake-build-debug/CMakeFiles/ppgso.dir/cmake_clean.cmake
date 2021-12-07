@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ppgso.dir/ppgso/tiny_obj_loader.cpp.o.d"
   "CMakeFiles/ppgso.dir/ppgso/window.cpp.o"
   "CMakeFiles/ppgso.dir/ppgso/window.cpp.o.d"
+  "CMakeFiles/ppgso.dir/src/Village/camera.cpp.o"
+  "CMakeFiles/ppgso.dir/src/Village/camera.cpp.o.d"
   "CMakeFiles/ppgso.dir/src/Village/ground.cpp.o"
   "CMakeFiles/ppgso.dir/src/Village/ground.cpp.o.d"
   "CMakeFiles/ppgso.dir/src/Village/object.cpp.o"
