@@ -17,5 +17,30 @@ FIND_PATH D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include
 -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
 -- Found OpenMP: TRUE (found version "4.5")  
 -- Configuring done
--- Generating done
--- Build files have been written to: D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug
+CMake Error at CMakeLists.txt:74 (add_library):
+  Cannot find source file:
+
+    src/Village/scene.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:105 (add_executable):
+  Cannot find source file:
+
+    src/Village/village.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:74 (add_library):
+  No SOURCES given to target: ppgso
+
+
+CMake Error at CMakeLists.txt:105 (add_executable):
+  No SOURCES given to target: village
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

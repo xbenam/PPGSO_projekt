@@ -1,3 +1,0 @@
-"D:\Program files\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\village.dir/objects.a
-"D:\Program files\CLion 2020.2.3\mingw64\bin\ar.exe" cr CMakeFiles\village.dir/objects.a @CMakeFiles\village.dir\objects1.rsp
-"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter   -Wl,--whole-archive CMakeFiles\village.dir/objects.a -Wl,--no-whole-archive  -o village.exe -Wl,--out-implib,libvillage.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\village.dir\linklibs.rsp
