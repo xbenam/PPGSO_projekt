@@ -1,15 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/village.dir/src/Village/camera.cpp.o"
-  "CMakeFiles/village.dir/src/Village/camera.cpp.o.d"
-  "CMakeFiles/village.dir/src/Village/ground.cpp.o"
-  "CMakeFiles/village.dir/src/Village/ground.cpp.o.d"
-  "CMakeFiles/village.dir/src/Village/object.cpp.o"
-  "CMakeFiles/village.dir/src/Village/object.cpp.o.d"
-  "CMakeFiles/village.dir/src/Village/scene.cpp.o"
-  "CMakeFiles/village.dir/src/Village/scene.cpp.o.d"
-  "CMakeFiles/village.dir/src/Village/village.cpp.o"
-  "CMakeFiles/village.dir/src/Village/village.cpp.o.d"
-  "village"
+  "CMakeFiles/village.dir/src/Village/camera.cpp.obj"
+  "CMakeFiles/village.dir/src/Village/ground.cpp.obj"
+  "CMakeFiles/village.dir/src/Village/object.cpp.obj"
+  "CMakeFiles/village.dir/src/Village/scene.cpp.obj"
+  "CMakeFiles/village.dir/src/Village/village.cpp.obj"
+  "libvillage.dll.a"
+  "village.exe"
+  "village.exe.manifest"
   "village.pdb"
 )
 
