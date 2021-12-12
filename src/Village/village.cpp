@@ -11,6 +11,7 @@
 #include "scene.h"
 #include "camera.h"
 #include "horse.h"
+#include "walls.h"
 
 using namespace std;
 using namespace glm;
@@ -27,7 +28,7 @@ private:
         // Create a camera
         auto camera = std::make_unique<Camera>(100.0f, 1.0f, 0.1f, 1000.0f);
         camera->position.y = 10.0f;
-        camera->position.z = -15.0f;
+        camera->position.z = -20.0f;
         beginScene.camera = move(camera);
 
         auto ground = std::make_unique<Ground>();
@@ -35,6 +36,9 @@ private:
 
         auto horse = std::make_unique<Horse>();
         beginScene.objects.push_back(move(horse));
+
+        auto castleWalls = std::make_unique<Walls>();
+        beginScene.objects.push_back(move(castleWalls));
     }
 public:
     SceneWindow() : Window{"Village", 1000, 1000} {
@@ -58,13 +62,7 @@ public:
         // Clear depth and color buffers
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        float dt = 0;
-
-        float time = glfwGetTime();
-        beginScene.camera->position.x = 50 * sin( cos(time) * time) /2;
-        beginScene.camera->position.z = 50 * cos(cos(time) * time) / 2;
-
-
+        float dt = glfwGetTime();
         // Update and render all objects
         beginScene.update(dt);
         beginScene.render();

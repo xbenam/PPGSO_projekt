@@ -743,6 +743,33 @@ src/Village/village.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/village.cpp.s
 .PHONY : src/Village/village.cpp.s
 
+src/Village/walls.o: src/Village/walls.cpp.o
+.PHONY : src/Village/walls.o
+
+# target to build an object file
+src/Village/walls.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/walls.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/walls.cpp.o
+.PHONY : src/Village/walls.cpp.o
+
+src/Village/walls.i: src/Village/walls.cpp.i
+.PHONY : src/Village/walls.i
+
+# target to preprocess a source file
+src/Village/walls.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/walls.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/walls.cpp.i
+.PHONY : src/Village/walls.cpp.i
+
+src/Village/walls.s: src/Village/walls.cpp.s
+.PHONY : src/Village/walls.s
+
+# target to generate assembly for a file
+src/Village/walls.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/walls.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/walls.cpp.s
+.PHONY : src/Village/walls.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -824,6 +851,9 @@ help:
 	@echo "... src/Village/village.o"
 	@echo "... src/Village/village.i"
 	@echo "... src/Village/village.s"
+	@echo "... src/Village/walls.o"
+	@echo "... src/Village/walls.i"
+	@echo "... src/Village/walls.s"
 .PHONY : help
 
 

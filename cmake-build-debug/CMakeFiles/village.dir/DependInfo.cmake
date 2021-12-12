@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/object.cpp" "CMakeFiles/village.dir/src/Village/object.cpp.o" "gcc" "CMakeFiles/village.dir/src/Village/object.cpp.o.d"
   "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/scene.cpp" "CMakeFiles/village.dir/src/Village/scene.cpp.o" "gcc" "CMakeFiles/village.dir/src/Village/scene.cpp.o.d"
   "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/village.cpp" "CMakeFiles/village.dir/src/Village/village.cpp.o" "gcc" "CMakeFiles/village.dir/src/Village/village.cpp.o.d"
+  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/walls.cpp" "CMakeFiles/village.dir/src/Village/walls.cpp.o" "gcc" "CMakeFiles/village.dir/src/Village/walls.cpp.o.d"
   )
 
 # Targets to which this target links.

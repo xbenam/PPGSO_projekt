@@ -1,6 +1,4 @@
-//
-// Created by Mário Kolenič on 12/12/2021.
-//
+
 #include "scene.h"
 #include "horse.h"
 #include <shaders/texture_vert_glsl.h>

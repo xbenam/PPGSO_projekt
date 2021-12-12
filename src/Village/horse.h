@@ -1,7 +1,3 @@
-//
-// Created by Mário Kolenič on 12/12/2021.
-//
-
 #ifndef PPGSO_HORSE_H
 #define PPGSO_HORSE_H
 

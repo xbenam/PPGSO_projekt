@@ -80,7 +80,7 @@ add_library(ppgso STATIC
         ppgso/image_raw.cpp
         ppgso/texture.cpp
         ppgso/window.cpp
-        src/Village/ground.cpp src/Village/ground.h src/Village/object.cpp src/Village/object.h src/Village/scene.cpp src/Village/scene.h src/Village/camera.cpp src/Village/camera.h src/Village/horse.cpp src/Village/horse.h)
+        src/Village/ground.cpp src/Village/ground.h src/Village/object.cpp src/Village/object.h src/Village/scene.cpp src/Village/scene.h src/Village/camera.cpp src/Village/camera.h src/Village/horse.cpp src/Village/horse.h src/Village/walls.cpp src/Village/walls.h)
 
 # Make sure GLM uses radians and GLEW is a static library
 target_compile_definitions(ppgso PUBLIC -DGLM_FORCE_RADIANS -DGLEW_STATIC)
@@ -102,7 +102,7 @@ target_include_directories(ppgso PUBLIC
 #
 
 # Village
-add_executable(village src/Village/village.cpp src/Village/ground.cpp src/Village/ground.h src/Village/object.cpp src/Village/object.h src/Village/scene.cpp src/Village/scene.h src/Village/camera.cpp src/Village/camera.h src/Village/horse.cpp src/Village/horse.h)
+add_executable(village src/Village/village.cpp src/Village/ground.cpp src/Village/ground.h src/Village/object.cpp src/Village/object.h src/Village/scene.cpp src/Village/scene.h src/Village/camera.cpp src/Village/camera.h src/Village/horse.cpp src/Village/horse.h src/Village/walls.cpp src/Village/walls.h)
 target_link_libraries(village ppgso shaders)
 install (TARGETS village DESTINATION .)
 

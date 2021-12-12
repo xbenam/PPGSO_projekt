@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/village.dir/src/Village/scene.cpp.o.d"
   "CMakeFiles/village.dir/src/Village/village.cpp.o"
   "CMakeFiles/village.dir/src/Village/village.cpp.o.d"
+  "CMakeFiles/village.dir/src/Village/walls.cpp.o"
+  "CMakeFiles/village.dir/src/Village/walls.cpp.o.d"
   "village"
   "village.pdb"
 )
