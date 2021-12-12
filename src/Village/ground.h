@@ -18,7 +18,8 @@ private:
 public:
     Ground();
 
-    bool update() override;
+    bool update(Scene &scene) override;
 
     void render(Scene &scene) override;
+
 };

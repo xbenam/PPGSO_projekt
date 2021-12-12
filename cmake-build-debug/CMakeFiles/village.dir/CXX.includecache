@@ -790,26 +790,6 @@ compatibility.inl
 limits
 -
 
-../dependencies/include/glm/gtx/euler_angles.hpp
-../glm.hpp
-../dependencies/include/glm/glm.hpp
-euler_angles.inl
-../dependencies/include/glm/gtx/euler_angles.inl
-
-../dependencies/include/glm/gtx/euler_angles.inl
-compatibility.hpp
-../dependencies/include/glm/gtx/compatibility.hpp
-
-../dependencies/include/glm/gtx/transform.hpp
-../glm.hpp
-../dependencies/include/glm/glm.hpp
-../gtc/matrix_transform.hpp
-../dependencies/include/glm/gtc/matrix_transform.hpp
-transform.inl
-../dependencies/include/glm/gtx/transform.inl
-
-../dependencies/include/glm/gtx/transform.inl
-
 ../dependencies/include/glm/integer.hpp
 detail/func_integer.hpp
 ../dependencies/include/glm/detail/func_integer.hpp
@@ -1024,12 +1004,6 @@ GL/glew.h
 GLFW/glfw3.h
 -
 
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/camera.cpp
-glm/glm.hpp
--
-camera.h
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/camera.h
-
 D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/camera.h
 memory
 -
@@ -1043,9 +1017,9 @@ ground.h
 D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/ground.h
 scene.h
 D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
-shaders/texture_vert_glsl.h
+shaders/diffuse_vert_glsl.h
 -
-shaders/texture_frag_glsl.h
+shaders/diffuse_frag_glsl.h
 -
 
 D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/ground.h
@@ -1062,18 +1036,6 @@ shaders/color_frag_glsl.h
 object.h
 D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
 
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.cpp
-glm/glm.hpp
--
-glm/gtc/matrix_transform.hpp
--
-glm/gtx/euler_angles.hpp
--
-glm/gtx/transform.hpp
--
-object.h
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
-
 D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
 memory
 -
@@ -1084,10 +1046,6 @@ map
 glm/glm.hpp
 -
 
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.cpp
-scene.h
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
-
 D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
 memory
 -
@@ -1097,22 +1055,6 @@ list
 -
 object.h
 D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
-camera.h
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/camera.h
-
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/village.cpp
-iostream
--
-ppgso.h
--
-shaders/texture_vert_glsl.h
--
-shaders/texture_frag_glsl.h
--
-ground.h
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/ground.h
-scene.h
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
 camera.h
 D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/camera.h
 
@@ -1124,11 +1066,11 @@ shaders/color_vert_glsl.h
 string
 -
 
-shaders/texture_frag_glsl.h
+shaders/diffuse_frag_glsl.h
 string
 -
 
-shaders/texture_vert_glsl.h
+shaders/diffuse_vert_glsl.h
 string
 -
 

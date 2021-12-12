@@ -31,7 +31,43 @@ public:
     std::map< int, int > keyboard;
 
     // Lights, in this case using only simple directional diffuse lighting
-    glm::vec3 lightDirection{-1.0f, -1.0f, -1.0f};
+    glm::vec3 lightColor = {1,1,1};
+
+    glm::vec3 dirLightDirection = {1,1,1};
+
+    glm::vec3 dirLightDiff = {.7f,.7f,.7f};
+    glm::vec3 dirLightAmb = {.45f,.45f,.45f};
+    glm::vec3 dirLightSpec = {.2f,.2f,.2f};
+
+    float lightConst = 1.f;
+    float lightLin = 0.09f;
+    float lightQuad = 0.032f;
+
+    glm::vec3 LightPosition = {0,5,0};
+
+    glm::vec3 LightDiff;
+    glm::vec3 LightAmb;
+    glm::vec3 LightSpec = {.5f,.5f,.5f};
+
+    glm::vec3 Mat1Diff = {.75f,.37f,.6f};
+    glm::vec3 Mat2Diff = {.85f,.5f,.7f};
+    glm::vec3 Mat3Diff = {.9f,.8f,.9f};
+
+    glm::vec3 Mat1Amb = {1,1,1};
+    glm::vec3 Mat2Amb = {.75f,.75f,.75f};
+    glm::vec3 Mat3Amb = {.6f,.6f,.6f};
+
+    glm::vec3 Mat1Spec = {1,1,1};
+    glm::vec3 Mat2Spec = {.8f,.8f,.8f};
+    glm::vec3 Mat3Spec = {0,0,0};
+
+    float Mat1Shiny = 32.f;
+    float Mat2Shiny = 8.f;
+    float Mat3Shiny = 1.f;
+
+    static bool firstScene;
+
+    static std::string usingTexture;
 
     // Store cursor state
     struct {

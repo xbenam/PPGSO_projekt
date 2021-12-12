@@ -6,16 +6,24 @@
 
 class Camera {
 public:
-    glm::vec3 up{0,1,0};
-    glm::vec3 position{0,0,0};
-    glm::vec3 back{0,0,-1};
+
+    glm::vec3 position = glm::vec3{0.0f,0.0f,0.0f};
+    glm::vec3 orientation = glm::vec3{0.0f,0.0f,-1.0f};
+    glm::vec3 up = glm::vec3{0.0f,1.0f,0.0f};
+
+    bool firstClick = true;
+    float speed = 0.5f;
 
     glm::mat4 viewMatrix;
     glm::mat4 projectionMatrix;
 
-    Camera(float fow = 45.0f, float ratio = 1.0f, float near = 0.1f, float far = 10.0f);
+    Camera(float fow = 45.0f, float ratio = 1.0f, float near = 0.1f, float far = 100.0f);
 
     void update();
+
+    void Inputs(int key);
+
+    void MouseRotation(double curX, double curY);
 
     glm::vec3 cast(double u, double v);
 };
