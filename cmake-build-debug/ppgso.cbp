@@ -346,6 +346,14 @@
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/ppgso/window.h">
 			<Option target="ppgso"/>
 		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/blades.cpp">
+			<Option target="village"/>
+			<Option target="ppgso"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/blades.h">
+			<Option target="village"/>
+			<Option target="ppgso"/>
+		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/camera.cpp">
 			<Option target="village"/>
 			<Option target="ppgso"/>
@@ -353,6 +361,36 @@
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/camera.h">
 			<Option target="village"/>
 			<Option target="ppgso"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/campfire.cpp">
+			<Option target="village"/>
+			<Option target="ppgso"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/campfire.h">
+			<Option target="village"/>
+			<Option target="ppgso"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/cart.cpp">
+			<Option target="village"/>
+			<Option target="ppgso"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/cart.h">
+			<Option target="village"/>
+			<Option target="ppgso"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/cartWheels.cpp">
+			<Option target="village"/>
+			<Option target="ppgso"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/cartWheels.h">
+			<Option target="village"/>
+			<Option target="ppgso"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/cube.cpp">
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/cube.h">
+			<Option target="village"/>
 		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/ground.cpp">
 			<Option target="village"/>
@@ -370,6 +408,14 @@
 			<Option target="village"/>
 			<Option target="ppgso"/>
 		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/mill.cpp">
+			<Option target="village"/>
+			<Option target="ppgso"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/mill.h">
+			<Option target="village"/>
+			<Option target="ppgso"/>
+		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/object.cpp">
 			<Option target="village"/>
 			<Option target="ppgso"/>
@@ -383,6 +429,14 @@
 			<Option target="ppgso"/>
 		</Unit>
 		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/scene.h">
+			<Option target="village"/>
+			<Option target="ppgso"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/sky.cpp">
+			<Option target="village"/>
+			<Option target="ppgso"/>
+		</Unit>
+		<Unit filename="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/sky.h">
 			<Option target="village"/>
 			<Option target="ppgso"/>
 		</Unit>

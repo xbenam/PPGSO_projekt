@@ -16,7 +16,7 @@ private:
 public:
     Walls();
 
-    bool update(Scene &scene, float dt) override;
+    bool update(Scene &scene) override;
 
     void render(Scene &scene) override;
 };

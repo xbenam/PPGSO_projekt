@@ -584,6 +584,33 @@ shaders/texture_vert_glsl.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shaders.dir/build.make CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.s
 .PHONY : shaders/texture_vert_glsl.cpp.s
 
+src/Village/blades.o: src/Village/blades.cpp.o
+.PHONY : src/Village/blades.o
+
+# target to build an object file
+src/Village/blades.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/blades.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/blades.cpp.o
+.PHONY : src/Village/blades.cpp.o
+
+src/Village/blades.i: src/Village/blades.cpp.i
+.PHONY : src/Village/blades.i
+
+# target to preprocess a source file
+src/Village/blades.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/blades.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/blades.cpp.i
+.PHONY : src/Village/blades.cpp.i
+
+src/Village/blades.s: src/Village/blades.cpp.s
+.PHONY : src/Village/blades.s
+
+# target to generate assembly for a file
+src/Village/blades.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/blades.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/blades.cpp.s
+.PHONY : src/Village/blades.cpp.s
+
 src/Village/camera.o: src/Village/camera.cpp.o
 .PHONY : src/Village/camera.o
 
@@ -610,6 +637,111 @@ src/Village/camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/camera.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/camera.cpp.s
 .PHONY : src/Village/camera.cpp.s
+
+src/Village/campfire.o: src/Village/campfire.cpp.o
+.PHONY : src/Village/campfire.o
+
+# target to build an object file
+src/Village/campfire.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/campfire.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/campfire.cpp.o
+.PHONY : src/Village/campfire.cpp.o
+
+src/Village/campfire.i: src/Village/campfire.cpp.i
+.PHONY : src/Village/campfire.i
+
+# target to preprocess a source file
+src/Village/campfire.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/campfire.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/campfire.cpp.i
+.PHONY : src/Village/campfire.cpp.i
+
+src/Village/campfire.s: src/Village/campfire.cpp.s
+.PHONY : src/Village/campfire.s
+
+# target to generate assembly for a file
+src/Village/campfire.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/campfire.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/campfire.cpp.s
+.PHONY : src/Village/campfire.cpp.s
+
+src/Village/cart.o: src/Village/cart.cpp.o
+.PHONY : src/Village/cart.o
+
+# target to build an object file
+src/Village/cart.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/cart.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/cart.cpp.o
+.PHONY : src/Village/cart.cpp.o
+
+src/Village/cart.i: src/Village/cart.cpp.i
+.PHONY : src/Village/cart.i
+
+# target to preprocess a source file
+src/Village/cart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/cart.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/cart.cpp.i
+.PHONY : src/Village/cart.cpp.i
+
+src/Village/cart.s: src/Village/cart.cpp.s
+.PHONY : src/Village/cart.s
+
+# target to generate assembly for a file
+src/Village/cart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/cart.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/cart.cpp.s
+.PHONY : src/Village/cart.cpp.s
+
+src/Village/cartWheels.o: src/Village/cartWheels.cpp.o
+.PHONY : src/Village/cartWheels.o
+
+# target to build an object file
+src/Village/cartWheels.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/cartWheels.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.o
+.PHONY : src/Village/cartWheels.cpp.o
+
+src/Village/cartWheels.i: src/Village/cartWheels.cpp.i
+.PHONY : src/Village/cartWheels.i
+
+# target to preprocess a source file
+src/Village/cartWheels.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/cartWheels.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.i
+.PHONY : src/Village/cartWheels.cpp.i
+
+src/Village/cartWheels.s: src/Village/cartWheels.cpp.s
+.PHONY : src/Village/cartWheels.s
+
+# target to generate assembly for a file
+src/Village/cartWheels.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/cartWheels.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.s
+.PHONY : src/Village/cartWheels.cpp.s
+
+src/Village/cube.o: src/Village/cube.cpp.o
+.PHONY : src/Village/cube.o
+
+# target to build an object file
+src/Village/cube.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/cube.cpp.o
+.PHONY : src/Village/cube.cpp.o
+
+src/Village/cube.i: src/Village/cube.cpp.i
+.PHONY : src/Village/cube.i
+
+# target to preprocess a source file
+src/Village/cube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/cube.cpp.i
+.PHONY : src/Village/cube.cpp.i
+
+src/Village/cube.s: src/Village/cube.cpp.s
+.PHONY : src/Village/cube.s
+
+# target to generate assembly for a file
+src/Village/cube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/cube.cpp.s
+.PHONY : src/Village/cube.cpp.s
 
 src/Village/ground.o: src/Village/ground.cpp.o
 .PHONY : src/Village/ground.o
@@ -665,6 +797,33 @@ src/Village/horse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/horse.cpp.s
 .PHONY : src/Village/horse.cpp.s
 
+src/Village/mill.o: src/Village/mill.cpp.o
+.PHONY : src/Village/mill.o
+
+# target to build an object file
+src/Village/mill.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/mill.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/mill.cpp.o
+.PHONY : src/Village/mill.cpp.o
+
+src/Village/mill.i: src/Village/mill.cpp.i
+.PHONY : src/Village/mill.i
+
+# target to preprocess a source file
+src/Village/mill.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/mill.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/mill.cpp.i
+.PHONY : src/Village/mill.cpp.i
+
+src/Village/mill.s: src/Village/mill.cpp.s
+.PHONY : src/Village/mill.s
+
+# target to generate assembly for a file
+src/Village/mill.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/mill.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/mill.cpp.s
+.PHONY : src/Village/mill.cpp.s
+
 src/Village/object.o: src/Village/object.cpp.o
 .PHONY : src/Village/object.o
 
@@ -718,6 +877,33 @@ src/Village/scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/scene.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/scene.cpp.s
 .PHONY : src/Village/scene.cpp.s
+
+src/Village/sky.o: src/Village/sky.cpp.o
+.PHONY : src/Village/sky.o
+
+# target to build an object file
+src/Village/sky.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/sky.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/sky.cpp.o
+.PHONY : src/Village/sky.cpp.o
+
+src/Village/sky.i: src/Village/sky.cpp.i
+.PHONY : src/Village/sky.i
+
+# target to preprocess a source file
+src/Village/sky.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/sky.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/sky.cpp.i
+.PHONY : src/Village/sky.cpp.i
+
+src/Village/sky.s: src/Village/sky.cpp.s
+.PHONY : src/Village/sky.s
+
+# target to generate assembly for a file
+src/Village/sky.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/sky.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/sky.cpp.s
+.PHONY : src/Village/sky.cpp.s
 
 src/Village/village.o: src/Village/village.cpp.o
 .PHONY : src/Village/village.o
@@ -833,21 +1019,42 @@ help:
 	@echo "... shaders/texture_vert_glsl.o"
 	@echo "... shaders/texture_vert_glsl.i"
 	@echo "... shaders/texture_vert_glsl.s"
+	@echo "... src/Village/blades.o"
+	@echo "... src/Village/blades.i"
+	@echo "... src/Village/blades.s"
 	@echo "... src/Village/camera.o"
 	@echo "... src/Village/camera.i"
 	@echo "... src/Village/camera.s"
+	@echo "... src/Village/campfire.o"
+	@echo "... src/Village/campfire.i"
+	@echo "... src/Village/campfire.s"
+	@echo "... src/Village/cart.o"
+	@echo "... src/Village/cart.i"
+	@echo "... src/Village/cart.s"
+	@echo "... src/Village/cartWheels.o"
+	@echo "... src/Village/cartWheels.i"
+	@echo "... src/Village/cartWheels.s"
+	@echo "... src/Village/cube.o"
+	@echo "... src/Village/cube.i"
+	@echo "... src/Village/cube.s"
 	@echo "... src/Village/ground.o"
 	@echo "... src/Village/ground.i"
 	@echo "... src/Village/ground.s"
 	@echo "... src/Village/horse.o"
 	@echo "... src/Village/horse.i"
 	@echo "... src/Village/horse.s"
+	@echo "... src/Village/mill.o"
+	@echo "... src/Village/mill.i"
+	@echo "... src/Village/mill.s"
 	@echo "... src/Village/object.o"
 	@echo "... src/Village/object.i"
 	@echo "... src/Village/object.s"
 	@echo "... src/Village/scene.o"
 	@echo "... src/Village/scene.i"
 	@echo "... src/Village/scene.s"
+	@echo "... src/Village/sky.o"
+	@echo "... src/Village/sky.i"
+	@echo "... src/Village/sky.s"
 	@echo "... src/Village/village.o"
 	@echo "... src/Village/village.i"
 	@echo "... src/Village/village.s"

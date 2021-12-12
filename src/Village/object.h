@@ -16,7 +16,7 @@ public:
     Object(Object&&) = default;
     virtual ~Object() {};
 
-    virtual bool update(Scene &scene, float dt) = 0;
+    virtual bool update(Scene &scene) = 0;
 
     virtual void render(Scene &scene) = 0;
 

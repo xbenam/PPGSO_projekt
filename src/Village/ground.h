@@ -3,8 +3,10 @@
 #include <iostream>
 #include <vector>
 #include <ppgso/ppgso.h>
+
 #include <shaders/color_vert_glsl.h>
 #include <shaders/color_frag_glsl.h>
+
 #include "object.h"
 
 class Ground final : public Object {
@@ -16,7 +18,8 @@ private:
 public:
     Ground();
 
-    bool update(Scene &scene, float dt) override;
+    bool update(Scene &scene) override;
 
     void render(Scene &scene) override;
+
 };

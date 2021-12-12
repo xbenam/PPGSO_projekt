@@ -15,6 +15,8 @@ out vec2 texCoord;
 // Normal to pass to the fragment shader
 out vec4 normal;
 
+out vec3 fragPos;
+
 void main() {
   // Copy the input to the fragment shader
   texCoord = TexCoord;
@@ -24,4 +26,5 @@ void main() {
 
   // Calculate the final position on screen
   gl_Position = ProjectionMatrix * ViewMatrix * ModelMatrix * vec4(Position, 1.0);
+  fragPos = vec3(ModelMatrix * vec4(Position, 1.0));
 }
