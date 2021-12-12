@@ -17,8 +17,8 @@ Horse::Horse() {
 
 bool Horse::update(Scene &scene) {
     cart->position = position;
-    generateModelMatrix();
     cart->update(scene);
+    generateModelMatrix();
     return true;
 }
 

@@ -39,7 +39,7 @@ private:
         beginScene.objects.push_back(std::make_unique<Sky>());
 
         // Create a ground
-        // beginScene.objects.push_back(std::make_unique<Ground>());
+        beginScene.objects.push_back(std::make_unique<Ground>());
 
         auto horse = std::make_unique<Horse>();
         beginScene.objects.push_back(move(horse));
