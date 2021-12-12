@@ -31,8 +31,8 @@ private:
         camera->position.z = -15.0f;
         beginScene.camera = move(camera);
 
-        auto ground = std::make_unique<Ground>();
-        beginScene.objects.push_back(move(ground));
+        //auto ground = std::make_unique<Ground>();
+        // beginScene.objects.push_back(move(ground));
     }
 public:
     SceneWindow() : Window{"Village", 1000, 1000} {

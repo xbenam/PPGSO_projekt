@@ -1,21 +1,20 @@
-"D:\Program files\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Skola\FIIT\3._semester\PPGSO_projekt
--- The CXX compiler identification is GNU 8.1.0
--- Check for working CXX compiler: D:/Program files/CLion 2020.2.3/mingw64/bin/g++.exe
--- Check for working CXX compiler: D:/Program files/CLion 2020.2.3/mingw64/bin/g++.exe - works
+"/Users/mariokolenic/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt"
+-- The CXX compiler identification is AppleClang 12.0.5.12050022
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Found GLFW3: D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/lib/mingw/libglfw3.a
-FIND_PATH D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include
--- Found GLEW: D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include  
--- Found GLEW: D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include
--- GLEW_LIBRARIES: D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/lib/mingw/libglew32.a
--- Found GLM: D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include  
--- GLM_INCLUDE_DIR = D:/Skola/FIIT/3._semester/PPGSO_projekt/dependencies/include
--- Found OpenGL: opengl32   
--- Found OpenMP_CXX: -fopenmp (found version "4.5") 
--- Found OpenMP: TRUE (found version "4.5")  
+-- Found GLFW3: /usr/local/lib/libglfw.dylib;/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/IOKit.framework;/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/CoreVideo.framework;/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/Cocoa.framework
+FIND_PATH /usr/local/include
+-- Found GLEW: /usr/local/include  
+-- Found GLEW: /usr/local/include
+-- GLEW_LIBRARIES: /usr/local/lib/libGLEW.dylib
+-- Found GLM: /usr/local/include  
+-- GLM_INCLUDE_DIR = /usr/local/include
+-- Found OpenGL: /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework   
+-- Found OpenMP_CXX: -Xclang -fopenmp (found version "5.0") 
+-- Found OpenMP: TRUE (found version "5.0")  
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug
+-- Build files have been written to: /Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug
