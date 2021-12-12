@@ -237,6 +237,20 @@ CMakeFiles/ppgso.dir/src/Village/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ppgso.dir/src/Village/camera.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/camera.cpp" -o CMakeFiles/ppgso.dir/src/Village/camera.cpp.s
 
+CMakeFiles/ppgso.dir/src/Village/horse.cpp.o: CMakeFiles/ppgso.dir/flags.make
+CMakeFiles/ppgso.dir/src/Village/horse.cpp.o: /Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/src/Village/horse.cpp
+CMakeFiles/ppgso.dir/src/Village/horse.cpp.o: CMakeFiles/ppgso.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ppgso.dir/src/Village/horse.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ppgso.dir/src/Village/horse.cpp.o -MF CMakeFiles/ppgso.dir/src/Village/horse.cpp.o.d -o CMakeFiles/ppgso.dir/src/Village/horse.cpp.o -c "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/horse.cpp"
+
+CMakeFiles/ppgso.dir/src/Village/horse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ppgso.dir/src/Village/horse.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/horse.cpp" > CMakeFiles/ppgso.dir/src/Village/horse.cpp.i
+
+CMakeFiles/ppgso.dir/src/Village/horse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ppgso.dir/src/Village/horse.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/horse.cpp" -o CMakeFiles/ppgso.dir/src/Village/horse.cpp.s
+
 # Object files for target ppgso
 ppgso_OBJECTS = \
 "CMakeFiles/ppgso.dir/ppgso/mesh.cpp.o" \
@@ -250,7 +264,8 @@ ppgso_OBJECTS = \
 "CMakeFiles/ppgso.dir/src/Village/ground.cpp.o" \
 "CMakeFiles/ppgso.dir/src/Village/object.cpp.o" \
 "CMakeFiles/ppgso.dir/src/Village/scene.cpp.o" \
-"CMakeFiles/ppgso.dir/src/Village/camera.cpp.o"
+"CMakeFiles/ppgso.dir/src/Village/camera.cpp.o" \
+"CMakeFiles/ppgso.dir/src/Village/horse.cpp.o"
 
 # External object files for target ppgso
 ppgso_EXTERNAL_OBJECTS =
@@ -267,9 +282,10 @@ libppgso.a: CMakeFiles/ppgso.dir/src/Village/ground.cpp.o
 libppgso.a: CMakeFiles/ppgso.dir/src/Village/object.cpp.o
 libppgso.a: CMakeFiles/ppgso.dir/src/Village/scene.cpp.o
 libppgso.a: CMakeFiles/ppgso.dir/src/Village/camera.cpp.o
+libppgso.a: CMakeFiles/ppgso.dir/src/Village/horse.cpp.o
 libppgso.a: CMakeFiles/ppgso.dir/build.make
 libppgso.a: CMakeFiles/ppgso.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libppgso.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libppgso.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/ppgso.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ppgso.dir/link.txt --verbose=$(VERBOSE)
 

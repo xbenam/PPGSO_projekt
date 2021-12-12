@@ -10,6 +10,7 @@
 #include "ground.h"
 #include "scene.h"
 #include "camera.h"
+#include "horse.h"
 
 using namespace std;
 using namespace glm;
@@ -19,21 +20,21 @@ class SceneWindow : public Window {
 private:
     Scene beginScene;
     ppgso::Shader program = {texture_vert_glsl, texture_frag_glsl};
-    ppgso::Texture horse_texture = {ppgso::image::loadBMP("HorseShape_texture1.bmp")};
-
-    ppgso::Mesh horse = {"horse.obj"};
 
     void initScene() {
         beginScene.objects.clear();
 
         // Create a camera
-        auto camera = std::make_unique<Camera>(70.0f, 1.0f, 0.1f, 1000.0f);
-        camera->position.y = 5.0f;
+        auto camera = std::make_unique<Camera>(100.0f, 1.0f, 0.1f, 1000.0f);
+        camera->position.y = 10.0f;
         camera->position.z = -15.0f;
         beginScene.camera = move(camera);
 
         auto ground = std::make_unique<Ground>();
         beginScene.objects.push_back(move(ground));
+
+        auto horse = std::make_unique<Horse>();
+        beginScene.objects.push_back(move(horse));
     }
 public:
     SceneWindow() : Window{"Village", 1000, 1000} {
@@ -58,6 +59,11 @@ public:
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         float dt = 0;
+
+        float time = glfwGetTime();
+        beginScene.camera->position.x = 50 * sin( cos(time) * time) /2;
+        beginScene.camera->position.z = 50 * cos(cos(time) * time) / 2;
+
 
         // Update and render all objects
         beginScene.update(dt);
