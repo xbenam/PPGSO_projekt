@@ -27,7 +27,8 @@ private:
         beginScene.objects.clear();
 
         // Create a camera
-        auto camera = std::make_unique<Camera>(60.0f, 1.0f, 0.1f, 100.0f);
+        auto camera = std::make_unique<Camera>(70.0f, 1.0f, 0.1f, 1000.0f);
+        camera->position.y = 5.0f;
         camera->position.z = -15.0f;
         beginScene.camera = move(camera);
 
@@ -56,23 +57,10 @@ public:
         // Clear depth and color buffers
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-
-        auto horseMatrix = glm::translate(glm::mat4{1.0f}, {1.0f, 1.0f, 1.0f}) *
-                   glm::scale(glm::mat4{1}, {1,1,1});
-        auto cameraMat = translate(glm::mat4{1.0f}, {0.0f, -15.0f, -50});
-
-//        program.setUniform("ViewMatrix", glm::lookAt({cos((float) glfwGetTime())* 75,75.0f,sin((float) glfwGetTime())*-75.0f},{0.0f,1.0f,0.0f},glm::vec3{0.0f,1,0.0f}));
-        program.setUniform("ViewMatrix", glm::lookAt({1, 30, -50.0f},{0,0,0},glm::vec3{0.0f,1,0.0f}));
-
-//        program.setUniform("ViewMatrix", cameraMat);
-        program.setUniform("ProjectionMatrix", glm::perspective((ppgso::PI / 180.f) * 60.0f, 1.0f, 0.1f, 250.0f));
-
-        program.setUniform("ModelMatrix", horseMatrix);
-        program.setUniform("Texture", horse_texture);
-        horse.render();
+        float dt = 0;
 
         // Update and render all objects
-        beginScene.update();
+        beginScene.update(dt);
         beginScene.render();
 
     }

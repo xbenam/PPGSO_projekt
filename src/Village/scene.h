@@ -15,7 +15,7 @@
  */
 class Scene {
 public:
-    void update();
+    void update(float time);
 
     void render();
 
