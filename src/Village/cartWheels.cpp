@@ -10,7 +10,7 @@ std::unique_ptr<ppgso::Shader> CartWheels::shader;
 CartWheels::CartWheels() {
     if (!shader) shader = std::make_unique<ppgso::Shader>(texture_vert_glsl, texture_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("cart.bmp"));
-    if (!mesh) mesh = std::make_unique<ppgso::Mesh>("cartWheel.obj");
+    if (!mesh) mesh = std::make_unique<ppgso::Mesh>("cartWheels.obj");
 }
 
 bool CartWheels::update(Scene &scene) {

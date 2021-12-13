@@ -1,6 +1,3 @@
-//
-// Created by Mário Kolenič on 13/11/2021.
-//
 #include <iostream>
 #include <ppgso.h>
 
@@ -9,13 +6,13 @@
 
 #include "ground.h"
 #include "scene.h"
-//#include "camera.h"
 #include "sky.h"
 #include "cube.h"
 #include "mill.h"
 #include "camera.h"
 #include "campfire.h"
 #include "horse.h"
+#include "walls.h"
 
 using namespace std;
 using namespace glm;
@@ -43,6 +40,9 @@ private:
 
         auto horse = std::make_unique<Horse>();
         beginScene.objects.push_back(move(horse));
+
+        //auto walls = std::make_unique<Walls>();
+        // beginScene.objects.push_back(move(walls));
     }
 public:
     SceneWindow() : Window{"Village", 1024, 1024} {

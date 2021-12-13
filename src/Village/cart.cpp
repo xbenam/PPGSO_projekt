@@ -8,7 +8,7 @@ std::unique_ptr<ppgso::Texture> Cart::texture;
 std::unique_ptr<ppgso::Shader> Cart::shader;
 
 Cart::Cart() {
-    rotation = {0, 0, -1.55f};
+    // rotation = {0, 0, -1.55f};
     scale = {.035, .035, .035};
     if (!shader) shader = std::make_unique<ppgso::Shader>(texture_vert_glsl, texture_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("cart.bmp"));
@@ -17,7 +17,7 @@ Cart::Cart() {
 }
 
 bool Cart::update(Scene &scene) {
-    position = {0, 1.7, -7};
+    position = {0, 0, -1.3};
     cartWheels->position = position;
     cartWheels->scale = scale;
     cartWheels->rotation = rotation;

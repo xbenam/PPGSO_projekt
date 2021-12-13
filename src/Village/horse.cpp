@@ -8,7 +8,8 @@ std::unique_ptr<ppgso::Texture> Horse::texture;
 std::unique_ptr<ppgso::Shader> Horse::shader;
 
 Horse::Horse() {
-    scale = {.5, .5, .5};
+    position.x -= 1;
+    scale = {.011, .011, .011};
     if (!shader) shader = std::make_unique<ppgso::Shader>(texture_vert_glsl, texture_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("horse.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("horse.obj");
@@ -17,6 +18,7 @@ Horse::Horse() {
 
 bool Horse::update(Scene &scene) {
     cart->position = position;
+    cart->scale = scale;
     cart->update(scene);
     generateModelMatrix();
     return true;
