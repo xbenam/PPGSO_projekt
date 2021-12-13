@@ -8,7 +8,7 @@ std::unique_ptr<ppgso::Texture> Horse::texture;
 std::unique_ptr<ppgso::Shader> Horse::shader;
 
 Horse::Horse() {
-    position.x -= 1;
+    position = {0, 0, -20};
     scale = {.011, .011, .011};
     if (!shader) shader = std::make_unique<ppgso::Shader>(texture_vert_glsl, texture_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("horse.bmp"));
@@ -17,7 +17,10 @@ Horse::Horse() {
 }
 
 bool Horse::update(Scene &scene) {
-    cart->position = position;
+    position = {position.x, position.y, position.z + 0.01};
+    // rotation.z += (float) sin(glfwGetTime())/5;
+    cart->position = {position.x, position.y + 0.2, position.z - 1.3};
+    cart->rotation = rotation;
     cart->scale = scale;
     cart->update(scene);
     generateModelMatrix();

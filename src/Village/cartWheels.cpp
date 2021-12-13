@@ -14,6 +14,8 @@ CartWheels::CartWheels() {
 }
 
 bool CartWheels::update(Scene &scene) {
+    actualRotate = 3 * position.z;
+    rotation = {actualRotate, 0, 0};
     generateModelMatrix();
     return true;
 }

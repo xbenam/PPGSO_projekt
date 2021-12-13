@@ -17,7 +17,6 @@ Cart::Cart() {
 }
 
 bool Cart::update(Scene &scene) {
-    position = {0, 0, -1.3};
     cartWheels->position = position;
     cartWheels->scale = scale;
     cartWheels->rotation = rotation;

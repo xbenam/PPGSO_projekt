@@ -10,6 +10,7 @@
 
 class CartWheels final : public Object {
 private:
+    float actualRotate;
     static std::unique_ptr<ppgso::Mesh> mesh;
     static std::unique_ptr<ppgso::Texture> texture;
     static std::unique_ptr<ppgso::Shader> shader;

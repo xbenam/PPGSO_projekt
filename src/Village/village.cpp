@@ -41,7 +41,7 @@ private:
         auto horse = std::make_unique<Horse>();
         beginScene.objects.push_back(move(horse));
 
-        //auto walls = std::make_unique<Walls>();
+        // auto walls = std::make_unique<Walls>();
         // beginScene.objects.push_back(move(walls));
     }
 public:
