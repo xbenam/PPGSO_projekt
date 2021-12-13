@@ -168,5 +168,20 @@
   "directory": "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug",
   "command": "\"D:\\Program files\\CLion 2020.2.3\\mingw64\\bin\\g++.exe\"  -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/village.dir/includes_CXX.rsp -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++14 -o CMakeFiles\\village.dir\\src\\Village\\campfire.cpp.obj -c D:\\Skola\\FIIT\\3._semester\\PPGSO_projekt\\src\\Village\\campfire.cpp",
   "file": "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/campfire.cpp"
+},
+{
+  "directory": "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug",
+  "command": "\"D:\\Program files\\CLion 2020.2.3\\mingw64\\bin\\g++.exe\"  -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/village.dir/includes_CXX.rsp -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++14 -o CMakeFiles\\village.dir\\src\\Village\\tree.cpp.obj -c D:\\Skola\\FIIT\\3._semester\\PPGSO_projekt\\src\\Village\\tree.cpp",
+  "file": "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/tree.cpp"
+},
+{
+  "directory": "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug",
+  "command": "\"D:\\Program files\\CLion 2020.2.3\\mingw64\\bin\\g++.exe\"  -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/village.dir/includes_CXX.rsp -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++14 -o CMakeFiles\\village.dir\\src\\Village\\leaf_fall.cpp.obj -c D:\\Skola\\FIIT\\3._semester\\PPGSO_projekt\\src\\Village\\leaf_fall.cpp",
+  "file": "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/leaf_fall.cpp"
+},
+{
+  "directory": "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug",
+  "command": "\"D:\\Program files\\CLion 2020.2.3\\mingw64\\bin\\g++.exe\"  -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/village.dir/includes_CXX.rsp -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++14 -o CMakeFiles\\village.dir\\src\\Village\\leaf.cpp.obj -c D:\\Skola\\FIIT\\3._semester\\PPGSO_projekt\\src\\Village\\leaf.cpp",
+  "file": "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/leaf.cpp"
 }
 ]

@@ -360,8 +360,6 @@ CMakeFiles/ppgso.dir/src/Village/blades.cpp.obj
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/camera.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
- shaders/color_frag_glsl.h
- shaders/color_vert_glsl.h
  shaders/diffuse_frag_glsl.h
  shaders/diffuse_vert_glsl.h
 CMakeFiles/ppgso.dir/src/Village/camera.cpp.obj
@@ -615,8 +613,6 @@ CMakeFiles/ppgso.dir/src/Village/campfire.cpp.obj
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/campfire.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
- shaders/color_frag_glsl.h
- shaders/color_vert_glsl.h
  shaders/diffuse_frag_glsl.h
  shaders/diffuse_vert_glsl.h
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj
@@ -741,8 +737,6 @@ CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/ground.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
- shaders/color_frag_glsl.h
- shaders/color_vert_glsl.h
  shaders/diffuse_frag_glsl.h
  shaders/diffuse_vert_glsl.h
 CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj
@@ -868,8 +862,6 @@ CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/mill.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
- shaders/color_frag_glsl.h
- shaders/color_vert_glsl.h
  shaders/diffuse_frag_glsl.h
  shaders/diffuse_vert_glsl.h
 CMakeFiles/ppgso.dir/src/Village/object.cpp.obj
@@ -1098,6 +1090,8 @@ CMakeFiles/ppgso.dir/src/Village/scene.cpp.obj
  ../ppgso/tiny_obj_loader.h
  ../ppgso/window.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/camera.h
+ D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/leaf.h
+ D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/leaf_fall.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.cpp
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h

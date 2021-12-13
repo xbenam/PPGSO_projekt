@@ -388,6 +388,18 @@
 			<Option target="ppgso"/>
 			<Option target="village"/>
 		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/leaf.cpp">
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/leaf.h">
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/leaf_fall.cpp">
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/leaf_fall.h">
+			<Option target="village"/>
+		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/mill.cpp">
 			<Option target="ppgso"/>
 			<Option target="village"/>
@@ -418,6 +430,12 @@
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/sky.h">
 			<Option target="ppgso"/>
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/tree.cpp">
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/tree.h">
 			<Option target="village"/>
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/village.cpp">

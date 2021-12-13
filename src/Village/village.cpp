@@ -9,12 +9,12 @@
 
 #include "ground.h"
 #include "scene.h"
-//#include "camera.h"
 #include "sky.h"
 #include "cube.h"
 #include "mill.h"
-#include "camera.h"
 #include "campfire.h"
+#include "tree.h"
+#include "leaf_fall.h"
 
 using namespace std;
 using namespace glm;
@@ -41,30 +41,18 @@ private:
         beginScene.objects.push_back(std::make_unique<Ground>());
 
         auto cube1 = std::make_unique<Cube>();
-        cube1->position.x += 0.5;
-        cube1->position.y += 0.35;
+        cube1->position.y += 0.75;
         cube1->rotation.x = ppgso::PI/4;
         beginScene.objects.push_back(move(cube1));
 
-        auto cube2 = std::make_unique<Cube>();
-        cube2->position.x -= 0.5;
-        cube2->position.y += 0.35;
-        cube2->position.z -= 1.5;
-        cube2->rotation.y = ppgso::PI/4;
-        beginScene.objects.push_back(move(cube2));
+        auto tree = std::make_unique<Tree>();
+        tree->position.x += 0.75f;
+        beginScene.objects.push_back(move(tree));
 
-        auto cube3 = std::make_unique<Cube>();
-        cube3->position.x += 0.5;
-        cube3->position.y -= 0.35;
-        cube3->position.z += 2.5;
-        cube3->rotation.y = ppgso::PI/4;
-        beginScene.objects.push_back(move(cube3));
-
-        auto cube4 = std::make_unique<Cube>();
-        cube4->position.x -= 0.5;
-        cube4->position.y -= 0.35;
-        cube4->rotation.x = ppgso::PI/4;
-        beginScene.objects.push_back(move(cube4));
+        auto leafs = std::make_unique<Leaf_fall>();
+        leafs->position.x += 0.75f;
+        leafs->position.y += 3.0f;
+        beginScene.objects.push_back(move(leafs));
 
         auto mill = std::make_unique<Mill>();
         mill->position.x -= 1.0f;
@@ -126,7 +114,7 @@ public:
     }
 
     void onIdle() override {
-
+        static auto dt = (float) glfwGetTime();
         // Set gray background
         glClearColor(.5f, .5f, .5f, 0);
 
@@ -140,7 +128,7 @@ public:
 
 
         // Update and render all objects
-        beginScene.update();
+        beginScene.update(dt);
         beginScene.render();
 
     }

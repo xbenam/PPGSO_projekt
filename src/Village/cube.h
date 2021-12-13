@@ -1,11 +1,7 @@
 #pragma once
 
 #include <iostream>
-#include <vector>
 #include <ppgso/ppgso.h>
-
-#include <shaders/color_vert_glsl.h>
-#include <shaders/color_frag_glsl.h>
 
 #include "object.h"
 
@@ -18,7 +14,7 @@ private:
 public:
     Cube();
 
-    bool update(Scene &scene) override;
+    bool update(Scene &scene, float time) override;
 
     void render(Scene &scene) override;
 };

@@ -4,9 +4,6 @@
 #include <vector>
 #include <ppgso/ppgso.h>
 
-#include <shaders/color_vert_glsl.h>
-#include <shaders/color_frag_glsl.h>
-
 #include "object.h"
 #include "blades.h"
 
@@ -21,7 +18,7 @@ private:
 public:
     Mill();
 
-    bool update(Scene &scene) override;
+    bool update(Scene &scene, float time) override;
 
     void render(Scene &scene) override;
 };

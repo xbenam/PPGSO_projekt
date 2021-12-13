@@ -18,7 +18,7 @@ Ground::Ground() {
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("quad.obj");
 }
 
-bool Ground::update(Scene &scene) {
+bool Ground::update(Scene &scene, float time) {
     generateModelMatrix();
     return true;
 }

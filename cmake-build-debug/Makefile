@@ -793,6 +793,60 @@ src/Village/ground.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/ground.cpp.s
 .PHONY : src/Village/ground.cpp.s
 
+src/Village/leaf.obj: src/Village/leaf.cpp.obj
+
+.PHONY : src/Village/leaf.obj
+
+# target to build an object file
+src/Village/leaf.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/leaf.cpp.obj
+.PHONY : src/Village/leaf.cpp.obj
+
+src/Village/leaf.i: src/Village/leaf.cpp.i
+
+.PHONY : src/Village/leaf.i
+
+# target to preprocess a source file
+src/Village/leaf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/leaf.cpp.i
+.PHONY : src/Village/leaf.cpp.i
+
+src/Village/leaf.s: src/Village/leaf.cpp.s
+
+.PHONY : src/Village/leaf.s
+
+# target to generate assembly for a file
+src/Village/leaf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/leaf.cpp.s
+.PHONY : src/Village/leaf.cpp.s
+
+src/Village/leaf_fall.obj: src/Village/leaf_fall.cpp.obj
+
+.PHONY : src/Village/leaf_fall.obj
+
+# target to build an object file
+src/Village/leaf_fall.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/leaf_fall.cpp.obj
+.PHONY : src/Village/leaf_fall.cpp.obj
+
+src/Village/leaf_fall.i: src/Village/leaf_fall.cpp.i
+
+.PHONY : src/Village/leaf_fall.i
+
+# target to preprocess a source file
+src/Village/leaf_fall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/leaf_fall.cpp.i
+.PHONY : src/Village/leaf_fall.cpp.i
+
+src/Village/leaf_fall.s: src/Village/leaf_fall.cpp.s
+
+.PHONY : src/Village/leaf_fall.s
+
+# target to generate assembly for a file
+src/Village/leaf_fall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/leaf_fall.cpp.s
+.PHONY : src/Village/leaf_fall.cpp.s
+
 src/Village/mill.obj: src/Village/mill.cpp.obj
 
 .PHONY : src/Village/mill.obj
@@ -913,6 +967,33 @@ src/Village/sky.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/sky.cpp.s
 .PHONY : src/Village/sky.cpp.s
 
+src/Village/tree.obj: src/Village/tree.cpp.obj
+
+.PHONY : src/Village/tree.obj
+
+# target to build an object file
+src/Village/tree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/tree.cpp.obj
+.PHONY : src/Village/tree.cpp.obj
+
+src/Village/tree.i: src/Village/tree.cpp.i
+
+.PHONY : src/Village/tree.i
+
+# target to preprocess a source file
+src/Village/tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/tree.cpp.i
+.PHONY : src/Village/tree.cpp.i
+
+src/Village/tree.s: src/Village/tree.cpp.s
+
+.PHONY : src/Village/tree.s
+
+# target to generate assembly for a file
+src/Village/tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/tree.cpp.s
+.PHONY : src/Village/tree.cpp.s
+
 src/Village/village.obj: src/Village/village.cpp.obj
 
 .PHONY : src/Village/village.obj
@@ -1018,6 +1099,12 @@ help:
 	@echo ... src/Village/ground.obj
 	@echo ... src/Village/ground.i
 	@echo ... src/Village/ground.s
+	@echo ... src/Village/leaf.obj
+	@echo ... src/Village/leaf.i
+	@echo ... src/Village/leaf.s
+	@echo ... src/Village/leaf_fall.obj
+	@echo ... src/Village/leaf_fall.i
+	@echo ... src/Village/leaf_fall.s
 	@echo ... src/Village/mill.obj
 	@echo ... src/Village/mill.i
 	@echo ... src/Village/mill.s
@@ -1030,6 +1117,9 @@ help:
 	@echo ... src/Village/sky.obj
 	@echo ... src/Village/sky.i
 	@echo ... src/Village/sky.s
+	@echo ... src/Village/tree.obj
+	@echo ... src/Village/tree.i
+	@echo ... src/Village/tree.s
 	@echo ... src/Village/village.obj
 	@echo ... src/Village/village.i
 	@echo ... src/Village/village.s

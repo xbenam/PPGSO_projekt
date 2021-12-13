@@ -20,7 +20,7 @@ Campfire::Campfire() {
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("campfire.obj");
 }
 
-bool Campfire::update(Scene &scene) {
+bool Campfire::update(Scene &scene, float time) {
     generateModelMatrix();
     return true;
 }

@@ -62,8 +62,8 @@ void Camera::Inputs(int key){
 
 void Camera::MouseRotation(double curX, double curY){
 
-    float rotX = 5.0f * (float) (curY - 512) / 512;
-    float rotY = 5.0f * (float) (curX - 512) / 512;
+    float rotX = 20.0f * (float) (curY - 512) / 512;
+    float rotY = 20.0f * (float) (curX - 512) / 512;
 
     glm::vec3 newOrientation = glm::rotate(orientation, glm::radians(-rotX), glm::normalize(glm::cross(orientation, up)));
 
