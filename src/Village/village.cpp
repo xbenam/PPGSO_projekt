@@ -66,9 +66,6 @@ private:
         // Create a ground
         beginScene.objects.push_back(std::make_unique<Ground>());
 
-        auto horse = std::make_unique<Horse>();
-        beginScene.objects.push_back(move(horse));
-
         auto walls = std::make_unique<Walls>();
         beginScene.objects.push_back(move(walls));
 
@@ -152,6 +149,13 @@ public:
 //        program.setUniform("ViewMatrix", glm::lookAt({cos((float) glfwGetTime())* 75,75.0f,sin((float) glfwGetTime())*-75.0f},{0.0f,1.0f,0.0f},glm::vec3{0.0f,1,0.0f}));
 //        program.setUniform("ProjectionMatrix",  beginScene.camera->projectionMatrix);
 //        program.setUniform("ViewMatrix", beginScene.camera->viewMatrix);
+        std::cout << time << std::endl;
+        if(beginScene.camera->position.x >= 0 && beginScene.camera->position.y <= 1 && beginScene.camera->position.z <= -50) {
+            beginScene.camera->orientation = {0.0f, 0.0f, -1.0f};
+            beginScene.camera->position = {0.0f,1.0f,-25.0f};
+            auto horse = std::make_unique<Horse>();
+            beginScene.objects.push_back(move(horse));
+        }
 
         // Update and render all objects
         beginScene.update(dt);
