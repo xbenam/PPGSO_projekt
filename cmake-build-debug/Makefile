@@ -646,6 +646,33 @@ shaders/texture_vert_glsl.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\shaders.dir\build.make CMakeFiles/shaders.dir/shaders/texture_vert_glsl.cpp.s
 .PHONY : shaders/texture_vert_glsl.cpp.s
 
+src/Village/axe.obj: src/Village/axe.cpp.obj
+
+.PHONY : src/Village/axe.obj
+
+# target to build an object file
+src/Village/axe.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/axe.cpp.obj
+.PHONY : src/Village/axe.cpp.obj
+
+src/Village/axe.i: src/Village/axe.cpp.i
+
+.PHONY : src/Village/axe.i
+
+# target to preprocess a source file
+src/Village/axe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/axe.cpp.i
+.PHONY : src/Village/axe.cpp.i
+
+src/Village/axe.s: src/Village/axe.cpp.s
+
+.PHONY : src/Village/axe.s
+
+# target to generate assembly for a file
+src/Village/axe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/axe.cpp.s
+.PHONY : src/Village/axe.cpp.s
+
 src/Village/blades.obj: src/Village/blades.cpp.obj
 
 .PHONY : src/Village/blades.obj
@@ -762,6 +789,33 @@ src/Village/cube.s: src/Village/cube.cpp.s
 src/Village/cube.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/cube.cpp.s
 .PHONY : src/Village/cube.cpp.s
+
+src/Village/flag.obj: src/Village/flag.cpp.obj
+
+.PHONY : src/Village/flag.obj
+
+# target to build an object file
+src/Village/flag.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/flag.cpp.obj
+.PHONY : src/Village/flag.cpp.obj
+
+src/Village/flag.i: src/Village/flag.cpp.i
+
+.PHONY : src/Village/flag.i
+
+# target to preprocess a source file
+src/Village/flag.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/flag.cpp.i
+.PHONY : src/Village/flag.cpp.i
+
+src/Village/flag.s: src/Village/flag.cpp.s
+
+.PHONY : src/Village/flag.s
+
+# target to generate assembly for a file
+src/Village/flag.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/flag.cpp.s
+.PHONY : src/Village/flag.cpp.s
 
 src/Village/ground.obj: src/Village/ground.cpp.obj
 
@@ -1084,6 +1138,9 @@ help:
 	@echo ... shaders/texture_vert_glsl.obj
 	@echo ... shaders/texture_vert_glsl.i
 	@echo ... shaders/texture_vert_glsl.s
+	@echo ... src/Village/axe.obj
+	@echo ... src/Village/axe.i
+	@echo ... src/Village/axe.s
 	@echo ... src/Village/blades.obj
 	@echo ... src/Village/blades.i
 	@echo ... src/Village/blades.s
@@ -1096,6 +1153,9 @@ help:
 	@echo ... src/Village/cube.obj
 	@echo ... src/Village/cube.i
 	@echo ... src/Village/cube.s
+	@echo ... src/Village/flag.obj
+	@echo ... src/Village/flag.i
+	@echo ... src/Village/flag.s
 	@echo ... src/Village/ground.obj
 	@echo ... src/Village/ground.i
 	@echo ... src/Village/ground.s

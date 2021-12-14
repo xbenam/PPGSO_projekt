@@ -35,8 +35,12 @@ void Mill::render(Scene &scene) {
 
     // light
 //    shader->setUniform("LightDirection", scene.dirLightDirection);
+
+
+    scene.lightColor = {1, 0.2, 0};
+    shader->setUniform("lightColor", scene.lightColor);
     shader->setUniform("viewPos",scene.camera->position);
-    shader->setUniform("light.position",scene.LightPosition);
+    shader->setUniform("light.position",{position.x -5.0f, 0.5f, position.z - 0.2f});
     shader->setUniform("light.ambient",scene.LightAmb);
     shader->setUniform("light.diffuse",scene.LightDiff);
     shader->setUniform("light.specular",scene.LightSpec);

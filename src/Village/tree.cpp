@@ -1,6 +1,8 @@
 
 #include "tree.h"
 #include "scene.h"
+#include "axe.h"
+#include "leaf.h"
 
 #include <shaders/diffuse_vert_glsl.h>
 #include <shaders/diffuse_frag_glsl.h>
@@ -16,7 +18,27 @@ Tree::Tree() {
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("tree.obj");
 }
 
-bool Tree::update(Scene &scene, float time) {
+bool Tree::update(Scene &scene, float dt) {
+    time += dt;
+    int times = 0;
+    for (auto &obj : scene.objects) {
+
+        // Ignore self in scene
+        if (obj.get() == this) continue;
+
+        // We only need to collide with asteroids and projectiles, ignore other objects
+        auto axe = dynamic_cast<Axe*>(obj.get()); // dynamic_pointer_cast<Asteroid>(obj);
+        if (!axe) continue;
+
+        // Compare distance to approximate size of the asteroid estimated from scale.
+        auto a = distance(axe->position, this->position);
+        auto b = (axe->scale.z + this->scale.z) * 1.5f;
+
+        if (a < b && time > 2.0f) {
+            generateLeafs(scene, glm::linearRand(7,12));
+            time = 0;
+        }
+    }
     generateModelMatrix();
     return true;
 }
@@ -53,4 +75,16 @@ void Tree::render(Scene &scene) {
     shader->setUniform("Texture", *texture);
 
     mesh->render();
+}
+
+void Tree::generateLeafs(Scene &scene, float count)
+{
+    for (float i = 0; i < count; i++) {
+        auto leaf = std::make_unique<Leaf>();
+        leaf->position = position;
+        leaf->position.y = 3.0f;
+        leaf->position.x += glm::linearRand(-1.0f, 1.0f);
+        leaf->position.z += glm::linearRand(-1.0f, 1.0f);
+        scene.objects.push_back(move(leaf));
+    }
 }

@@ -11,8 +11,7 @@ public:
     glm::vec3 orientation = glm::vec3{0.0f,0.0f,-1.0f};
     glm::vec3 up = glm::vec3{0.0f,1.0f,0.0f};
 
-    bool firstClick = true;
-    float speed = 0.5f;
+    float speed = 0.25f;
 
     glm::mat4 viewMatrix;
     glm::mat4 projectionMatrix;

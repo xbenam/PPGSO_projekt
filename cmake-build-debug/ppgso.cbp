@@ -350,6 +350,12 @@
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/ppgso/window.h">
 			<Option target="ppgso"/>
 		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/axe.cpp">
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/axe.h">
+			<Option target="village"/>
+		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/blades.cpp">
 			<Option target="ppgso"/>
 			<Option target="village"/>
@@ -378,6 +384,12 @@
 			<Option target="village"/>
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/cube.h">
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/flag.cpp">
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/flag.h">
 			<Option target="village"/>
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/ground.cpp">

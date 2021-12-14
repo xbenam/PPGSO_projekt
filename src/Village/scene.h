@@ -39,11 +39,11 @@ public:
     glm::vec3 dirLightAmb = {.45f,.45f,.45f};
     glm::vec3 dirLightSpec = {.2f,.2f,.2f};
 
-    float lightConst = 1.f;
-    float lightLin = 0.09f;
-    float lightQuad = 0.032f;
+    float lightConst = 3.0f;
+    float lightLin = 0.01f;
+    float lightQuad = 0.0032f;
 
-    glm::vec3 LightPosition = {0,5,0};
+    glm::vec3 LightPosition = {1,1,0};
 
     glm::vec3 LightDiff;
     glm::vec3 LightAmb;

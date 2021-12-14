@@ -133,7 +133,7 @@ add_executable(
         src/Village/cube.h
         src/Village/mill.cpp
         src/Village/mill.h
-        src/Village/blades.cpp src/Village/blades.h src/Village/campfire.cpp src/Village/campfire.h src/Village/tree.cpp src/Village/tree.h src/Village/leaf_fall.cpp src/Village/leaf_fall.h src/Village/leaf.cpp src/Village/leaf.h)
+        src/Village/blades.cpp src/Village/blades.h src/Village/campfire.cpp src/Village/campfire.h src/Village/tree.cpp src/Village/tree.h src/Village/leaf_fall.cpp src/Village/leaf_fall.h src/Village/leaf.cpp src/Village/leaf.h src/Village/axe.cpp src/Village/axe.h)
 target_link_libraries(village ppgso shaders)
 install (TARGETS village DESTINATION .)
 

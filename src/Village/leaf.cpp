@@ -11,19 +11,22 @@ std::unique_ptr<ppgso::Mesh> Leaf::mesh;
 std::unique_ptr<ppgso::Shader> Leaf::shader;
 
 Leaf::Leaf() {
-    speed = {glm::linearRand(-0.001f, 0.001f), 0.0005f,glm::linearRand(0.0f, 0.001f)};
+    speed = {glm::linearRand(-0.001f, 0.001f), 0,glm::linearRand(0.0f, 0.001f)};
     scale *= 0.1;
     color = {glm::linearRand(0.2f,0.3f), glm::linearRand(0.6f,0.8f), 0.1f};
     if (!shader) shader = std::make_unique<ppgso::Shader>(color_vert_glsl, color_frag_glsl);
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("sphere.obj");
 }
 
-bool Leaf::update(Scene &scene, float time) {
+bool Leaf::update(Scene &scene, float dt) {
 //    speed = {glm::linearRand(-0.02f, 0.02f), 0.0005f,glm::linearRand(0.0f, -0.002f)};
-    age += time;
-    if (position.y > 0.0f)
+    age += dt;
+//    std::cout << dt << "\t" << age << std::endl;
+    if (position.y > 0.0f){
         position -= speed;
-    if(age > 10000.0f)
+        position.y -= dt;
+    }
+    if(age > 5.0f)
         return false;
     generateModelMatrix();
     return true;

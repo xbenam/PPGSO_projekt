@@ -26,9 +26,12 @@ bool Ground::update(Scene &scene, float time) {
 void Ground::render(Scene &scene) {
     shader->use();
 
-//    shader->setUniform("LightDirection", scene.lightDirection);
+    scene.lightConst = 0.05f;
+    scene.lightLin = 0.01f;
+    scene.lightColor = {1, 0, 0};
+    shader->setUniform("lightColor", scene.lightColor);
     shader->setUniform("viewPos",scene.camera->position);
-    shader->setUniform("light.position",scene.LightPosition);
+    shader->setUniform("light.position",{position.x -5.0f, 1.0f, position.z});
     shader->setUniform("light.ambient",scene.LightAmb);
     shader->setUniform("light.diffuse",scene.LightDiff);
     shader->setUniform("light.specular",scene.LightSpec);

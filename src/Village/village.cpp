@@ -12,9 +12,10 @@
 #include "sky.h"
 #include "cube.h"
 #include "mill.h"
-#include "campfire.h"
 #include "tree.h"
 #include "leaf_fall.h"
+#include "axe.h"
+#include "campfire.h"
 
 using namespace std;
 using namespace glm;
@@ -30,9 +31,10 @@ private:
 
         // Create a camera
         auto camera = std::make_unique<Camera>(60.0f, 1.0f, 0.1f, 100.0f);
-        camera->position.z = -25.0f;
+        camera->position.z = -5.0f;
 //        camera->orientation.y = ppgso::PI/4;
         camera->position.y = 1;
+        camera->orientation.x = -ppgso::PI/4;
         beginScene.camera = move(camera);
 
         beginScene.objects.push_back(std::make_unique<Sky>());
@@ -46,13 +48,13 @@ private:
         beginScene.objects.push_back(move(cube1));
 
         auto tree = std::make_unique<Tree>();
-        tree->position.x += 0.75f;
+        tree->position.x += 5.0f;
         beginScene.objects.push_back(move(tree));
 
-        auto leafs = std::make_unique<Leaf_fall>();
-        leafs->position.x += 0.75f;
-        leafs->position.y += 3.0f;
-        beginScene.objects.push_back(move(leafs));
+//        auto leaf_fall_generator = std::make_unique<Leaf_fall>();
+//        leaf_fall_generator->position.x += 5.0f;
+//        leaf_fall_generator->position.y += 3.0f;
+//        beginScene.objects.push_back(move(leaf_fall_generator));
 
         auto mill = std::make_unique<Mill>();
         mill->position.x -= 1.0f;
@@ -60,11 +62,16 @@ private:
         beginScene.objects.push_back(move(mill));
 
         auto campfire = std::make_unique<Campfire>();
-        campfire->position.x -= 9.0f;
-        campfire->position.z -= 2.0f;
+        campfire->position.x -= 10.0f;
+        campfire->position.z -= 3.0f;
+//        beginScene.objects.push_back(mill)
         beginScene.objects.push_back(move(campfire));
 
-
+        auto axe = std::make_unique<Axe>();
+        axe->position.x += 4.0f;
+        axe->position.y += 1.0f;
+        axe->position.z += 1.5f;
+        beginScene.objects.push_back(move(axe));
     }
 public:
     SceneWindow() : Window{"Village", 1024, 1024} {
@@ -79,6 +86,8 @@ public:
         glEnable(GL_CULL_FACE);
         glFrontFace(GL_CCW);
         glCullFace(GL_BACK);
+        glEnable(GL_FOG);
+
 
         initScene();
     }
@@ -96,6 +105,7 @@ public:
         beginScene.cursor.y = cursorY;
 
     }
+
     void onMouseButton(int button, int action, int mods) override{
         if(button == GLFW_MOUSE_BUTTON_LEFT) {
             beginScene.cursor.left = action;
@@ -114,18 +124,23 @@ public:
     }
 
     void onIdle() override {
-        static auto dt = (float) glfwGetTime();
+        static auto time = (float) glfwGetTime();
+
+        // Compute time delta
+        float dt =  (float) glfwGetTime() - time;
+        time = (float) glfwGetTime();
         // Set gray background
         glClearColor(.5f, .5f, .5f, 0);
+
 
         // Clear depth and color buffers
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-//        auto cameraMat = translate(glm::mat4{1.0f}, {0.0f, -15.0f, -50});
-//        program.setUniform("ViewMatrix", glm::lookAt({cos((float) glfwGetTime())* 75,75.0f,sin((float) glfwGetTime())*-75.0f},{0.0f,1.0f,0.0f},glm::vec3{0.0f,1,0.0f}));
-//        program.setUniform("ProjectionMatrix",  beginScene.camera->projectionMatrix);
-//        program.setUniform("ViewMatrix", beginScene.camera->viewMatrix);
-
+//        GLfloat fogColor[] = {0.5, 0.5, 0.5, 1};
+//        glFogfv(GL_FOG_COLOR, fogColor);
+//        glFogi(GL_FOG_MODE, GL_LINEAR);
+//        glFogf(GL_FOG_START, 10.0f);
+//        glFogf(GL_FOG_END, 20.0f);
 
         // Update and render all objects
         beginScene.update(dt);

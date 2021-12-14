@@ -43,6 +43,8 @@ uniform float Transparency;
 // (optional) Texture offset
 uniform vec2 TextureOffset;
 
+uniform vec3 lightColor;
+
 // The vertex shader will feed this input
 in vec2 texCoord;
 
@@ -92,13 +94,13 @@ vec3 LightPoint()
   diffuse *= attenuation;
   specular *= attenuation;
 
-  return (ambient+diffuse+specular);
+  return (ambient+diffuse+specular) * lightColor;
 }
 
 void main() {
   // Compute diffuse lighting
-  vec3 result = LightPoint() + DirLight();
-
+//  vec3 result = LightPoint() + DirLight();
+  vec3 result = LightPoint();
   // Lookup the color in Texture on coordinates given by texCoord
   // NOTE: Texture coordinate is inverted vertically for compatibility with OBJ
   FragmentColor = texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset) * vec4((result),1);

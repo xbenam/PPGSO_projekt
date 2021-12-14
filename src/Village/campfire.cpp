@@ -20,7 +20,7 @@ Campfire::Campfire() {
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("campfire.obj");
 }
 
-bool Campfire::update(Scene &scene, float time) {
+bool Campfire::update(Scene &scene, float dt) {
     generateModelMatrix();
     return true;
 }
@@ -29,8 +29,10 @@ void Campfire::render(Scene &scene) {
     shader->use();
 
     // light
+    scene.lightColor = {1, 0.2, 0};
+    shader->setUniform("lightColor", scene.lightColor);
     shader->setUniform("viewPos",scene.camera->position);
-    shader->setUniform("light.position",position);
+    shader->setUniform("light.position",{position.x, position.y + 0.2f, position.z});
     shader->setUniform("light.ambient",scene.LightAmb);
     shader->setUniform("light.diffuse",scene.LightDiff);
     shader->setUniform("light.specular",scene.LightSpec);

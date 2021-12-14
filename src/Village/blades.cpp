@@ -19,7 +19,7 @@ Blades::Blades(glm::vec3 base_position) {
 }
 
 bool Blades::update(Scene &scene, float time) {
-    rotation.x += 0.001f;
+    rotation.x += time * 3;
     position += scale * 100.0f * glm::vec3{0.5f,3.0f,-0.1f};
     generateModelMatrix();
 //    rot += 1;

@@ -152,12 +152,12 @@ CMakeFiles/village.dir/all: CMakeFiles/shaders.dir/all
 CMakeFiles/village.dir/all: CMakeFiles/ppgso.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45,46,47,48 "Built target village"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target village"
 .PHONY : CMakeFiles/village.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/village.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles 48
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/village.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/village.dir/rule
