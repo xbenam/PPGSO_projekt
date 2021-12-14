@@ -21,6 +21,7 @@ public:
 
     glm::mat4 viewMatrix;
     glm::mat4 projectionMatrix;
+    float time;
 
     Camera(float fow = 45.0f, float ratio = 1.0f, float near = 0.1f, float far = 100.0f);
 

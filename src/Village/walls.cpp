@@ -14,7 +14,7 @@ Walls::Walls() {
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("castleWalls.obj");
 }
 
-bool Walls::update(Scene &scene) {
+bool Walls::update(Scene &scene, float time) {
     generateModelMatrix();
     return true;
 }

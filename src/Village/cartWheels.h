@@ -18,7 +18,7 @@ private:
 public:
     CartWheels();
 
-    bool update(Scene &scene) override;
+    bool update(Scene &scene, float time) override;
 
     void render(Scene &scene) override;
 };

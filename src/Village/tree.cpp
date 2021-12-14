@@ -14,7 +14,7 @@ Tree::Tree() {
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("tree.obj");
 }
 
-bool Tree::update(Scene &scene) {
+bool Tree::update(Scene &scene, float time) {
     generateModelMatrix();
     return true;
 }

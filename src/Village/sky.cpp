@@ -21,7 +21,7 @@ Sky::Sky() {
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("quad.obj");
 }
 
-bool Sky::update(Scene &scene) {
+bool Sky::update(Scene &scene, float time) {
     // Offset for UV mapping, creates illusion of scrolling
     generateModelMatrix();
     return true;

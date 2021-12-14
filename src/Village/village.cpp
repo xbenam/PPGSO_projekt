@@ -116,8 +116,8 @@ public:
     void onCursorPos(double cursorX, double cursorY) override {
         beginScene.cursor.x = cursorX;
         beginScene.cursor.y = cursorY;
-
     }
+
     void onMouseButton(int button, int action, int mods) override{
         if(button == GLFW_MOUSE_BUTTON_LEFT) {
             beginScene.cursor.left = action;
@@ -136,6 +136,11 @@ public:
     }
 
     void onIdle() override {
+        static auto time = (float) glfwGetTime();
+
+        // Compute time delta
+        float dt = (float) glfwGetTime() - time;
+        time = (float) glfwGetTime();
 
         // Set gray background
         glClearColor(.5f, .5f, .5f, 0);
@@ -148,10 +153,8 @@ public:
 //        program.setUniform("ProjectionMatrix",  beginScene.camera->projectionMatrix);
 //        program.setUniform("ViewMatrix", beginScene.camera->viewMatrix);
 
-        float time = glfwGetTime() / 50;
-
         // Update and render all objects
-        beginScene.update(time);
+        beginScene.update(dt);
         beginScene.render();
 
     }

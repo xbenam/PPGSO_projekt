@@ -13,7 +13,7 @@ CartWheels::CartWheels() {
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("cartWheels.obj");
 }
 
-bool CartWheels::update(Scene &scene) {
+bool CartWheels::update(Scene &scene, float time) {
     actualRotate = 3 * position.z;
     rotation = {actualRotate, 0, 0};
     generateModelMatrix();

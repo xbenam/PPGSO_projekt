@@ -21,12 +21,12 @@ Mill::Mill() {
 
 }
 
-bool Mill::update(Scene &scene) {
+bool Mill::update(Scene &scene, float time) {
     blades->position = position;
     blades->rotation.z = rotation.z;
     blades->scale = scale;
     generateModelMatrix();
-    blades->update(scene);
+    blades->update(scene, time);
     return true;
 }
 

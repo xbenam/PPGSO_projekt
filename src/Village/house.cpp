@@ -14,7 +14,7 @@ House::House() {
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("house.obj");
 }
 
-bool House::update(Scene &scene) {
+bool House::update(Scene &scene, float time) {
     generateModelMatrix();
     return true;
 }

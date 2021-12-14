@@ -26,7 +26,7 @@ public:
      * @param scene Scene to update
      * @return true to delete the object
      */
-    bool update(Scene &scene) override;
+    bool update(Scene &scene, float time) override;
 
     /*!
      * Render space background

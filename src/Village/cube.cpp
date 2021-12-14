@@ -16,7 +16,7 @@ Cube::Cube() {
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("cube.obj");
 }
 
-bool Cube::update(Scene &scene) {
+bool Cube::update(Scene &scene, float time) {
     rotation.z += 0.0005;
 //    position.z += 0.0001;
 //    modelMatrix = glm::translate(glm::mat4{1.0f}, {0.0f, 1.25f, 0.0f}) * glm::scale(glm::mat4{1}, {1000,0.1,1000});

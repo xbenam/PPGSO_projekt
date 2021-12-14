@@ -16,12 +16,12 @@ Cart::Cart() {
     if (!cartWheels) cartWheels = std::make_unique<CartWheels>();
 }
 
-bool Cart::update(Scene &scene) {
+bool Cart::update(Scene &scene, float time) {
     cartWheels->position = position;
     cartWheels->scale = scale;
     cartWheels->rotation = rotation;
     generateModelMatrix();
-    cartWheels->update(scene);
+    cartWheels->update(scene, time);
     return true;
 }
 

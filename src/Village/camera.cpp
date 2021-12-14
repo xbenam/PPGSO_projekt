@@ -40,8 +40,10 @@ glm::vec3 Camera::cameraInterpolation(float time) {
     return actualPosition;
 }
 
-void Camera::update(float time) {
-    position = cameraInterpolation(time);
+void Camera::update(float dt) {
+    time += dt;
+    std::cout << time << "\t" << dt << std::endl;
+    position = cameraInterpolation((time/30));
     viewMatrix = lookAt(position, orientation, up);
 }
 
