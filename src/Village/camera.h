@@ -21,7 +21,9 @@ public:
 
     glm::mat4 viewMatrix;
     glm::mat4 projectionMatrix;
-    float time;
+    float time = 0;
+    bool cameraAroundVillage = true;
+    bool wasSet = false;
 
     Camera(float fow = 45.0f, float ratio = 1.0f, float near = 0.1f, float far = 100.0f);
 

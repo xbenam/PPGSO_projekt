@@ -42,14 +42,13 @@ glm::vec3 Camera::cameraInterpolation(float time) {
 
 void Camera::update(float dt) {
     time += dt;
-    if(time/30 <= 1.0f ) {
-        position = cameraInterpolation((time/30));
-        viewMatrix = lookAt(position, orientation, up);
-    }
-    else {
-        viewMatrix = lookAt(position, position - orientation, up);
-    }
 
+    if(time/30 <= 1.0f)
+        position = cameraInterpolation((time/30));
+    else
+        cameraAroundVillage = false;
+
+    viewMatrix = lookAt(position, orientation, up);
 }
 
 glm::vec3 Camera::cast(double u, double v) {

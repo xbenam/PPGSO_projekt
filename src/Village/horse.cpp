@@ -16,13 +16,33 @@ Horse::Horse() {
     if (!cart) cart = std::make_unique<Cart>();
 }
 
-bool Horse::update(Scene &scene, float time) {
-    position = {position.x, position.y, position.z + time};
+bool Horse::update(Scene &scene, float dt) {
+    time += dt;
+    position = {position.x, position.y, position.z + dt};
     // rotation.z += (float) sin(glfwGetTime())/5;
     cart->position = {position.x, position.y + 0.2, position.z - 1.3};
     cart->rotation = rotation;
     cart->scale = scale;
     cart->update(scene, time);
+
+    std::cout << time <<std::endl;
+    if(scene.camera->wasSet) {
+        if(time <= 8) {
+            scene.camera->orientation = position;
+            scene.camera->position = {position.x, position.y + 1, position.z - 4};
+        }
+        else if(8 < time && time < 20) {
+            scene.camera->orientation = {0, 0, -1};
+            scene.camera->position = {(position.x + 0.5), (position.y + 0.2f), (position.z - 2)};
+            scene.camera->viewMatrix = lookAt(scene.camera->position,
+                                              (scene.camera->position - scene.camera->orientation),
+                                              scene.camera->up);
+        }
+        else {
+            scene.camera->orientation = position;
+            scene.camera->position = {position.x, position.y + 0.7f, position.z - 3};
+        }
+    }
     generateModelMatrix();
     return true;
 }

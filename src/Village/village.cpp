@@ -149,12 +149,15 @@ public:
 //        program.setUniform("ViewMatrix", glm::lookAt({cos((float) glfwGetTime())* 75,75.0f,sin((float) glfwGetTime())*-75.0f},{0.0f,1.0f,0.0f},glm::vec3{0.0f,1,0.0f}));
 //        program.setUniform("ProjectionMatrix",  beginScene.camera->projectionMatrix);
 //        program.setUniform("ViewMatrix", beginScene.camera->viewMatrix);
-        std::cout << time << std::endl;
-        if(beginScene.camera->position.x >= 0 && beginScene.camera->position.y <= 1 && beginScene.camera->position.z <= -50) {
-            beginScene.camera->orientation = {0.0f, 0.0f, -1.0f};
-            beginScene.camera->position = {0.0f,1.0f,-25.0f};
+
+        if(!beginScene.camera->cameraAroundVillage && !beginScene.camera->wasSet) {
             auto horse = std::make_unique<Horse>();
             beginScene.objects.push_back(move(horse));
+            beginScene.camera->wasSet = true;
+        }
+
+        if(beginScene.camera->wasSet) {
+
         }
 
         // Update and render all objects

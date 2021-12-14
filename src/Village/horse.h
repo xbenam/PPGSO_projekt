@@ -15,6 +15,7 @@ private:
     static std::unique_ptr<ppgso::Texture> texture;
     static std::unique_ptr<ppgso::Shader> shader;
     std::unique_ptr<Cart> cart;
+    float time = 0;
 
 public:
     Horse();
