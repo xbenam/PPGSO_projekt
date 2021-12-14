@@ -15,7 +15,7 @@ CartWheels::CartWheels() {
 
 bool CartWheels::update(Scene &scene, float time) {
     actualRotate = ppgso::PI * position.z;
-    rotation = {actualRotate, 0, 0};
+    rotation = {actualRotate, rotation.y, rotation.z};
     generateModelMatrix();
     return true;
 }

@@ -18,9 +18,12 @@ Horse::Horse() {
 
 bool Horse::update(Scene &scene, float dt) {
     time += dt;
+    float angle = -ppgso::PI/6;
+    rotation = {0, 0, angle};
     position = {position.x, position.y, position.z + dt};
-    // rotation.z += (float) sin(glfwGetTime())/5;
     cart->position = {position.x, position.y + 0.2, position.z - 1.3};
+    cart->position.x = (cos(angle) * cart->position.x) + (-(sin(angle)) * cart->position.z);
+    cart->position.z = (sin(angle) * cart->position.x) + (cos(angle) * cart->position.z);
     cart->rotation = rotation;
     cart->scale = scale;
     cart->update(scene, time);
@@ -39,6 +42,7 @@ bool Horse::update(Scene &scene, float dt) {
                                               scene.camera->up);
         }
         else {
+            rotation = {0, 0, -ppgso::PI/6};
             scene.camera->orientation = position;
             scene.camera->position = {position.x, position.y + 0.7f, position.z - 3};
         }

@@ -15,6 +15,7 @@
 #include "walls.h"
 #include "house.h"
 #include "tree.h"
+#include "flag.h"
 
 using namespace std;
 using namespace glm;
@@ -68,6 +69,9 @@ private:
 
         auto walls = std::make_unique<Walls>();
         beginScene.objects.push_back(move(walls));
+
+//        auto flag = std::make_unique<Flag>();
+//        beginScene.objects.push_back(move(flag));
 
         glm::vec3 housePoistions[5] = {{4, 0, 5}, {4, 0, 11}, {3, 0, 17}, {-4, 0, 15}, {-4, 0, 7}};
         glm::vec3 houseRotations[5] = {{0, 0, 0}, {0, 0, 0}, {0, 0, -(ppgso::PI/4)}, {0, 0, -(ppgso::PI/2)}, {0, 0, ppgso::PI}};
@@ -144,6 +148,7 @@ public:
 
         // Clear depth and color buffers
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
 
 //        auto cameraMat = translate(glm::mat4{1.0f}, {0.0f, -15.0f, -50});
 //        program.setUniform("ViewMatrix", glm::lookAt({cos((float) glfwGetTime())* 75,75.0f,sin((float) glfwGetTime())*-75.0f},{0.0f,1.0f,0.0f},glm::vec3{0.0f,1,0.0f}));

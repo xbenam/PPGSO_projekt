@@ -743,6 +743,33 @@ src/Village/cube.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/cube.cpp.s
 .PHONY : src/Village/cube.cpp.s
 
+src/Village/flag.o: src/Village/flag.cpp.o
+.PHONY : src/Village/flag.o
+
+# target to build an object file
+src/Village/flag.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/flag.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/flag.cpp.o
+.PHONY : src/Village/flag.cpp.o
+
+src/Village/flag.i: src/Village/flag.cpp.i
+.PHONY : src/Village/flag.i
+
+# target to preprocess a source file
+src/Village/flag.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/flag.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/flag.cpp.i
+.PHONY : src/Village/flag.cpp.i
+
+src/Village/flag.s: src/Village/flag.cpp.s
+.PHONY : src/Village/flag.s
+
+# target to generate assembly for a file
+src/Village/flag.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/flag.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/flag.cpp.s
+.PHONY : src/Village/flag.cpp.s
+
 src/Village/ground.o: src/Village/ground.cpp.o
 .PHONY : src/Village/ground.o
 
@@ -1091,6 +1118,9 @@ help:
 	@echo "... src/Village/cube.o"
 	@echo "... src/Village/cube.i"
 	@echo "... src/Village/cube.s"
+	@echo "... src/Village/flag.o"
+	@echo "... src/Village/flag.i"
+	@echo "... src/Village/flag.s"
 	@echo "... src/Village/ground.o"
 	@echo "... src/Village/ground.i"
 	@echo "... src/Village/ground.s"

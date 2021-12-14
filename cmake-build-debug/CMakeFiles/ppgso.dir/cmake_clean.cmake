@@ -25,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ppgso.dir/src/Village/cart.cpp.o.d"
   "CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.o"
   "CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.o.d"
+  "CMakeFiles/ppgso.dir/src/Village/flag.cpp.o"
+  "CMakeFiles/ppgso.dir/src/Village/flag.cpp.o.d"
   "CMakeFiles/ppgso.dir/src/Village/ground.cpp.o"
   "CMakeFiles/ppgso.dir/src/Village/ground.cpp.o.d"
   "CMakeFiles/ppgso.dir/src/Village/horse.cpp.o"
