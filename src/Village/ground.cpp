@@ -12,7 +12,7 @@ Ground::Ground() {
 
 //    position.y -= 0.5f;
     rotation.x = -ppgso::PI/2;
-    scale = scale * glm::vec3{50, 25, 50};
+    scale = scale * glm::vec3{150, 125, 150};
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("ground.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("quad.obj");

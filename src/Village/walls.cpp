@@ -8,10 +8,10 @@ std::unique_ptr<ppgso::Texture> Walls::texture;
 std::unique_ptr<ppgso::Shader> Walls::shader;
 
 Walls::Walls() {
-    scale = {0.5, 0.5, 0.5};
+    scale = {0.7, 0.5, 1};
     if (!shader) shader = std::make_unique<ppgso::Shader>(texture_vert_glsl, texture_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("walls.bmp"));
-    if (!mesh) mesh = std::make_unique<ppgso::Mesh>("walls.obj");
+    if (!mesh) mesh = std::make_unique<ppgso::Mesh>("castleWalls.obj");
 }
 
 bool Walls::update(Scene &scene) {

@@ -797,6 +797,33 @@ src/Village/horse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/horse.cpp.s
 .PHONY : src/Village/horse.cpp.s
 
+src/Village/house.o: src/Village/house.cpp.o
+.PHONY : src/Village/house.o
+
+# target to build an object file
+src/Village/house.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/house.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/house.cpp.o
+.PHONY : src/Village/house.cpp.o
+
+src/Village/house.i: src/Village/house.cpp.i
+.PHONY : src/Village/house.i
+
+# target to preprocess a source file
+src/Village/house.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/house.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/house.cpp.i
+.PHONY : src/Village/house.cpp.i
+
+src/Village/house.s: src/Village/house.cpp.s
+.PHONY : src/Village/house.s
+
+# target to generate assembly for a file
+src/Village/house.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/house.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/house.cpp.s
+.PHONY : src/Village/house.cpp.s
+
 src/Village/mill.o: src/Village/mill.cpp.o
 .PHONY : src/Village/mill.o
 
@@ -1043,6 +1070,9 @@ help:
 	@echo "... src/Village/horse.o"
 	@echo "... src/Village/horse.i"
 	@echo "... src/Village/horse.s"
+	@echo "... src/Village/house.o"
+	@echo "... src/Village/house.i"
+	@echo "... src/Village/house.s"
 	@echo "... src/Village/mill.o"
 	@echo "... src/Village/mill.i"
 	@echo "... src/Village/mill.s"

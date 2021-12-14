@@ -29,6 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ppgso.dir/src/Village/ground.cpp.o.d"
   "CMakeFiles/ppgso.dir/src/Village/horse.cpp.o"
   "CMakeFiles/ppgso.dir/src/Village/horse.cpp.o.d"
+  "CMakeFiles/ppgso.dir/src/Village/house.cpp.o"
+  "CMakeFiles/ppgso.dir/src/Village/house.cpp.o.d"
   "CMakeFiles/ppgso.dir/src/Village/mill.cpp.o"
   "CMakeFiles/ppgso.dir/src/Village/mill.cpp.o.d"
   "CMakeFiles/ppgso.dir/src/Village/object.cpp.o"

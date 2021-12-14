@@ -13,6 +13,7 @@
 #include "campfire.h"
 #include "horse.h"
 #include "walls.h"
+#include "house.h"
 
 using namespace std;
 using namespace glm;
@@ -41,8 +42,17 @@ private:
         auto horse = std::make_unique<Horse>();
         beginScene.objects.push_back(move(horse));
 
-        // auto walls = std::make_unique<Walls>();
-        // beginScene.objects.push_back(move(walls));
+        auto walls = std::make_unique<Walls>();
+        beginScene.objects.push_back(move(walls));
+
+        glm::vec3 housePoistions[5] = {{4, 0, 5}, {4, 0, 11}, {3, 0, 17}, {-4, 0, 15}, {-4, 0, 7}};
+        glm::vec3 houseRotations[5] = {{0, 0, 0}, {0, 0, 0}, {0, 0, -(ppgso::PI/4)}, {0, 0, -(ppgso::PI/2)}, {0, 0, ppgso::PI}};
+        for(int i = 0; i < 5; i++) {
+            auto house = std::make_unique<House>();
+            house->position = housePoistions[i];
+            house->rotation = houseRotations[i];
+            beginScene.objects.push_back(move(house));
+        }
     }
 public:
     SceneWindow() : Window{"Village", 1024, 1024} {
@@ -104,9 +114,10 @@ public:
 //        program.setUniform("ProjectionMatrix",  beginScene.camera->projectionMatrix);
 //        program.setUniform("ViewMatrix", beginScene.camera->viewMatrix);
 
+        float time = glfwGetTime() / 50;
 
         // Update and render all objects
-        beginScene.update();
+        beginScene.update(time);
         beginScene.render();
 
     }

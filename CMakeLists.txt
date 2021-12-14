@@ -99,7 +99,7 @@ add_library(ppgso STATIC
         src/Village/horse.cpp
         src/Village/horse.h
         src/Village/walls.cpp
-        src/Village/walls.h src/Village/cart.cpp src/Village/cart.h src/Village/cartWheels.cpp src/Village/cartWheels.h)
+        src/Village/walls.h src/Village/cart.cpp src/Village/cart.h src/Village/cartWheels.cpp src/Village/cartWheels.h src/Village/house.cpp src/Village/house.h)
 
 # Make sure GLM uses radians and GLEW is a static library
 target_compile_definitions(ppgso PUBLIC -DGLM_FORCE_RADIANS -DGLEW_STATIC)
@@ -144,7 +144,7 @@ add_executable(
         src/Village/horse.cpp
         src/Village/horse.h
         src/Village/walls.cpp
-        src/Village/walls.h src/Village/cart.cpp src/Village/cart.h src/Village/cartWheels.cpp src/Village/cartWheels.h)
+        src/Village/walls.h src/Village/cart.cpp src/Village/cart.h src/Village/cartWheels.cpp src/Village/cartWheels.h src/Village/house.cpp src/Village/house.h)
 target_link_libraries(village ppgso shaders)
 install (TARGETS village DESTINATION .)
 

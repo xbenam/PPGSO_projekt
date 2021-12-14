@@ -6,9 +6,14 @@
 
 class Camera {
 public:
-
+    std::vector<glm::vec3> verteciesOfMovement = {{0, 1, -50},
+                                                  {0, 1, -25},
+                                                  {-100, 20, 50},
+                                                  {50, 15, 70},
+                                                  {50, 10, 10},
+                                                  {10, 1, -50}};
     glm::vec3 position = glm::vec3{0.0f,0.0f,0.0f};
-    glm::vec3 orientation = glm::vec3{0.0f,0.0f,-1.0f};
+    glm::vec3 orientation = glm::vec3{0.0f,0.0f,5.0f};
     glm::vec3 up = glm::vec3{0.0f,1.0f,0.0f};
 
     bool firstClick = true;
@@ -19,7 +24,11 @@ public:
 
     Camera(float fow = 45.0f, float ratio = 1.0f, float near = 0.1f, float far = 100.0f);
 
-    void update();
+    glm::vec3 bezierPoint(const glm::vec3 &p0, const glm::vec3 &p1, const glm::vec3 &p2, const glm::vec3 &p3, const glm::vec3 &p4, const glm::vec3 &p5, float time);
+
+    glm::vec3 cameraInterpolation(float time);
+
+    void update(float time);
 
     void Inputs(int key);
 
