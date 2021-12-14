@@ -39,6 +39,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ppgso.dir/src/Village/scene.cpp.o.d"
   "CMakeFiles/ppgso.dir/src/Village/sky.cpp.o"
   "CMakeFiles/ppgso.dir/src/Village/sky.cpp.o.d"
+  "CMakeFiles/ppgso.dir/src/Village/tree.cpp.o"
+  "CMakeFiles/ppgso.dir/src/Village/tree.cpp.o.d"
   "CMakeFiles/ppgso.dir/src/Village/walls.cpp.o"
   "CMakeFiles/ppgso.dir/src/Village/walls.cpp.o.d"
   "libppgso.a"

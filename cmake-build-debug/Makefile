@@ -932,6 +932,33 @@ src/Village/sky.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/sky.cpp.s
 .PHONY : src/Village/sky.cpp.s
 
+src/Village/tree.o: src/Village/tree.cpp.o
+.PHONY : src/Village/tree.o
+
+# target to build an object file
+src/Village/tree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/tree.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/tree.cpp.o
+.PHONY : src/Village/tree.cpp.o
+
+src/Village/tree.i: src/Village/tree.cpp.i
+.PHONY : src/Village/tree.i
+
+# target to preprocess a source file
+src/Village/tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/tree.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/tree.cpp.i
+.PHONY : src/Village/tree.cpp.i
+
+src/Village/tree.s: src/Village/tree.cpp.s
+.PHONY : src/Village/tree.s
+
+# target to generate assembly for a file
+src/Village/tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/village.dir/build.make CMakeFiles/village.dir/src/Village/tree.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ppgso.dir/build.make CMakeFiles/ppgso.dir/src/Village/tree.cpp.s
+.PHONY : src/Village/tree.cpp.s
+
 src/Village/village.o: src/Village/village.cpp.o
 .PHONY : src/Village/village.o
 
@@ -1085,6 +1112,9 @@ help:
 	@echo "... src/Village/sky.o"
 	@echo "... src/Village/sky.i"
 	@echo "... src/Village/sky.s"
+	@echo "... src/Village/tree.o"
+	@echo "... src/Village/tree.i"
+	@echo "... src/Village/tree.s"
 	@echo "... src/Village/village.o"
 	@echo "... src/Village/village.i"
 	@echo "... src/Village/village.s"

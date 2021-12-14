@@ -25,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/village.dir/src/Village/scene.cpp.o.d"
   "CMakeFiles/village.dir/src/Village/sky.cpp.o"
   "CMakeFiles/village.dir/src/Village/sky.cpp.o.d"
+  "CMakeFiles/village.dir/src/Village/tree.cpp.o"
+  "CMakeFiles/village.dir/src/Village/tree.cpp.o.d"
   "CMakeFiles/village.dir/src/Village/village.cpp.o"
   "CMakeFiles/village.dir/src/Village/village.cpp.o.d"
   "CMakeFiles/village.dir/src/Village/walls.cpp.o"

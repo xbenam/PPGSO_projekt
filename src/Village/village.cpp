@@ -14,6 +14,7 @@
 #include "horse.h"
 #include "walls.h"
 #include "house.h"
+#include "tree.h"
 
 using namespace std;
 using namespace glm;
@@ -23,6 +24,32 @@ class SceneWindow : public Window {
 private:
     Scene beginScene;
     ppgso::Shader program = {texture_vert_glsl, texture_frag_glsl};
+
+    std::vector<glm::vec3> generateTreePositions(int treeCount) {
+        std::vector<glm::vec3> treePositions;
+        bool founded;
+        for(int i = 0; i < treeCount; i++) {
+            founded = false;
+            int randX = (rand() % 100) - 50;
+            int randZ = (rand() % 100) - 50;
+            if(randX < 20 && randX > -20 && randZ < 40) {
+                i--;
+                continue;
+            }
+            glm::vec3 newPoint = {(float)randX, 0, (float)randZ};
+            for(size_t j = 0; j < treePositions.size(); j++) {
+                if(newPoint.x < (treePositions[j].x + 5) && newPoint.x > (treePositions[j].x - 5) &&
+                   newPoint.z < (treePositions[j].z + 5) && newPoint.z > (treePositions[j].z - 5)) {
+                    i--;
+                    founded = true;
+                    break;
+                }
+            }
+            if(!founded)
+                treePositions.push_back(newPoint);
+        }
+        return treePositions;
+    }
 
     void initScene() {
         beginScene.objects.clear();
@@ -52,6 +79,13 @@ private:
             house->position = housePoistions[i];
             house->rotation = houseRotations[i];
             beginScene.objects.push_back(move(house));
+        }
+
+        std::vector<glm::vec3> treePositions = generateTreePositions(70);
+        for(size_t i = 0; i < treePositions.size(); i++) {
+            auto tree = std::make_unique<Tree>();
+            tree->position = treePositions[i];
+            beginScene.objects.push_back(move(tree));
         }
     }
 public:

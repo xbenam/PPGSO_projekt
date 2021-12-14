@@ -529,4 +529,5 @@ CMakeFiles/village.dir/src/Village/village.cpp.o: \
   /Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/src/Village/cart.h \
   /Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/src/Village/cartWheels.h \
   /Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/src/Village/walls.h \
-  /Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/src/Village/house.h
+  /Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/src/Village/house.h \
+  /Users/mariokolenic/Desktop/FIIT/3.\ semester/Princípy\ počítačovej\ grafiky\ a\ spracovania\ obrazu/Semestrálny\ projekt/PPGSO_projekt/src/Village/tree.h

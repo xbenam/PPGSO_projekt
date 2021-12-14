@@ -28,6 +28,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/object.cpp" "CMakeFiles/ppgso.dir/src/Village/object.cpp.o" "gcc" "CMakeFiles/ppgso.dir/src/Village/object.cpp.o.d"
   "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/scene.cpp" "CMakeFiles/ppgso.dir/src/Village/scene.cpp.o" "gcc" "CMakeFiles/ppgso.dir/src/Village/scene.cpp.o.d"
   "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/sky.cpp" "CMakeFiles/ppgso.dir/src/Village/sky.cpp.o" "gcc" "CMakeFiles/ppgso.dir/src/Village/sky.cpp.o.d"
+  "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/tree.cpp" "CMakeFiles/ppgso.dir/src/Village/tree.cpp.o" "gcc" "CMakeFiles/ppgso.dir/src/Village/tree.cpp.o.d"
   "/Users/mariokolenic/Desktop/FIIT/3. semester/Princípy počítačovej grafiky a spracovania obrazu/Semestrálny projekt/PPGSO_projekt/src/Village/walls.cpp" "CMakeFiles/ppgso.dir/src/Village/walls.cpp.o" "gcc" "CMakeFiles/ppgso.dir/src/Village/walls.cpp.o.d"
   )
 
