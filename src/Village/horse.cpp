@@ -21,11 +21,15 @@ bool Horse::update(Scene &scene, float dt) {
 
     std::cout << time <<std::endl;
     if(scene.camera->wasSet) {
-        if(time <= 8) {
-            scene.camera->orientation = position;
-            scene.camera->position = {position.x, position.y + 1, position.z - 4};
-        }
-        else if(8 < time && time < 20) {
+        direction = {sin(angle), 0, cos(angle)};
+        rotation = {0, 0, angle};
+        position += direction * dt;
+        cart->position = {position.x - sin(angle) * 1.3, position.y + 0.2, position.z - cos(angle) * 1.3};
+        cart->rotation = rotation;
+        cart->scale = scale;
+        cart->update(scene, time);
+
+        if(8 < time && time < 20) {
             scene.camera->orientation = {0, 0, -1};
             scene.camera->position = {(position.x + 0.5), (position.y + 0.2f), (position.z - 2)};
             scene.camera->viewMatrix = lookAt(scene.camera->position,
@@ -37,17 +41,20 @@ bool Horse::update(Scene &scene, float dt) {
                 timeRotate += dt;
                 angle = ppgso::PI/2 * (timeRotate / 4);
             }
-        }
-        if(time < 42){
-            direction = {sin(angle), 0, cos(angle)};
-            rotation = {0, 0, angle};
-            position += direction * dt;
-            cart->position = {position.x - sin(angle) * 1.3, position.y + 0.2, position.z - cos(angle) * 1.3};
-            cart->rotation = rotation;
-            cart->scale = scale;
-            cart->update(scene, time);
-            scene.camera->orientation = position;
-            scene.camera->position = {position.x - sin(angle) * 3, position.y + 1, position.z - cos(angle) * 3};
+            if(time > 42 && time < 72) {
+                scene.camera->orientation = {20, 3, 9};
+                scene.camera->cameraAroundMill = true;
+                timeRotate = 0;
+                angle = -ppgso::PI/2;
+            }
+            else {
+                if((time > 83 && time < 86) || ((time > 92 && time < 94) && angle < 0)) {
+                    timeRotate += dt;
+                    angle = (-ppgso::PI / 2) + (ppgso::PI / 2 * (timeRotate / 4));
+                }
+                scene.camera->orientation = position;
+                scene.camera->position = {position.x - sin(angle) * 3, position.y + 1, position.z - cos(angle) * 3};
+            }
         }
     }
     generateModelMatrix();

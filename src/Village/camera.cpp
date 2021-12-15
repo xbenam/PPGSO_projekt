@@ -34,9 +34,9 @@ glm::vec3 Camera::bezierPoint(const glm::vec3 &p0, const glm::vec3 &p1, const gl
     return p01121223122323341223233423343445;
 }
 
-glm::vec3 Camera::cameraInterpolation(float time) {
-    glm::vec3 actualPosition = bezierPoint(verteciesOfMovement[0], verteciesOfMovement[1], verteciesOfMovement[2], verteciesOfMovement[3],
-                verteciesOfMovement[4], verteciesOfMovement[5], time);
+glm::vec3 Camera::cameraInterpolation(float time, std::vector<glm::vec3> vertecies) {
+    glm::vec3 actualPosition = bezierPoint(vertecies[0], vertecies[1], vertecies[2], vertecies[3],
+                                           vertecies[4], vertecies[5], time);
     return actualPosition;
 }
 
@@ -44,9 +44,23 @@ void Camera::update(float dt) {
     time += dt;
 
     if(time/30 <= 1.0f)
-        position = cameraInterpolation((time/30));
+        position = cameraInterpolation((time/30), verteciesOfMovement);
     else
         cameraAroundVillage = false;
+
+    if(cameraAroundMill) {
+        wasSet = false;
+        cameraAroundVillage = true; // musí byť, aby sa nesplnila podmienka vo village pri generovaní koňa
+        timeMillCamera += dt;
+        if(timeMillCamera <= 30)
+            position = cameraInterpolation((timeMillCamera/30), verticiesOfMillCamera);
+        else {
+            wasSet = true;
+            cameraAroundVillage = false;
+            cameraAroundMill = false;
+        }
+
+    }
 
     viewMatrix = lookAt(position, orientation, up);
 }
