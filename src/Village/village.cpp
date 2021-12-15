@@ -58,7 +58,6 @@ private:
         // Create a camera
         auto camera = std::make_unique<Camera>(60.0f, 1.0f, 0.1f, 100.0f);
         camera->position.z = -25.0f;
-//        camera->orientation.y = ppgso::PI/4;
         camera->position.y = 1;
         beginScene.camera = move(camera);
 
