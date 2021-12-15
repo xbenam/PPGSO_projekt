@@ -8,7 +8,7 @@ std::unique_ptr<ppgso::Mesh> BlackScreen::mesh;
 std::unique_ptr<ppgso::Shader> BlackScreen::shader;
 
 BlackScreen::BlackScreen() {
-    position = {0.0f, 1.0f, -47.5f};
+    position = {0.0f, 2.0f, -49.2f};
     rotation.x = ppgso::PI;
     scale.x *= 50;
     scale.y *= 50;
@@ -29,5 +29,6 @@ void BlackScreen::render(Scene &scene) {
     shader->setUniform("ViewMatrix", scene.camera->viewMatrix);
     shader->setUniform("ModelMatrix", modelMatrix);
     shader->setUniform("OverallColor", color);
+
     mesh->render();
 }

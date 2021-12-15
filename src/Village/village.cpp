@@ -89,9 +89,10 @@ private:
             tree->position = treePositions[i];
             beginScene.objects.push_back(move(tree));
         }
+
         auto oak = std::make_unique<Oak>();
-        oak->position.x += 15.0f;
-        oak->position.z += 14.0f;
+        oak->position.x += 15.5f;
+        oak->position.z += 1.55f;
         oak->scale *= 0.5f;
         beginScene.objects.push_back(move(oak));
 
@@ -103,15 +104,17 @@ private:
         beginScene.objects.push_back(move(mill));
 
         auto campfire = std::make_unique<Campfire>();
-        campfire->position.x += 18.0f;
+        campfire->position.x += 17.0f;
         campfire->position.z += 9.0f;
+        campfire->position.y += 0.2f;
         campfire->scale *= 0.5f;
         beginScene.objects.push_back(move(campfire));
 
         auto axe = std::make_unique<Axe>();
         axe->position.x += 16.0f;
-        axe->position.y += 1.0f;
+        axe->position.y += 0.5f;
         axe->position.z += 28.0f;
+        axe->rotation.y += ppgso::PI/2;
         beginScene.objects.push_back(move(axe));
     }
 public:
