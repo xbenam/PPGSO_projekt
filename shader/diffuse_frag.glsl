@@ -33,7 +33,7 @@ struct DirectionalLight {
 
 uniform DirectionalLight directLight;
 
-uniform Light light;
+uniform Light light[2];
 
 uniform vec3 viewPos;
 
@@ -75,33 +75,34 @@ vec3 DirLight()
   return (ambient+diffuse+specular) * directLight.color;
 }
 
-vec3 LightPoint()
+vec3 LightPoint(int i)
 {
   vec4 norm = normalize(normal);
-  vec4 lightDir = vec4(normalize(light.position - FragPos),0);
+  vec4 lightDir = vec4(normalize(light[i].position - FragPos),0);
   float diff = max(dot(norm, lightDir), 0.0);
 
   vec4 viewDir = vec4(normalize(viewPos - FragPos),0);
   vec4 reflectDir = reflect(-lightDir, norm);
   float spec = pow(max(dot(viewDir, reflectDir), 0.0), material.shininess);
 
-  vec3 ambient  = light.ambient * material.ambient;
-  vec3 diffuse  = light.diffuse * (diff * material.diffuse);
-  vec3 specular = light.specular * (spec * material.specular);
+  vec3 ambient  = light[i].ambient * material.ambient;
+  vec3 diffuse  = light[i].diffuse * (diff * material.diffuse);
+  vec3 specular = light[i].specular * (spec * material.specular);
 
-  float distance = length(light.position - FragPos);
+  float distance = length(light[i].position - FragPos);
 
-  float attenuation = 1.0f / (light.constant + light.linear * distance + light.quadratic * (distance*distance));
+  float attenuation = 1.0f / (light[i].constant + light[i].linear * distance + light[i].quadratic * (distance*distance));
   ambient *= attenuation;
   diffuse *= attenuation;
   specular *= attenuation;
 
-  return (ambient+diffuse+specular) * light.color;
+  return (ambient+diffuse+specular) * light[i].color;
 }
 
 void main() {
   // Compute diffuse lighting
-  vec3 result = LightPoint() + DirLight();
+  vec3 result = DirLight();
+  result += LightPoint(0) +  LightPoint(1);
 //  vec3 result = LightPoint();
   // Lookup the color in Texture on coordinates given by texCoord
   // NOTE: Texture coordinate is inverted vertically for compatibility with OBJ

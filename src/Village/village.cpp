@@ -16,6 +16,7 @@
 #include "oak.h"
 #include "axe.h"
 #include "blackScreen.h"
+#include "wisp.h"
 
 using namespace std;
 using namespace glm;
@@ -108,6 +109,8 @@ private:
         campfire->position.z += 9.0f;
         campfire->position.y += 0.2f;
         campfire->scale *= 0.5f;
+        beginScene.Light1pos = campfire->position;
+        beginScene.Light1pos.y += 0.2f;
         beginScene.objects.push_back(move(campfire));
 
         auto axe = std::make_unique<Axe>();
@@ -116,6 +119,9 @@ private:
         axe->position.z += 28.0f;
         axe->rotation.y += ppgso::PI/2;
         beginScene.objects.push_back(move(axe));
+
+        auto wisp = std::make_unique<Wisp>();
+        beginScene.objects.push_back(move(wisp));
     }
 public:
     SceneWindow() : Window{"Village", 1024, 960} {

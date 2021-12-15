@@ -26,6 +26,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/tree.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/tree.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/village.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/village.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/walls.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/walls.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/wisp.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/wisp.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

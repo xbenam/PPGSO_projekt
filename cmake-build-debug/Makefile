@@ -1285,6 +1285,33 @@ src/Village/walls.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/walls.cpp.s
 .PHONY : src/Village/walls.cpp.s
 
+src/Village/wisp.obj: src/Village/wisp.cpp.obj
+
+.PHONY : src/Village/wisp.obj
+
+# target to build an object file
+src/Village/wisp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/wisp.cpp.obj
+.PHONY : src/Village/wisp.cpp.obj
+
+src/Village/wisp.i: src/Village/wisp.cpp.i
+
+.PHONY : src/Village/wisp.i
+
+# target to preprocess a source file
+src/Village/wisp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/wisp.cpp.i
+.PHONY : src/Village/wisp.cpp.i
+
+src/Village/wisp.s: src/Village/wisp.cpp.s
+
+.PHONY : src/Village/wisp.s
+
+# target to generate assembly for a file
+src/Village/wisp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/wisp.cpp.s
+.PHONY : src/Village/wisp.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1414,6 +1441,9 @@ help:
 	@echo ... src/Village/walls.obj
 	@echo ... src/Village/walls.i
 	@echo ... src/Village/walls.s
+	@echo ... src/Village/wisp.obj
+	@echo ... src/Village/wisp.i
+	@echo ... src/Village/wisp.s
 .PHONY : help
 
 

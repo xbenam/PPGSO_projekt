@@ -357,9 +357,9 @@ CMakeFiles/ppgso.dir/src/Village/blades.cpp.obj: ../ppgso/window.h
 CMakeFiles/ppgso.dir/src/Village/blades.cpp.obj: ../src/Village/blades.cpp
 CMakeFiles/ppgso.dir/src/Village/blades.cpp.obj: ../src/Village/blades.h
 CMakeFiles/ppgso.dir/src/Village/blades.cpp.obj: ../src/Village/camera.h
-CMakeFiles/ppgso.dir/src/Village/blades.cpp.obj: ../src/Village/campfire.h
 CMakeFiles/ppgso.dir/src/Village/blades.cpp.obj: ../src/Village/object.h
 CMakeFiles/ppgso.dir/src/Village/blades.cpp.obj: ../src/Village/scene.h
+CMakeFiles/ppgso.dir/src/Village/blades.cpp.obj: ../src/Village/wisp.h
 CMakeFiles/ppgso.dir/src/Village/blades.cpp.obj: shaders/diffuse_frag_glsl.h
 CMakeFiles/ppgso.dir/src/Village/blades.cpp.obj: shaders/diffuse_vert_glsl.h
 
@@ -614,6 +614,7 @@ CMakeFiles/ppgso.dir/src/Village/campfire.cpp.obj: ../src/Village/campfire.h
 CMakeFiles/ppgso.dir/src/Village/campfire.cpp.obj: ../src/Village/object.h
 CMakeFiles/ppgso.dir/src/Village/campfire.cpp.obj: ../src/Village/scene.h
 CMakeFiles/ppgso.dir/src/Village/campfire.cpp.obj: ../src/Village/smoke.h
+CMakeFiles/ppgso.dir/src/Village/campfire.cpp.obj: ../src/Village/wisp.h
 CMakeFiles/ppgso.dir/src/Village/campfire.cpp.obj: shaders/diffuse_frag_glsl.h
 CMakeFiles/ppgso.dir/src/Village/campfire.cpp.obj: shaders/diffuse_vert_glsl.h
 
@@ -739,6 +740,7 @@ CMakeFiles/ppgso.dir/src/Village/cart.cpp.obj: ../src/Village/cart.h
 CMakeFiles/ppgso.dir/src/Village/cart.cpp.obj: ../src/Village/cartWheels.h
 CMakeFiles/ppgso.dir/src/Village/cart.cpp.obj: ../src/Village/object.h
 CMakeFiles/ppgso.dir/src/Village/cart.cpp.obj: ../src/Village/scene.h
+CMakeFiles/ppgso.dir/src/Village/cart.cpp.obj: ../src/Village/wisp.h
 CMakeFiles/ppgso.dir/src/Village/cart.cpp.obj: shaders/color_frag_glsl.h
 CMakeFiles/ppgso.dir/src/Village/cart.cpp.obj: shaders/color_vert_glsl.h
 CMakeFiles/ppgso.dir/src/Village/cart.cpp.obj: shaders/diffuse_frag_glsl.h
@@ -865,6 +867,7 @@ CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.obj: ../src/Village/cartWheels.c
 CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.obj: ../src/Village/cartWheels.h
 CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.obj: ../src/Village/object.h
 CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.obj: ../src/Village/scene.h
+CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.obj: ../src/Village/wisp.h
 CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.obj: shaders/color_frag_glsl.h
 CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.obj: shaders/color_vert_glsl.h
 CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.obj: shaders/diffuse_frag_glsl.h
@@ -1111,11 +1114,11 @@ CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj: ../ppgso/texture.h
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj: ../ppgso/tiny_obj_loader.h
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj: ../ppgso/window.h
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj: ../src/Village/camera.h
-CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj: ../src/Village/campfire.h
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj: ../src/Village/ground.cpp
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj: ../src/Village/ground.h
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj: ../src/Village/object.h
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj: ../src/Village/scene.h
+CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj: ../src/Village/wisp.h
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj: shaders/color_frag_glsl.h
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj: shaders/color_vert_glsl.h
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj: shaders/diffuse_frag_glsl.h
@@ -1244,6 +1247,7 @@ CMakeFiles/ppgso.dir/src/Village/horse.cpp.obj: ../src/Village/horse.cpp
 CMakeFiles/ppgso.dir/src/Village/horse.cpp.obj: ../src/Village/horse.h
 CMakeFiles/ppgso.dir/src/Village/horse.cpp.obj: ../src/Village/object.h
 CMakeFiles/ppgso.dir/src/Village/horse.cpp.obj: ../src/Village/scene.h
+CMakeFiles/ppgso.dir/src/Village/horse.cpp.obj: ../src/Village/wisp.h
 CMakeFiles/ppgso.dir/src/Village/horse.cpp.obj: shaders/color_frag_glsl.h
 CMakeFiles/ppgso.dir/src/Village/horse.cpp.obj: shaders/color_vert_glsl.h
 CMakeFiles/ppgso.dir/src/Village/horse.cpp.obj: shaders/diffuse_frag_glsl.h
@@ -1371,6 +1375,7 @@ CMakeFiles/ppgso.dir/src/Village/house.cpp.obj: ../src/Village/house.h
 CMakeFiles/ppgso.dir/src/Village/house.cpp.obj: ../src/Village/object.h
 CMakeFiles/ppgso.dir/src/Village/house.cpp.obj: ../src/Village/scene.h
 CMakeFiles/ppgso.dir/src/Village/house.cpp.obj: ../src/Village/smoke.h
+CMakeFiles/ppgso.dir/src/Village/house.cpp.obj: ../src/Village/wisp.h
 CMakeFiles/ppgso.dir/src/Village/house.cpp.obj: shaders/color_frag_glsl.h
 CMakeFiles/ppgso.dir/src/Village/house.cpp.obj: shaders/color_vert_glsl.h
 CMakeFiles/ppgso.dir/src/Village/house.cpp.obj: shaders/diffuse_frag_glsl.h
@@ -1494,11 +1499,11 @@ CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj: ../ppgso/tiny_obj_loader.h
 CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj: ../ppgso/window.h
 CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj: ../src/Village/blades.h
 CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj: ../src/Village/camera.h
-CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj: ../src/Village/campfire.h
 CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj: ../src/Village/mill.cpp
 CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj: ../src/Village/mill.h
 CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj: ../src/Village/object.h
 CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj: ../src/Village/scene.h
+CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj: ../src/Village/wisp.h
 CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj: shaders/diffuse_frag_glsl.h
 CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj: shaders/diffuse_vert_glsl.h
 
@@ -1976,6 +1981,7 @@ CMakeFiles/ppgso.dir/src/Village/tree.cpp.obj: ../src/Village/object.h
 CMakeFiles/ppgso.dir/src/Village/tree.cpp.obj: ../src/Village/scene.h
 CMakeFiles/ppgso.dir/src/Village/tree.cpp.obj: ../src/Village/tree.cpp
 CMakeFiles/ppgso.dir/src/Village/tree.cpp.obj: ../src/Village/tree.h
+CMakeFiles/ppgso.dir/src/Village/tree.cpp.obj: ../src/Village/wisp.h
 CMakeFiles/ppgso.dir/src/Village/tree.cpp.obj: shaders/diffuse_frag_glsl.h
 CMakeFiles/ppgso.dir/src/Village/tree.cpp.obj: shaders/diffuse_vert_glsl.h
 
@@ -2100,6 +2106,7 @@ CMakeFiles/ppgso.dir/src/Village/walls.cpp.obj: ../src/Village/object.h
 CMakeFiles/ppgso.dir/src/Village/walls.cpp.obj: ../src/Village/scene.h
 CMakeFiles/ppgso.dir/src/Village/walls.cpp.obj: ../src/Village/walls.cpp
 CMakeFiles/ppgso.dir/src/Village/walls.cpp.obj: ../src/Village/walls.h
+CMakeFiles/ppgso.dir/src/Village/walls.cpp.obj: ../src/Village/wisp.h
 CMakeFiles/ppgso.dir/src/Village/walls.cpp.obj: shaders/diffuse_frag_glsl.h
 CMakeFiles/ppgso.dir/src/Village/walls.cpp.obj: shaders/diffuse_vert_glsl.h
 

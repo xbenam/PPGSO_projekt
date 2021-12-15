@@ -21,6 +21,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/village.dir/src/Village/tree.cpp.obj"
   "CMakeFiles/village.dir/src/Village/village.cpp.obj"
   "CMakeFiles/village.dir/src/Village/walls.cpp.obj"
+  "CMakeFiles/village.dir/src/Village/wisp.cpp.obj"
   "libvillage.dll.a"
   "village.exe"
   "village.exe.manifest"

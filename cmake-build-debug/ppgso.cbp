@@ -509,6 +509,12 @@
 			<Option target="ppgso"/>
 			<Option target="village"/>
 		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/wisp.cpp">
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/wisp.h">
+			<Option target="village"/>
+		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

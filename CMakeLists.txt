@@ -144,7 +144,7 @@ add_executable(
         src/Village/horse.cpp
         src/Village/horse.h
         src/Village/walls.cpp
-        src/Village/walls.h src/Village/cart.cpp src/Village/cart.h src/Village/cartWheels.cpp src/Village/cartWheels.h src/Village/house.cpp src/Village/house.h src/Village/tree.cpp src/Village/tree.h src/Village/flag.cpp src/Village/flag.h src/Village/axe.cpp src/Village/axe.h src/Village/leaf.cpp src/Village/leaf.h src/Village/smoke.cpp src/Village/smoke.h src/Village/oak.cpp src/Village/oak.h src/Village/blackScreen.cpp src/Village/blackScreen.h)
+        src/Village/walls.h src/Village/cart.cpp src/Village/cart.h src/Village/cartWheels.cpp src/Village/cartWheels.h src/Village/house.cpp src/Village/house.h src/Village/tree.cpp src/Village/tree.h src/Village/flag.cpp src/Village/flag.h src/Village/axe.cpp src/Village/axe.h src/Village/leaf.cpp src/Village/leaf.h src/Village/smoke.cpp src/Village/smoke.h src/Village/oak.cpp src/Village/oak.h src/Village/blackScreen.cpp src/Village/blackScreen.h src/Village/wisp.cpp src/Village/wisp.h)
 target_link_libraries(village ppgso shaders)
 install (TARGETS village DESTINATION .)
 

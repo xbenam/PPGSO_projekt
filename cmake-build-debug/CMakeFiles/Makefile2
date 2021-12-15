@@ -148,16 +148,16 @@ CMakeFiles/ppgso.dir/clean:
 # Target rules for target CMakeFiles/village.dir
 
 # All Build rule for target.
-CMakeFiles/village.dir/all: CMakeFiles/shaders.dir/all
 CMakeFiles/village.dir/all: CMakeFiles/ppgso.dir/all
+CMakeFiles/village.dir/all: CMakeFiles/shaders.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64 "Built target village"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target village"
 .PHONY : CMakeFiles/village.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/village.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles 65
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/village.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/village.dir/rule

@@ -32,6 +32,8 @@ public:
 
     // Lights, in this case using only simple directional diffuse lighting
     glm::vec3 lightColor = {1,1,1};
+    glm::vec3 light1Color = {1,0.7f,1};
+    glm::vec3 light2Color = {0,0,0.7f};
 
     glm::vec3 dirLightDirection = {1,1,1};
 
@@ -39,11 +41,13 @@ public:
     glm::vec3 dirLightAmb = {.45f,.45f,.45f};
     glm::vec3 dirLightSpec = {.2f,.2f,.2f};
 
-    float lightConst = 0.1f;
+    float lightConst = 0.05f;
     float lightLin = 0.01f;
-    float lightQuad = 0.032f;
+    float lightQuad = 0.0032f;
 
     glm::vec3 LightPosition = {0,10,0};
+    glm::vec3 Light1pos;
+    glm::vec3 Light2pos;
 
     glm::vec3 LightDiff;
     glm::vec3 LightAmb;
