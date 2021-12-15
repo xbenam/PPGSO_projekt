@@ -21,7 +21,9 @@ Smoke::Smoke() {
 bool Smoke::update(Scene &scene, float dt) {
     age += dt;
     if (position.y > 0.0f){
-        speed = {glm::linearRand(-0.005f, 0.005f), 0,glm::linearRand(0.0f, 0.02f)};
+        speed = {glm::linearRand(-0.005f, 0.005f),
+                 0,
+                 glm::linearRand(0.0f, 0.02f)};
         position -= speed;
         position.y += dt/2;
     }
