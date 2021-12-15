@@ -33,15 +33,10 @@ bool Horse::update(Scene &scene, float dt) {
                                               scene.camera->up);
         }
         else {
-            timeRotate += dt;
-            if(26 < time && time <= 36) {
-                angle = (-ppgso::PI/2) * (timeRotate / 6);
-                secondAngle = angle;
+            if(26 < time && time <= 30) {
+                timeRotate += dt;
+                angle = ppgso::PI/2 * (timeRotate / 4);
             }
-            else if(time > 36 && time <= 38){
-                angle = (secondAngle) + (ppgso::PI/2 * (timeRotate/2));
-            }
-            std::cout << angle << "\t" << secondAngle << std::endl;
         }
         direction = {sin(angle), 0, cos(angle)};
         rotation = {0, 0, angle};

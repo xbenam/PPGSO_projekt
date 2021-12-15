@@ -19,7 +19,6 @@ private:
     float timeRotate = 0;
     glm::vec3 direction;
     float angle = 0;
-    float secondAngle = 0;
 public:
     Horse();
 

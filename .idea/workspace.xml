@@ -31,52 +31,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c384f26d-1ebe-4fb0-8eed-456a31ef2c5d" name="Default Changelist" comment="Robenie transofrmácií koňa a koču">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_49_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_49_[Default_Changelist]1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_49_[Default_Changelist]1/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_49_[Default_Changelist]1/ompver_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_49_[Default_Changelist]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_49__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_49__Default_Changelist_1.xml" beforeDir="false" />
+    <list default="true" id="c384f26d-1ebe-4fb0-8eed-456a31ef2c5d" name="Default Changelist" comment="Commit pre točenie koňa do ľava">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/blades.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/blades.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/camera.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/camera.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/campfire.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/campfire.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/cart.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/cart.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/flag.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/flag.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/ground.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/ground.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/horse.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/horse.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/house.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/house.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/mill.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/mill.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/scene.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/scene.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/sky.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/sky.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/tree.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/tree.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/walls.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/walls.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/blades.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/blades.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/camera.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/camera.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/campfire.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/campfire.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/cart.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/cart.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/cartWheels.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/cartWheels.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/cube.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/cube.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/flag.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/flag.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/ground.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/ground.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/horse.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/horse.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/house.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/house.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/mill.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/mill.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/scene.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/scene.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/sky.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/sky.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/tree.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/tree.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/village.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/village.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/walls.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/walls.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libppgso.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libppgso.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/village" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/village" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Village/camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/camera.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Village/camera.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/camera.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Village/cartWheels.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/cartWheels.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Village/cartWheels.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/cartWheels.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Village/horse.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/horse.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Village/horse.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/horse.h" afterDir="false" />
     </list>
@@ -183,7 +145,7 @@
       <workItem from="1639407900543" duration="104000" />
       <workItem from="1639408039025" duration="17291000" />
       <workItem from="1639490745834" duration="25320000" />
-      <workItem from="1639561454391" duration="11151000" />
+      <workItem from="1639561454391" duration="12264000" />
     </task>
     <task id="LOCAL-00001" summary="Ground $ Objekt class">
       <created>1638894268420</created>
@@ -290,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639523069952</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Commit pre točenie koňa do ľava">
+      <created>1639574744808</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1639574744808</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +306,7 @@
     <MESSAGE value="Pred pridaním koňa po prejdení dediny" />
     <MESSAGE value="Kamera na koňovi (menenie uhlov)" />
     <MESSAGE value="Robenie transofrmácií koňa a koču" />
-    <option name="LAST_COMMIT_MESSAGE" value="Robenie transofrmácií koňa a koču" />
+    <MESSAGE value="Commit pre točenie koňa do ľava" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit pre točenie koňa do ľava" />
   </component>
 </project>
