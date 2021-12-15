@@ -8,7 +8,7 @@ std::unique_ptr<ppgso::Mesh> BlackScreen::mesh;
 std::unique_ptr<ppgso::Shader> BlackScreen::shader;
 
 BlackScreen::BlackScreen() {
-    position = {0.0f, 1.0f, -48.0f};
+    position = {0.0f, 1.0f, -47.5f};
     rotation.x = ppgso::PI;
     scale.x *= 50;
     scale.y *= 50;

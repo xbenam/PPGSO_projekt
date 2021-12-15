@@ -43,7 +43,7 @@ public:
     float lightLin = 0.05f;
     float lightQuad = 0.00032f;
 
-    glm::vec3 LightPosition = {0,5,0};
+    glm::vec3 LightPosition = {0,10,0};
 
     glm::vec3 LightDiff;
     glm::vec3 LightAmb;

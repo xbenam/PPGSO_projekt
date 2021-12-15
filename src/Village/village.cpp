@@ -115,7 +115,7 @@ private:
         beginScene.objects.push_back(move(axe));
     }
 public:
-    SceneWindow() : Window{"Village", 1024, 1024} {
+    SceneWindow() : Window{"Village", 1024, 960} {
 
         glfwSetInputMode(window, GLFW_STICKY_KEYS, 1);
 
