@@ -15,7 +15,6 @@ std::unique_ptr<ppgso::Shader> Campfire::shader;
 
 Campfire::Campfire() {
     scale *= 0.25f;
-    position.y += 0.5f;
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("campfire.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("campfire.obj");
@@ -69,9 +68,9 @@ void Campfire::render(Scene &scene) {
 void Campfire::generateSmoke(Scene &scene) {
     auto smokeParticle = std::make_unique<Smoke>();
     smokeParticle->position = position;
-    smokeParticle->position.y = 0.8f;
-    smokeParticle->position.x += glm::linearRand(-0.2f, 0.2f);
-    smokeParticle->position.z += glm::linearRand(-0.2f, 0.2f);
+    smokeParticle->position.y = 0.4f;
+    smokeParticle->position.x += glm::linearRand(-0.1f, 0.1f);
+    smokeParticle->position.z += glm::linearRand(-0.1f, 0.1f);
     scene.objects.push_back(move(smokeParticle));
 }
 

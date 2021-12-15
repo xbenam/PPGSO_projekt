@@ -45,7 +45,7 @@ void Blades::render(Scene &scene) {
 //    shader->setUniform("LightDirection", scene.lightDirection);
     shader->setUniform("viewPos",scene.camera->position);
     shader->setUniform("light.position",scene.LightPosition);
-    shader->setUniform("light.color", {0.7f, 0.7f, 0.f});
+    shader->setUniform("light.color", {1.0f, 0.7f, 0.f});
     shader->setUniform("light.ambient",scene.LightAmb);
     shader->setUniform("light.diffuse",scene.LightDiff);
     shader->setUniform("light.specular",scene.LightSpec);

@@ -43,7 +43,7 @@ void Mill::render(Scene &scene) {
         // We only need to collide with asteroids and projectiles, ignore other objects
         auto fire = dynamic_cast<Campfire *>(obj.get()); // dynamic_pointer_cast<Asteroid>(obj);
         if (!fire) continue;
-        scene.LightPosition = {fire->position.x, fire->position.y, fire->position.z};
+        scene.LightPosition = {fire->position.x, fire->position.y + 0.2f, fire->position.z};
     }
     // light
 //    shader->setUniform("LightDirection", scene.dirLightDirection);
