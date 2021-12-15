@@ -16,7 +16,9 @@ private:
     static std::unique_ptr<ppgso::Shader> shader;
     std::unique_ptr<Cart> cart;
     float time = 0;
-
+    float timeRotate = 0;
+    glm::vec3 direction;
+    float angle = 0;
 public:
     Horse();
 

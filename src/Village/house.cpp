@@ -63,9 +63,10 @@ void House::generateSmoke(Scene &scene) {
     auto smokeParticle = std::make_unique<Smoke>();
     smokeParticle->position = position;
 
-    smokeParticle->position.y = 1.5f;
-    smokeParticle->position.x += 0.0f;
-    smokeParticle->position.z -= 0.55f;
+    smokeParticle->position.y = 2.5f;
+    smokeParticle->position.x = position.x - sin(rotation.z) * 0.5f;
+    smokeParticle->position.z = position.z - cos(rotation.z) * 0.5f;
+
     smokeParticle->position.x += glm::linearRand(-0.1f, 0.1f);
     smokeParticle->position.z += glm::linearRand(-0.1f, 0.1f);
     scene.objects.push_back(move(smokeParticle));

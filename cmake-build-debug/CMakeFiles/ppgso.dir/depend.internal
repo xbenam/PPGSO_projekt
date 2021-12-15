@@ -742,8 +742,8 @@ CMakeFiles/ppgso.dir/src/Village/cart.cpp.obj
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
  shaders/color_frag_glsl.h
  shaders/color_vert_glsl.h
- shaders/texture_frag_glsl.h
- shaders/texture_vert_glsl.h
+ shaders/diffuse_frag_glsl.h
+ shaders/diffuse_vert_glsl.h
 CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.obj
  ../dependencies/include/GL/glew.h
  ../dependencies/include/GLFW/glfw3.h
@@ -868,8 +868,8 @@ CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.obj
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
  shaders/color_frag_glsl.h
  shaders/color_vert_glsl.h
- shaders/texture_frag_glsl.h
- shaders/texture_vert_glsl.h
+ shaders/diffuse_frag_glsl.h
+ shaders/diffuse_vert_glsl.h
 CMakeFiles/ppgso.dir/src/Village/flag.cpp.obj
  ../dependencies/include/GL/glew.h
  ../dependencies/include/GLFW/glfw3.h
@@ -1247,8 +1247,8 @@ CMakeFiles/ppgso.dir/src/Village/horse.cpp.obj
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
  shaders/color_frag_glsl.h
  shaders/color_vert_glsl.h
- shaders/texture_frag_glsl.h
- shaders/texture_vert_glsl.h
+ shaders/diffuse_frag_glsl.h
+ shaders/diffuse_vert_glsl.h
 CMakeFiles/ppgso.dir/src/Village/house.cpp.obj
  ../dependencies/include/GL/glew.h
  ../dependencies/include/GLFW/glfw3.h

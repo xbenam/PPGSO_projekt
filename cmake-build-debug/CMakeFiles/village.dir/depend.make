@@ -752,8 +752,8 @@ CMakeFiles/village.dir/src/Village/cart.cpp.obj: ../src/Village/object.h
 CMakeFiles/village.dir/src/Village/cart.cpp.obj: ../src/Village/scene.h
 CMakeFiles/village.dir/src/Village/cart.cpp.obj: shaders/color_frag_glsl.h
 CMakeFiles/village.dir/src/Village/cart.cpp.obj: shaders/color_vert_glsl.h
-CMakeFiles/village.dir/src/Village/cart.cpp.obj: shaders/texture_frag_glsl.h
-CMakeFiles/village.dir/src/Village/cart.cpp.obj: shaders/texture_vert_glsl.h
+CMakeFiles/village.dir/src/Village/cart.cpp.obj: shaders/diffuse_frag_glsl.h
+CMakeFiles/village.dir/src/Village/cart.cpp.obj: shaders/diffuse_vert_glsl.h
 
 CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj: ../dependencies/include/GL/glew.h
 CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj: ../dependencies/include/GLFW/glfw3.h
@@ -878,8 +878,8 @@ CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj: ../src/Village/object.h
 CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj: ../src/Village/scene.h
 CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj: shaders/color_frag_glsl.h
 CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj: shaders/color_vert_glsl.h
-CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj: shaders/texture_frag_glsl.h
-CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj: shaders/texture_vert_glsl.h
+CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj: shaders/diffuse_frag_glsl.h
+CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj: shaders/diffuse_vert_glsl.h
 
 CMakeFiles/village.dir/src/Village/cube.cpp.obj: ../dependencies/include/GL/glew.h
 CMakeFiles/village.dir/src/Village/cube.cpp.obj: ../dependencies/include/GLFW/glfw3.h
@@ -1383,8 +1383,8 @@ CMakeFiles/village.dir/src/Village/horse.cpp.obj: ../src/Village/object.h
 CMakeFiles/village.dir/src/Village/horse.cpp.obj: ../src/Village/scene.h
 CMakeFiles/village.dir/src/Village/horse.cpp.obj: shaders/color_frag_glsl.h
 CMakeFiles/village.dir/src/Village/horse.cpp.obj: shaders/color_vert_glsl.h
-CMakeFiles/village.dir/src/Village/horse.cpp.obj: shaders/texture_frag_glsl.h
-CMakeFiles/village.dir/src/Village/horse.cpp.obj: shaders/texture_vert_glsl.h
+CMakeFiles/village.dir/src/Village/horse.cpp.obj: shaders/diffuse_frag_glsl.h
+CMakeFiles/village.dir/src/Village/horse.cpp.obj: shaders/diffuse_vert_glsl.h
 
 CMakeFiles/village.dir/src/Village/house.cpp.obj: ../dependencies/include/GL/glew.h
 CMakeFiles/village.dir/src/Village/house.cpp.obj: ../dependencies/include/GLFW/glfw3.h

@@ -12,9 +12,7 @@ std::unique_ptr<ppgso::Shader> Mill::shader;
 
 
 Mill::Mill() {
-    position = {-5.0f,-0.2f,-1.0f};
     scale *= 0.02;
-    rotation.z += 0.2f;
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!meshMillBase) meshMillBase = std::make_unique<ppgso::Mesh>("mill_base.obj");
     if (!textureBase) textureBase = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("mill_base.bmp"));
@@ -33,7 +31,7 @@ bool Mill::update(Scene &scene, float time) {
 
 void Mill::render(Scene &scene) {
     shader->use();
-
+    glm::vec3 fireplace;
     for (auto &obj : scene.objects) {
 
         // Ignore self in scene

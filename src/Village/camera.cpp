@@ -43,8 +43,8 @@ glm::vec3 Camera::cameraInterpolation(float time) {
 void Camera::update(float dt) {
     time += dt;
 
-    if(time/10 <= 1.0f)
-        position = cameraInterpolation((time/10));
+    if(time/30 <= 1.0f)
+        position = cameraInterpolation((time/30));
     else
         cameraAroundVillage = false;
 

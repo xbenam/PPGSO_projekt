@@ -10,8 +10,8 @@ std::unique_ptr<ppgso::Shader> BlackScreen::shader;
 BlackScreen::BlackScreen() {
     position = {0.0f, 1.0f, -48.0f};
     rotation.x = ppgso::PI;
-    scale.x *= 5;
-    scale.y *= 5;
+    scale.x *= 50;
+    scale.y *= 50;
     color = {0.0f, 0.0f, 0.0f};
     if (!shader) shader = std::make_unique<ppgso::Shader>(color_vert_glsl, color_frag_glsl);
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("quad.obj");
