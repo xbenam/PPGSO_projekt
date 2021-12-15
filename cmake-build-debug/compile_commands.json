@@ -191,7 +191,7 @@
 },
 {
   "directory": "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug",
-  "command": "\"D:\\Program files\\CLion 2020.2.3\\mingw64\\bin\\g++.exe\"  -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/village.dir/includes_CXX.rsp -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++14 -o CMakeFiles\\village.dir\\src\\Village\\flag.cpp.obj -c D:\\Skola\\FIIT\\3._semester\\PPGSO_projekt\\src\\Village\\flag.cpp",
-  "file": "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/flag.cpp"
+  "command": "\"D:\\Program files\\CLion 2020.2.3\\mingw64\\bin\\g++.exe\"  -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/village.dir/includes_CXX.rsp -fopenmp -g -Wpedantic -Wall -Wno-c++98-compat -Wextra -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++14 -o CMakeFiles\\village.dir\\src\\Village\\smoke.cpp.obj -c D:\\Skola\\FIIT\\3._semester\\PPGSO_projekt\\src\\Village\\smoke.cpp",
+  "file": "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/smoke.cpp"
 }
 ]

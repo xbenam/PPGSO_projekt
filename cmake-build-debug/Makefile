@@ -790,33 +790,6 @@ src/Village/cube.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/cube.cpp.s
 .PHONY : src/Village/cube.cpp.s
 
-src/Village/flag.obj: src/Village/flag.cpp.obj
-
-.PHONY : src/Village/flag.obj
-
-# target to build an object file
-src/Village/flag.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/flag.cpp.obj
-.PHONY : src/Village/flag.cpp.obj
-
-src/Village/flag.i: src/Village/flag.cpp.i
-
-.PHONY : src/Village/flag.i
-
-# target to preprocess a source file
-src/Village/flag.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/flag.cpp.i
-.PHONY : src/Village/flag.cpp.i
-
-src/Village/flag.s: src/Village/flag.cpp.s
-
-.PHONY : src/Village/flag.s
-
-# target to generate assembly for a file
-src/Village/flag.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/flag.cpp.s
-.PHONY : src/Village/flag.cpp.s
-
 src/Village/ground.obj: src/Village/ground.cpp.obj
 
 .PHONY : src/Village/ground.obj
@@ -1021,6 +994,33 @@ src/Village/sky.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/sky.cpp.s
 .PHONY : src/Village/sky.cpp.s
 
+src/Village/smoke.obj: src/Village/smoke.cpp.obj
+
+.PHONY : src/Village/smoke.obj
+
+# target to build an object file
+src/Village/smoke.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/smoke.cpp.obj
+.PHONY : src/Village/smoke.cpp.obj
+
+src/Village/smoke.i: src/Village/smoke.cpp.i
+
+.PHONY : src/Village/smoke.i
+
+# target to preprocess a source file
+src/Village/smoke.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/smoke.cpp.i
+.PHONY : src/Village/smoke.cpp.i
+
+src/Village/smoke.s: src/Village/smoke.cpp.s
+
+.PHONY : src/Village/smoke.s
+
+# target to generate assembly for a file
+src/Village/smoke.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/smoke.cpp.s
+.PHONY : src/Village/smoke.cpp.s
+
 src/Village/tree.obj: src/Village/tree.cpp.obj
 
 .PHONY : src/Village/tree.obj
@@ -1153,9 +1153,6 @@ help:
 	@echo ... src/Village/cube.obj
 	@echo ... src/Village/cube.i
 	@echo ... src/Village/cube.s
-	@echo ... src/Village/flag.obj
-	@echo ... src/Village/flag.i
-	@echo ... src/Village/flag.s
 	@echo ... src/Village/ground.obj
 	@echo ... src/Village/ground.i
 	@echo ... src/Village/ground.s
@@ -1177,6 +1174,9 @@ help:
 	@echo ... src/Village/sky.obj
 	@echo ... src/Village/sky.i
 	@echo ... src/Village/sky.s
+	@echo ... src/Village/smoke.obj
+	@echo ... src/Village/smoke.i
+	@echo ... src/Village/smoke.s
 	@echo ... src/Village/tree.obj
 	@echo ... src/Village/tree.i
 	@echo ... src/Village/tree.s

@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/camera.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/camera.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/campfire.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/campfire.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/cube.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/cube.cpp.obj"
-  "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/flag.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/flag.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/ground.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/ground.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/leaf.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/leaf.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/leaf_fall.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/leaf_fall.cpp.obj"
@@ -17,6 +16,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/object.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/scene.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/sky.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/sky.cpp.obj"
+  "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/smoke.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/smoke.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/tree.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/tree.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/village.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/village.cpp.obj"
   )

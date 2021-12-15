@@ -26,9 +26,9 @@ Axe::Axe() {
 bool Axe::update(Scene &scene, float dt) {
     time += dt;
 //    std::cout << std::cos(time) << "\t" << std::cos(dt) << std::endl;
-//    rotation.x = ppgso::PI/4+ ppgso::PI/4 * -std::cos(time*2);
+    rotation.x = ppgso::PI/4+ ppgso::PI/4 * -std::cos(time*2);
     rotation.z =  ppgso::PI/4 * -std::cos(time*2);
-//    position.z = 1 + std::cos(time*2);
+    position.z = 1 + std::cos(time*2);
 //    rotation.x = -std::sin(time*2);
 //    rotation.z = -std::cos(time*2);
 //    rotation.y = -std::sin(time*2);
@@ -45,6 +45,7 @@ void Axe::render(Scene &scene) {
 
     shader->setUniform("viewPos",scene.camera->position);
     shader->setUniform("light.position",scene.LightPosition);
+    shader->setUniform("light.color", scene.lightColor);
     shader->setUniform("light.ambient",scene.LightAmb);
     shader->setUniform("light.diffuse",scene.LightDiff);
     shader->setUniform("light.specular",scene.LightSpec);
@@ -54,6 +55,7 @@ void Axe::render(Scene &scene) {
     shader->setUniform("light.quadratic",scene.lightQuad);
 
     shader->setUniform("directLight.direction",scene.dirLightDirection);
+    shader->setUniform("directLight.color",scene.lightColor);
     shader->setUniform("directLight.ambient",scene.dirLightAmb);
     shader->setUniform("directLight.diffuse",scene.dirLightDiff);
     shader->setUniform("directLight.specular",scene.dirLightSpec);

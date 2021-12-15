@@ -1,5 +1,6 @@
 #include "ground.h"
 #include "scene.h"
+#include "campfire.h"
 
 #include <shaders/diffuse_vert_glsl.h>
 #include <shaders/diffuse_frag_glsl.h>
@@ -26,12 +27,21 @@ bool Ground::update(Scene &scene, float time) {
 void Ground::render(Scene &scene) {
     shader->use();
 
-    scene.lightConst = 0.05f;
-    scene.lightLin = 0.01f;
-    scene.lightColor = {1, 0, 0};
-    shader->setUniform("lightColor", scene.lightColor);
+    for (auto &obj : scene.objects) {
+
+        // Ignore self in scene
+        if (obj.get() == this) continue;
+
+        // We only need to collide with asteroids and projectiles, ignore other objects
+        auto fire = dynamic_cast<Campfire *>(obj.get()); // dynamic_pointer_cast<Asteroid>(obj);
+        if (!fire) continue;
+        scene.LightPosition = {fire->position.x, fire->position.y + 2.0f, fire->position.z};
+    }
+
+
     shader->setUniform("viewPos",scene.camera->position);
-    shader->setUniform("light.position",{position.x -5.0f, 1.0f, position.z});
+    shader->setUniform("light.position",scene.LightPosition);
+    shader->setUniform("light.color", {1.0f, 0.7f, 0.f});
     shader->setUniform("light.ambient",scene.LightAmb);
     shader->setUniform("light.diffuse",scene.LightDiff);
     shader->setUniform("light.specular",scene.LightSpec);
@@ -41,6 +51,7 @@ void Ground::render(Scene &scene) {
     shader->setUniform("light.quadratic",scene.lightQuad);
 
     shader->setUniform("directLight.direction",scene.dirLightDirection);
+    shader->setUniform("directLight.color",scene.lightColor);
     shader->setUniform("directLight.ambient",scene.dirLightAmb);
     shader->setUniform("directLight.diffuse",scene.dirLightDiff);
     shader->setUniform("directLight.specular",scene.dirLightSpec);

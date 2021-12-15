@@ -15,6 +15,7 @@ struct Light {
   vec3 ambient;
   vec3 diffuse;
   vec3 specular;
+  vec3 color;
 
   float constant;
   float linear;
@@ -27,6 +28,7 @@ struct DirectionalLight {
   vec3 ambient;
   vec3 diffuse;
   vec3 specular;
+  vec3 color;
 };
 
 uniform DirectionalLight directLight;
@@ -70,7 +72,7 @@ vec3 DirLight()
   vec3 diffuse  = directLight.diffuse * (diff * material.diffuse);
   vec3 specular = directLight.specular * (spec * material.specular);
 
-  return (ambient+diffuse+specular);
+  return (ambient+diffuse+specular) * directLight.color;
 }
 
 vec3 LightPoint()
@@ -94,13 +96,13 @@ vec3 LightPoint()
   diffuse *= attenuation;
   specular *= attenuation;
 
-  return (ambient+diffuse+specular) * lightColor;
+  return (ambient+diffuse+specular) * light.color;
 }
 
 void main() {
   // Compute diffuse lighting
-//  vec3 result = LightPoint() + DirLight();
-  vec3 result = LightPoint();
+  vec3 result = LightPoint() + DirLight();
+//  vec3 result = LightPoint();
   // Lookup the color in Texture on coordinates given by texCoord
   // NOTE: Texture coordinate is inverted vertically for compatibility with OBJ
   FragmentColor = texture(Texture, vec2(texCoord.x, 1.0 - texCoord.y) + TextureOffset) * vec4((result),1);

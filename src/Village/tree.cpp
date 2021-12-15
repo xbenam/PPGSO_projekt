@@ -32,7 +32,7 @@ bool Tree::update(Scene &scene, float dt) {
 
         // Compare distance to approximate size of the asteroid estimated from scale.
         auto a = distance(axe->position, this->position);
-        auto b = (axe->scale.z + this->scale.z) * 1.5f;
+        auto b = (axe->scale.z + this->scale.z) * 1.0f;
 
         if (a < b && time > 2.0f) {
             generateLeafs(scene, glm::linearRand(7,12));
@@ -49,6 +49,7 @@ void Tree::render(Scene &scene) {
 //    shader->setUniform("LightDirection", scene.lightDirection);
     shader->setUniform("viewPos",scene.camera->position);
     shader->setUniform("light.position",scene.LightPosition);
+    shader->setUniform("light.color", scene.lightColor);
     shader->setUniform("light.ambient",scene.LightAmb);
     shader->setUniform("light.diffuse",scene.LightDiff);
     shader->setUniform("light.specular",scene.LightSpec);
@@ -58,14 +59,15 @@ void Tree::render(Scene &scene) {
     shader->setUniform("light.quadratic",scene.lightQuad);
 
     shader->setUniform("directLight.direction",scene.dirLightDirection);
+    shader->setUniform("directLight.color",scene.lightColor);
     shader->setUniform("directLight.ambient",scene.dirLightAmb);
     shader->setUniform("directLight.diffuse",scene.dirLightDiff);
     shader->setUniform("directLight.specular",scene.dirLightSpec);
 
-    shader->setUniform("material.shininess",scene.Mat1Shiny);
-    shader->setUniform("material.ambient",scene.Mat1Amb);
-    shader->setUniform("material.diffuse",scene.Mat1Diff);
-    shader->setUniform("material.specular",scene.Mat1Spec);
+    shader->setUniform("material.shininess",scene.Mat3Shiny);
+    shader->setUniform("material.ambient",scene.Mat3Amb);
+    shader->setUniform("material.diffuse",scene.Mat3Diff);
+    shader->setUniform("material.specular",scene.Mat3Spec);
     // use camera
     shader->setUniform("ProjectionMatrix", scene.camera->projectionMatrix);
     shader->setUniform("ViewMatrix", scene.camera->viewMatrix);

@@ -31,10 +31,10 @@ private:
 
         // Create a camera
         auto camera = std::make_unique<Camera>(60.0f, 1.0f, 0.1f, 100.0f);
-        camera->position.z = -5.0f;
+        camera->position.z = -10.0f;
 //        camera->orientation.y = ppgso::PI/4;
         camera->position.y = 1;
-        camera->orientation.x = -ppgso::PI/4;
+        camera->orientation.x = ppgso::PI/4;
         beginScene.camera = move(camera);
 
         beginScene.objects.push_back(std::make_unique<Sky>());

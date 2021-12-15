@@ -358,6 +358,7 @@ CMakeFiles/ppgso.dir/src/Village/blades.cpp.obj
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/blades.cpp
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/blades.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/camera.h
+ D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/campfire.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
  shaders/diffuse_frag_glsl.h
@@ -613,6 +614,7 @@ CMakeFiles/ppgso.dir/src/Village/campfire.cpp.obj
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/campfire.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
+ D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/smoke.h
  shaders/diffuse_frag_glsl.h
  shaders/diffuse_vert_glsl.h
 CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj
@@ -733,6 +735,7 @@ CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj
  ../ppgso/tiny_obj_loader.h
  ../ppgso/window.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/camera.h
+ D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/campfire.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/ground.cpp
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/ground.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
@@ -858,6 +861,7 @@ CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj
  ../ppgso/window.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/blades.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/camera.h
+ D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/campfire.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/mill.cpp
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/mill.h
  D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h

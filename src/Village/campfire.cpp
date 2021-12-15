@@ -3,6 +3,7 @@
 //
 
 #include "campfire.h"
+#include "smoke.h"
 #include "scene.h"
 
 #include <shaders/diffuse_vert_glsl.h>
@@ -21,6 +22,9 @@ Campfire::Campfire() {
 }
 
 bool Campfire::update(Scene &scene, float dt) {
+    time += dt;
+    if(time > 0.05f)
+        generateSmoke(scene);
     generateModelMatrix();
     return true;
 }
@@ -29,10 +33,12 @@ void Campfire::render(Scene &scene) {
     shader->use();
 
     // light
-    scene.lightColor = {1, 0.2, 0};
-    shader->setUniform("lightColor", scene.lightColor);
+    scene.lightConst = 0.05f;
+    scene.lightLin = 0.01f;
+
     shader->setUniform("viewPos",scene.camera->position);
     shader->setUniform("light.position",{position.x, position.y + 0.2f, position.z});
+    shader->setUniform("light.color", {0.7f, 0.7f, 0.f});
     shader->setUniform("light.ambient",scene.LightAmb);
     shader->setUniform("light.diffuse",scene.LightDiff);
     shader->setUniform("light.specular",scene.LightSpec);
@@ -42,6 +48,7 @@ void Campfire::render(Scene &scene) {
     shader->setUniform("light.quadratic",scene.lightQuad);
 
     shader->setUniform("directLight.direction",position);
+    shader->setUniform("directLight.color",scene.lightColor);
     shader->setUniform("directLight.ambient",scene.dirLightAmb);
     shader->setUniform("directLight.diffuse",scene.dirLightDiff);
     shader->setUniform("directLight.specular",scene.dirLightSpec);
@@ -60,5 +67,14 @@ void Campfire::render(Scene &scene) {
     shader->setUniform("Texture", *texture);
 
     mesh->render();
+}
+
+void Campfire::generateSmoke(Scene &scene) {
+    auto smokeParticle = std::make_unique<Smoke>();
+    smokeParticle->position = position;
+    smokeParticle->position.y = 0.8f;
+    smokeParticle->position.x += glm::linearRand(-0.2f, 0.2f);
+    smokeParticle->position.z += glm::linearRand(-0.2f, 0.2f);
+    scene.objects.push_back(move(smokeParticle));
 }
 
