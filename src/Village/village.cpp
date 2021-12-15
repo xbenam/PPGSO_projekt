@@ -187,10 +187,6 @@ public:
             beginScene.camera->wasSet = true;
         }
 
-        if(beginScene.camera->wasSet) {
-
-        }
-
         // Update and render all objects
         beginScene.update(dt);
         beginScene.render();
