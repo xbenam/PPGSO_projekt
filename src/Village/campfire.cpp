@@ -33,12 +33,9 @@ void Campfire::render(Scene &scene) {
     shader->use();
 
     // light
-    scene.lightConst = 0.05f;
-    scene.lightLin = 0.01f;
-
     shader->setUniform("viewPos",scene.camera->position);
     shader->setUniform("light.position",{position.x, position.y + 0.2f, position.z});
-    shader->setUniform("light.color", {0.7f, 0.7f, 0.f});
+    shader->setUniform("light.color", {1.0f, 0.7f, 0.f});
     shader->setUniform("light.ambient",scene.LightAmb);
     shader->setUniform("light.diffuse",scene.LightDiff);
     shader->setUniform("light.specular",scene.LightSpec);
