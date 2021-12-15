@@ -16,7 +16,7 @@ public:
     Object(Object&&) = default;
     virtual ~Object() {};
 
-    virtual bool update() = 0;
+    virtual bool update(Scene &scene, float time) = 0;
 
     virtual void render(Scene &scene) = 0;
 
@@ -27,6 +27,7 @@ public:
     glm::vec3 rotation{0,0,0};
     glm::vec3 scale{1,1,1};
     glm::mat4 modelMatrix{1};
+    glm::vec3 color;
 
 protected:
     void generateModelMatrix();
