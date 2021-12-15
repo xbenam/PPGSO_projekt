@@ -186,6 +186,8 @@ public:
             beginScene.camera->wasSet = true;
         }
 
+        std::cout << "Ahoj" << std::endl;
+
         // Update and render all objects
         beginScene.update(dt);
         beginScene.render();
