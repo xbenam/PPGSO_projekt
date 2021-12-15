@@ -6,7 +6,7 @@
 
 class Camera {
 public:
-    std::vector<glm::vec3> verteciesOfMovement = {{0, 1, -50},
+    std::vector<glm::vec3> verteciesOfMovementBegin = {{0, 1, -50},
                                                   {0, 1, -25},
                                                   {-100, 20, 50},
                                                   {50, 15, 70},

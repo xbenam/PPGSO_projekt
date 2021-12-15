@@ -18,15 +18,6 @@ Horse::Horse() {
 
 bool Horse::update(Scene &scene, float dt) {
     time += dt;
-    float angle = -ppgso::PI/6;
-    rotation = {0, 0, angle};
-    position = {position.x, position.y, position.z + dt};
-    cart->position = {position.x, position.y + 0.2, position.z - 1.3};
-    cart->position.x = (cos(angle) * cart->position.x) + (-(sin(angle)) * cart->position.z);
-    cart->position.z = (sin(angle) * cart->position.x) + (cos(angle) * cart->position.z);
-    cart->rotation = rotation;
-    cart->scale = scale;
-    cart->update(scene, time);
 
     std::cout << time <<std::endl;
     if(scene.camera->wasSet) {
@@ -42,10 +33,25 @@ bool Horse::update(Scene &scene, float dt) {
                                               scene.camera->up);
         }
         else {
-            rotation = {0, 0, -ppgso::PI/6};
-            scene.camera->orientation = position;
-            scene.camera->position = {position.x, position.y + 0.7f, position.z - 3};
+            timeRotate += dt;
+            if(26 < time && time <= 36) {
+                angle = (-ppgso::PI/2) * (timeRotate / 6);
+                secondAngle = angle;
+            }
+            else if(time > 36 && time <= 38){
+                angle = (secondAngle) + (ppgso::PI/2 * (timeRotate/2));
+            }
+            std::cout << angle << "\t" << secondAngle << std::endl;
         }
+        direction = {sin(angle), 0, cos(angle)};
+        rotation = {0, 0, angle};
+        position += direction * dt;
+        cart->position = {position.x - sin(angle) * 1.3, position.y + 0.2, position.z - cos(angle) * 1.3};
+        cart->rotation = rotation;
+        cart->scale = scale;
+        cart->update(scene, time);
+        scene.camera->orientation = position;
+        scene.camera->position = {position.x - sin(angle) * 3, position.y + 1, position.z - cos(angle) * 3};
     }
     generateModelMatrix();
     return true;
