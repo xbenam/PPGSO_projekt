@@ -38,77 +38,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c384f26d-1ebe-4fb0-8eed-456a31ef2c5d" name="Default Changelist" comment="Blbá zmena 2">
-      <change afterPath="$PROJECT_DIR$/data/smoke.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Village/smoke.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Village/smoke.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_49_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_49_[Default_Changelist]1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_49_[Default_Changelist]1/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_49_[Default_Changelist]1/ompver_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_49_[Default_Changelist]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_49__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7__12__2021_17_49__Default_Changelist_1.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Material_baseColor.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/base.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cart.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cart.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/cartWheels.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/castle.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/castleWalls.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/horse.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/house.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/house.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mill_base.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oak.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/oak.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/vrtula.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/walls.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/walls.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/blackScreen.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/blackScreen.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/cart.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/cart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/cartWheels.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/cartWheels.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/flag.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/flag.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/horse.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/horse.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/house.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/house.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/oak.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/oak.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/walls.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Village/walls.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-79ab477dcea1478f8b74.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2021-12-14T21-49-41-0982.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-village-Debug-9258b1be9b5c57ef2fb4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/18" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/23" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/24" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/25" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/28" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/29" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/30" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/31" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/32" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/33" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/34" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/36" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/38" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/40" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/42" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/43" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/44" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/45" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/46" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/47" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/48" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/49" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-21236e7ef648643cd097.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2021-12-15T08-46-06-0605.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ppgso-Debug-cca2806bce19583eb554.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-village-Debug-135e525c377d36b72584.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/blades.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/blades.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/camera.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/camera.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/campfire.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/campfire.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/ground.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/mill.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/diffuse_frag_glsl.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/shaders/diffuse_frag_glsl.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/scene.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/scene.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/sky.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppgso.dir/src/Village/sky.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/shaders.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/build.make" afterDir="false" />
@@ -117,31 +109,44 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/axe.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/axe.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/blades.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/blades.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/camera.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/camera.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/campfire.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/campfire.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/cube.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/cube.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/ground.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/ground.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/leaf.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/leaf.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/leaf_fall.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/leaf_fall.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/mill.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/mill.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/scene.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/scene.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/sky.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/sky.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/smoke.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/smoke.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/tree.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/tree.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/village.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/village.dir/src/Village/village.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/horse.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/horse.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libppgso.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libppgso.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libshaders.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libshaders.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ppgso.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ppgso.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/shaders/diffuse_frag_glsl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/shaders/diffuse_frag_glsl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tree.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tree.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tree.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tree.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/village.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/village.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shader/diffuse_frag.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shader/diffuse_frag.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Village/axe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/axe.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/horse.obj" beforeDir="false" afterPath="$PROJECT_DIR$/data/horse.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tree.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/data/tree.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tree.obj" beforeDir="false" afterPath="$PROJECT_DIR$/data/tree.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Village/blades.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/blades.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Village/campfire.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/campfire.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Village/campfire.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/campfire.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Village/camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/camera.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Village/camera.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/camera.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Village/cube.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/cube.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Village/cube.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/cube.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Village/ground.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/ground.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Village/mill.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/mill.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Village/ground.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/ground.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Village/scene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/scene.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Village/scene.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/scene.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Village/tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/tree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Village/tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/tree.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Village/village.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Village/village.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +192,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shader" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -203,9 +208,9 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.village">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="ppgso" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppgso" TARGET_NAME="ppgso" CONFIG_NAME="Debug">
@@ -300,29 +305,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1639427177132" />
-    <state width="1877" height="318" key="GridCell.Tab.0.bottom" timestamp="1639561079069">
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1639576070306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1639436691671" />
-    <state width="1877" height="318" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1639561079069" />
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1639576070306" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1639523078985" />
-    <state width="1877" height="318" key="GridCell.Tab.0.center" timestamp="1639561079069">
+    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1639576070306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1639436691670" />
-    <state width="1877" height="318" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1639561079069" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1639576070306" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1639523078985" />
-    <state width="1877" height="318" key="GridCell.Tab.0.left" timestamp="1639561079069">
+    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1639576070306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1639436691670" />
-    <state width="1877" height="318" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1639561079069" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1639576070306" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1639523078985" />
-    <state width="1877" height="318" key="GridCell.Tab.0.right" timestamp="1639561079069">
+    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1639576070306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1639436691671" />
-    <state width="1877" height="318" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1639561079069" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1639576070306" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1639523078985" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1639523078985">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -368,11 +373,6 @@
           <url>file://$PROJECT_DIR$/src/Village/leaf_fall.cpp</url>
           <line>14</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/Village/tree.cpp</url>
-          <line>83</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

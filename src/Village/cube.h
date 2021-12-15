@@ -1,7 +1,11 @@
 #pragma once
 
 #include <iostream>
+#include <vector>
 #include <ppgso/ppgso.h>
+
+#include <shaders/color_vert_glsl.h>
+#include <shaders/color_frag_glsl.h>
 
 #include "object.h"
 

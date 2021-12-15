@@ -673,6 +673,33 @@ src/Village/axe.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/axe.cpp.s
 .PHONY : src/Village/axe.cpp.s
 
+src/Village/blackScreen.obj: src/Village/blackScreen.cpp.obj
+
+.PHONY : src/Village/blackScreen.obj
+
+# target to build an object file
+src/Village/blackScreen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/blackScreen.cpp.obj
+.PHONY : src/Village/blackScreen.cpp.obj
+
+src/Village/blackScreen.i: src/Village/blackScreen.cpp.i
+
+.PHONY : src/Village/blackScreen.i
+
+# target to preprocess a source file
+src/Village/blackScreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/blackScreen.cpp.i
+.PHONY : src/Village/blackScreen.cpp.i
+
+src/Village/blackScreen.s: src/Village/blackScreen.cpp.s
+
+.PHONY : src/Village/blackScreen.s
+
+# target to generate assembly for a file
+src/Village/blackScreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/blackScreen.cpp.s
+.PHONY : src/Village/blackScreen.cpp.s
+
 src/Village/blades.obj: src/Village/blades.cpp.obj
 
 .PHONY : src/Village/blades.obj
@@ -763,6 +790,66 @@ src/Village/campfire.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/campfire.cpp.s
 .PHONY : src/Village/campfire.cpp.s
 
+src/Village/cart.obj: src/Village/cart.cpp.obj
+
+.PHONY : src/Village/cart.obj
+
+# target to build an object file
+src/Village/cart.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/cart.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/cart.cpp.obj
+.PHONY : src/Village/cart.cpp.obj
+
+src/Village/cart.i: src/Village/cart.cpp.i
+
+.PHONY : src/Village/cart.i
+
+# target to preprocess a source file
+src/Village/cart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/cart.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/cart.cpp.i
+.PHONY : src/Village/cart.cpp.i
+
+src/Village/cart.s: src/Village/cart.cpp.s
+
+.PHONY : src/Village/cart.s
+
+# target to generate assembly for a file
+src/Village/cart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/cart.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/cart.cpp.s
+.PHONY : src/Village/cart.cpp.s
+
+src/Village/cartWheels.obj: src/Village/cartWheels.cpp.obj
+
+.PHONY : src/Village/cartWheels.obj
+
+# target to build an object file
+src/Village/cartWheels.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj
+.PHONY : src/Village/cartWheels.cpp.obj
+
+src/Village/cartWheels.i: src/Village/cartWheels.cpp.i
+
+.PHONY : src/Village/cartWheels.i
+
+# target to preprocess a source file
+src/Village/cartWheels.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/cartWheels.cpp.i
+.PHONY : src/Village/cartWheels.cpp.i
+
+src/Village/cartWheels.s: src/Village/cartWheels.cpp.s
+
+.PHONY : src/Village/cartWheels.s
+
+# target to generate assembly for a file
+src/Village/cartWheels.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/cartWheels.cpp.s
+.PHONY : src/Village/cartWheels.cpp.s
+
 src/Village/cube.obj: src/Village/cube.cpp.obj
 
 .PHONY : src/Village/cube.obj
@@ -789,6 +876,36 @@ src/Village/cube.s: src/Village/cube.cpp.s
 src/Village/cube.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/cube.cpp.s
 .PHONY : src/Village/cube.cpp.s
+
+src/Village/flag.obj: src/Village/flag.cpp.obj
+
+.PHONY : src/Village/flag.obj
+
+# target to build an object file
+src/Village/flag.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/flag.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/flag.cpp.obj
+.PHONY : src/Village/flag.cpp.obj
+
+src/Village/flag.i: src/Village/flag.cpp.i
+
+.PHONY : src/Village/flag.i
+
+# target to preprocess a source file
+src/Village/flag.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/flag.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/flag.cpp.i
+.PHONY : src/Village/flag.cpp.i
+
+src/Village/flag.s: src/Village/flag.cpp.s
+
+.PHONY : src/Village/flag.s
+
+# target to generate assembly for a file
+src/Village/flag.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/flag.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/flag.cpp.s
+.PHONY : src/Village/flag.cpp.s
 
 src/Village/ground.obj: src/Village/ground.cpp.obj
 
@@ -820,6 +937,66 @@ src/Village/ground.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/ground.cpp.s
 .PHONY : src/Village/ground.cpp.s
 
+src/Village/horse.obj: src/Village/horse.cpp.obj
+
+.PHONY : src/Village/horse.obj
+
+# target to build an object file
+src/Village/horse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/horse.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/horse.cpp.obj
+.PHONY : src/Village/horse.cpp.obj
+
+src/Village/horse.i: src/Village/horse.cpp.i
+
+.PHONY : src/Village/horse.i
+
+# target to preprocess a source file
+src/Village/horse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/horse.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/horse.cpp.i
+.PHONY : src/Village/horse.cpp.i
+
+src/Village/horse.s: src/Village/horse.cpp.s
+
+.PHONY : src/Village/horse.s
+
+# target to generate assembly for a file
+src/Village/horse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/horse.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/horse.cpp.s
+.PHONY : src/Village/horse.cpp.s
+
+src/Village/house.obj: src/Village/house.cpp.obj
+
+.PHONY : src/Village/house.obj
+
+# target to build an object file
+src/Village/house.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/house.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/house.cpp.obj
+.PHONY : src/Village/house.cpp.obj
+
+src/Village/house.i: src/Village/house.cpp.i
+
+.PHONY : src/Village/house.i
+
+# target to preprocess a source file
+src/Village/house.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/house.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/house.cpp.i
+.PHONY : src/Village/house.cpp.i
+
+src/Village/house.s: src/Village/house.cpp.s
+
+.PHONY : src/Village/house.s
+
+# target to generate assembly for a file
+src/Village/house.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/house.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/house.cpp.s
+.PHONY : src/Village/house.cpp.s
+
 src/Village/leaf.obj: src/Village/leaf.cpp.obj
 
 .PHONY : src/Village/leaf.obj
@@ -846,33 +1023,6 @@ src/Village/leaf.s: src/Village/leaf.cpp.s
 src/Village/leaf.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/leaf.cpp.s
 .PHONY : src/Village/leaf.cpp.s
-
-src/Village/leaf_fall.obj: src/Village/leaf_fall.cpp.obj
-
-.PHONY : src/Village/leaf_fall.obj
-
-# target to build an object file
-src/Village/leaf_fall.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/leaf_fall.cpp.obj
-.PHONY : src/Village/leaf_fall.cpp.obj
-
-src/Village/leaf_fall.i: src/Village/leaf_fall.cpp.i
-
-.PHONY : src/Village/leaf_fall.i
-
-# target to preprocess a source file
-src/Village/leaf_fall.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/leaf_fall.cpp.i
-.PHONY : src/Village/leaf_fall.cpp.i
-
-src/Village/leaf_fall.s: src/Village/leaf_fall.cpp.s
-
-.PHONY : src/Village/leaf_fall.s
-
-# target to generate assembly for a file
-src/Village/leaf_fall.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/leaf_fall.cpp.s
-.PHONY : src/Village/leaf_fall.cpp.s
 
 src/Village/mill.obj: src/Village/mill.cpp.obj
 
@@ -903,6 +1053,33 @@ src/Village/mill.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/mill.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/mill.cpp.s
 .PHONY : src/Village/mill.cpp.s
+
+src/Village/oak.obj: src/Village/oak.cpp.obj
+
+.PHONY : src/Village/oak.obj
+
+# target to build an object file
+src/Village/oak.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/oak.cpp.obj
+.PHONY : src/Village/oak.cpp.obj
+
+src/Village/oak.i: src/Village/oak.cpp.i
+
+.PHONY : src/Village/oak.i
+
+# target to preprocess a source file
+src/Village/oak.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/oak.cpp.i
+.PHONY : src/Village/oak.cpp.i
+
+src/Village/oak.s: src/Village/oak.cpp.s
+
+.PHONY : src/Village/oak.s
+
+# target to generate assembly for a file
+src/Village/oak.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/oak.cpp.s
+.PHONY : src/Village/oak.cpp.s
 
 src/Village/object.obj: src/Village/object.cpp.obj
 
@@ -1027,6 +1204,7 @@ src/Village/tree.obj: src/Village/tree.cpp.obj
 
 # target to build an object file
 src/Village/tree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/tree.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/tree.cpp.obj
 .PHONY : src/Village/tree.cpp.obj
 
@@ -1036,6 +1214,7 @@ src/Village/tree.i: src/Village/tree.cpp.i
 
 # target to preprocess a source file
 src/Village/tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/tree.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/tree.cpp.i
 .PHONY : src/Village/tree.cpp.i
 
@@ -1045,6 +1224,7 @@ src/Village/tree.s: src/Village/tree.cpp.s
 
 # target to generate assembly for a file
 src/Village/tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/tree.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/tree.cpp.s
 .PHONY : src/Village/tree.cpp.s
 
@@ -1074,6 +1254,36 @@ src/Village/village.s: src/Village/village.cpp.s
 src/Village/village.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/village.cpp.s
 .PHONY : src/Village/village.cpp.s
+
+src/Village/walls.obj: src/Village/walls.cpp.obj
+
+.PHONY : src/Village/walls.obj
+
+# target to build an object file
+src/Village/walls.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/walls.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/walls.cpp.obj
+.PHONY : src/Village/walls.cpp.obj
+
+src/Village/walls.i: src/Village/walls.cpp.i
+
+.PHONY : src/Village/walls.i
+
+# target to preprocess a source file
+src/Village/walls.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/walls.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/walls.cpp.i
+.PHONY : src/Village/walls.cpp.i
+
+src/Village/walls.s: src/Village/walls.cpp.s
+
+.PHONY : src/Village/walls.s
+
+# target to generate assembly for a file
+src/Village/walls.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/walls.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/walls.cpp.s
+.PHONY : src/Village/walls.cpp.s
 
 # Help Target
 help:
@@ -1141,6 +1351,9 @@ help:
 	@echo ... src/Village/axe.obj
 	@echo ... src/Village/axe.i
 	@echo ... src/Village/axe.s
+	@echo ... src/Village/blackScreen.obj
+	@echo ... src/Village/blackScreen.i
+	@echo ... src/Village/blackScreen.s
 	@echo ... src/Village/blades.obj
 	@echo ... src/Village/blades.i
 	@echo ... src/Village/blades.s
@@ -1150,21 +1363,36 @@ help:
 	@echo ... src/Village/campfire.obj
 	@echo ... src/Village/campfire.i
 	@echo ... src/Village/campfire.s
+	@echo ... src/Village/cart.obj
+	@echo ... src/Village/cart.i
+	@echo ... src/Village/cart.s
+	@echo ... src/Village/cartWheels.obj
+	@echo ... src/Village/cartWheels.i
+	@echo ... src/Village/cartWheels.s
 	@echo ... src/Village/cube.obj
 	@echo ... src/Village/cube.i
 	@echo ... src/Village/cube.s
+	@echo ... src/Village/flag.obj
+	@echo ... src/Village/flag.i
+	@echo ... src/Village/flag.s
 	@echo ... src/Village/ground.obj
 	@echo ... src/Village/ground.i
 	@echo ... src/Village/ground.s
+	@echo ... src/Village/horse.obj
+	@echo ... src/Village/horse.i
+	@echo ... src/Village/horse.s
+	@echo ... src/Village/house.obj
+	@echo ... src/Village/house.i
+	@echo ... src/Village/house.s
 	@echo ... src/Village/leaf.obj
 	@echo ... src/Village/leaf.i
 	@echo ... src/Village/leaf.s
-	@echo ... src/Village/leaf_fall.obj
-	@echo ... src/Village/leaf_fall.i
-	@echo ... src/Village/leaf_fall.s
 	@echo ... src/Village/mill.obj
 	@echo ... src/Village/mill.i
 	@echo ... src/Village/mill.s
+	@echo ... src/Village/oak.obj
+	@echo ... src/Village/oak.i
+	@echo ... src/Village/oak.s
 	@echo ... src/Village/object.obj
 	@echo ... src/Village/object.i
 	@echo ... src/Village/object.s
@@ -1183,6 +1411,9 @@ help:
 	@echo ... src/Village/village.obj
 	@echo ... src/Village/village.i
 	@echo ... src/Village/village.s
+	@echo ... src/Village/walls.obj
+	@echo ... src/Village/walls.i
+	@echo ... src/Village/walls.s
 .PHONY : help
 
 

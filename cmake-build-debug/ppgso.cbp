@@ -356,6 +356,12 @@
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/axe.h">
 			<Option target="village"/>
 		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/blackScreen.cpp">
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/blackScreen.h">
+			<Option target="village"/>
+		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/blades.cpp">
 			<Option target="ppgso"/>
 			<Option target="village"/>
@@ -380,10 +386,34 @@
 			<Option target="ppgso"/>
 			<Option target="village"/>
 		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/cart.cpp">
+			<Option target="ppgso"/>
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/cart.h">
+			<Option target="ppgso"/>
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/cartWheels.cpp">
+			<Option target="ppgso"/>
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/cartWheels.h">
+			<Option target="ppgso"/>
+			<Option target="village"/>
+		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/cube.cpp">
 			<Option target="village"/>
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/cube.h">
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/flag.cpp">
+			<Option target="ppgso"/>
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/flag.h">
+			<Option target="ppgso"/>
 			<Option target="village"/>
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/ground.cpp">
@@ -394,16 +424,26 @@
 			<Option target="ppgso"/>
 			<Option target="village"/>
 		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/horse.cpp">
+			<Option target="ppgso"/>
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/horse.h">
+			<Option target="ppgso"/>
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/house.cpp">
+			<Option target="ppgso"/>
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/house.h">
+			<Option target="ppgso"/>
+			<Option target="village"/>
+		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/leaf.cpp">
 			<Option target="village"/>
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/leaf.h">
-			<Option target="village"/>
-		</Unit>
-		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/leaf_fall.cpp">
-			<Option target="village"/>
-		</Unit>
-		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/leaf_fall.h">
 			<Option target="village"/>
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/mill.cpp">
@@ -412,6 +452,12 @@
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/mill.h">
 			<Option target="ppgso"/>
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/oak.cpp">
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/oak.h">
 			<Option target="village"/>
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.cpp">
@@ -445,12 +491,22 @@
 			<Option target="village"/>
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/tree.cpp">
+			<Option target="ppgso"/>
 			<Option target="village"/>
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/tree.h">
+			<Option target="ppgso"/>
 			<Option target="village"/>
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/village.cpp">
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/walls.cpp">
+			<Option target="ppgso"/>
+			<Option target="village"/>
+		</Unit>
+		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/walls.h">
+			<Option target="ppgso"/>
 			<Option target="village"/>
 		</Unit>
 		<Unit filename="D:/Skola/FIIT/3._semester/PPGSO_projekt/CMakeLists.txt">

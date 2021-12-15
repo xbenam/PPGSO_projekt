@@ -95,7 +95,11 @@ add_library(ppgso STATIC
         src/Village/blades.cpp
         src/Village/blades.h
         src/Village/campfire.cpp
-        src/Village/campfire.h)
+        src/Village/campfire.h
+        src/Village/horse.cpp
+        src/Village/horse.h
+        src/Village/walls.cpp
+        src/Village/walls.h src/Village/cart.cpp src/Village/cart.h src/Village/cartWheels.cpp src/Village/cartWheels.h src/Village/house.cpp src/Village/house.h src/Village/tree.cpp src/Village/tree.h src/Village/flag.cpp src/Village/flag.h)
 
 # Make sure GLM uses radians and GLEW is a static library
 target_compile_definitions(ppgso PUBLIC -DGLM_FORCE_RADIANS -DGLEW_STATIC)
@@ -133,7 +137,14 @@ add_executable(
         src/Village/cube.h
         src/Village/mill.cpp
         src/Village/mill.h
-        src/Village/blades.cpp src/Village/blades.h src/Village/campfire.cpp src/Village/campfire.h src/Village/tree.cpp src/Village/tree.h src/Village/leaf_fall.cpp src/Village/leaf_fall.h src/Village/leaf.cpp src/Village/leaf.h src/Village/axe.cpp src/Village/axe.h src/Village/smoke.cpp src/Village/smoke.h)
+        src/Village/blades.cpp
+        src/Village/blades.h
+        src/Village/campfire.cpp
+        src/Village/campfire.h
+        src/Village/horse.cpp
+        src/Village/horse.h
+        src/Village/walls.cpp
+        src/Village/walls.h src/Village/cart.cpp src/Village/cart.h src/Village/cartWheels.cpp src/Village/cartWheels.h src/Village/house.cpp src/Village/house.h src/Village/tree.cpp src/Village/tree.h src/Village/flag.cpp src/Village/flag.h src/Village/axe.cpp src/Village/axe.h src/Village/leaf.cpp src/Village/leaf.h src/Village/smoke.cpp src/Village/smoke.h src/Village/oak.cpp src/Village/oak.h src/Village/blackScreen.cpp src/Village/blackScreen.h)
 target_link_libraries(village ppgso shaders)
 install (TARGETS village DESTINATION .)
 

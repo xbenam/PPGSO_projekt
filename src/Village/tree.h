@@ -1,25 +1,23 @@
-#pragma once
+#ifndef PPGSO_TREE_H
+#define PPGSO_TREE_H
 
-#include <iostream>
-#include <vector>
 #include <ppgso/ppgso.h>
-
 #include "object.h"
 
-class Tree : public Object {
+
+class Tree final : public Object {
 private:
     static std::unique_ptr<ppgso::Mesh> mesh;
     static std::unique_ptr<ppgso::Texture> texture;
     static std::unique_ptr<ppgso::Shader> shader;
-    float time = 0;
+
 public:
     Tree();
 
     bool update(Scene &scene, float time) override;
 
     void render(Scene &scene) override;
-
-    void generateLeafs(Scene &scene, float count);
 };
 
 
+#endif //PPGSO_TREE_H

@@ -19,8 +19,8 @@ Blades::Blades(glm::vec3 base_position) {
     if (!textureBlades) textureBlades = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("blades.bmp"));
 }
 
-bool Blades::update(Scene &scene, float time) {
-    rotation.x += time * 3;
+bool Blades::update(Scene &scene, float dt) {
+    rotation.x += dt * 3;
     position += scale * 100.0f * glm::vec3{0.5f,3.0f,-0.1f};
     generateModelMatrix();
 //    rot += 1;
