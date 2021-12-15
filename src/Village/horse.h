@@ -1,5 +1,4 @@
-#ifndef PPGSO_HORSE_H
-#define PPGSO_HORSE_H
+#pragma once
 
 #include <vector>
 #include <ppgso/ppgso.h>
@@ -26,6 +25,3 @@ public:
 
     void render(Scene &scene) override;
 };
-
-
-#endif //PPGSO_HORSE_H

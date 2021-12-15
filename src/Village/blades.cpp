@@ -12,8 +12,6 @@ std::unique_ptr<ppgso::Shader> Blades::shader;
 float rot = 1.0f;
 
 Blades::Blades(glm::vec3 base_position) {
-//    scale *= 0.01;
-//    position = base_position + glm::vec3{0.5f,3.0f,0.0f};
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!meshMillBlades) meshMillBlades = std::make_unique<ppgso::Mesh>("blades.obj");
     if (!textureBlades) textureBlades = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("blades.bmp"));

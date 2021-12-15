@@ -20,12 +20,17 @@ Horse::Horse() {
 bool Horse::update(Scene &scene, float dt) {
     time += dt;
 
+    std::cout << time <<std::endl;
     if(scene.camera->wasSet) {
-        if(time <= 8) {
-            scene.camera->orientation = position;
-            scene.camera->position = {position.x, position.y + 1, position.z - 4};
-        }
-        else if(8 < time && time < 20) {
+        direction = {sin(angle), 0, cos(angle)};
+        rotation = {0, 0, angle};
+        position += direction * dt;
+        cart->position = {position.x - sin(angle) * 1.3, position.y + 0.2, position.z - cos(angle) * 1.3};
+        cart->rotation = rotation;
+        cart->scale = scale;
+        cart->update(scene, time);
+
+        if(8 < time && time < 20) {
             scene.camera->orientation = {0, 0, -1};
             scene.camera->position = {(position.x + 0.5), (position.y + 0.2f), (position.z - 2)};
             scene.camera->viewMatrix = lookAt(scene.camera->position,
@@ -37,20 +42,26 @@ bool Horse::update(Scene &scene, float dt) {
                 timeRotate += dt;
                 angle = ppgso::PI/2 * (timeRotate / 4);
             }
-        }
-        if(time < 42){
-            direction = {sin(angle), 0, cos(angle)};
-            rotation = {0, 0, angle};
-            position += direction * dt;
-            cart->position = {position.x - sin(angle) * 1.3, position.y + 0.2, position.z - cos(angle) * 1.3};
-            cart->rotation = rotation;
-            cart->scale = scale;
-            cart->update(scene, time);
-            scene.camera->orientation = position;
-            scene.camera->position = {position.x - sin(angle) * 3, position.y + 1, position.z - cos(angle) * 3};
+            if(time > 42 && time < 72) {
+                scene.camera->orientation = {20, 3, 9};
+                scene.camera->cameraAroundMill = true;
+                timeRotate = 0;
+                angle = -ppgso::PI/2;
+            }
+            else {
+                if((time > 83 && time < 86) || ((time > 92 && time < 94) && angle < 0)) {
+                    timeRotate += dt;
+                    angle = (-ppgso::PI / 2) + (ppgso::PI / 2 * (timeRotate / 4));
+                }
+                else if (time >= 104) {
+                    scene.objects.clear();
+                    exit(0);
+                }
+                scene.camera->orientation = position;
+                scene.camera->position = {position.x - sin(angle) * 3, position.y + 1, position.z - cos(angle) * 3};
+            }
         }
     }
-    std::cout << scene.camera->position.x << " "<< scene.camera->position.y <<" "<< scene.camera->position.z << std::endl;
     generateModelMatrix();
     return true;
 }
@@ -60,16 +71,13 @@ void Horse::render(Scene &scene) {
     glm::vec3 fireplace;
     for (auto &obj : scene.objects) {
 
-        // Ignore self in scene
         if (obj.get() == this) continue;
 
-        // We only need to collide with asteroids and projectiles, ignore other objects
-        auto wisp = dynamic_cast<Wisp *>(obj.get()); // dynamic_pointer_cast<Asteroid>(obj);
+        auto wisp = dynamic_cast<Wisp *>(obj.get());
         if (!wisp) continue;
         scene.Light2pos = {wisp->position.x, wisp->position.y, wisp->position.z};
     }
     // light
-//    shader->setUniform("LightDirection", scene.dirLightDirection);
     shader->setUniform("viewPos",scene.camera->position);
     shader->setUniform("light[0].position",scene.Light1pos);
     shader->setUniform("light[0].color", scene.light1Color);

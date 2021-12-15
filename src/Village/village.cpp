@@ -1,4 +1,3 @@
-#include <iostream>
 #include <ppgso.h>
 
 #include <shaders/texture_vert_glsl.h>
@@ -39,9 +38,9 @@ private:
                 continue;
             }
             glm::vec3 newPoint = {(float)randX, 0, (float)randZ};
-            for(size_t j = 0; j < treePositions.size(); j++) {
-                if(newPoint.x < (treePositions[j].x + 5) && newPoint.x > (treePositions[j].x - 5) &&
-                   newPoint.z < (treePositions[j].z + 5) && newPoint.z > (treePositions[j].z - 5)) {
+            for(auto & treePosition : treePositions) {
+                if(newPoint.x < (treePosition.x + 5) && newPoint.x > (treePosition.x - 5) &&
+                   newPoint.z < (treePosition.z + 5) && newPoint.z > (treePosition.z - 5)) {
                     i--;
                     founded = true;
                     break;
@@ -55,7 +54,6 @@ private:
 
     void initScene() {
         beginScene.objects.clear();
-
         // Create a camera
         auto camera = std::make_unique<Camera>(60.0f, 1.0f, 0.1f, 100.0f);
         camera->position.z = -25.0f;
@@ -72,22 +70,19 @@ private:
         auto walls = std::make_unique<Walls>();
         beginScene.objects.push_back(move(walls));
 
-//        auto flag = std::make_unique<Flag>();
-//        beginScene.objects.push_back(move(flag));
-
-        glm::vec3 housePoistions[5] = {{4, 0, 5}, {4, 0, 11}, {3, 0, 17}, {-4, 0, 15}, {-4, 0, 7}};
+        glm::vec3 housePositions[5] = {{4, 0, 5}, {4, 0, 11}, {3, 0, 17}, {-4, 0, 15}, {-4, 0, 7}};
         glm::vec3 houseRotations[5] = {{0, 0, 0}, {0, 0, 0}, {0, 0, -(ppgso::PI/4)}, {0, 0, -(ppgso::PI/2)}, {0, 0, ppgso::PI}};
         for(int i = 0; i < 5; i++) {
             auto house = std::make_unique<House>();
-            house->position = housePoistions[i];
+            house->position = housePositions[i];
             house->rotation = houseRotations[i];
             beginScene.objects.push_back(move(house));
         }
 
         std::vector<glm::vec3> treePositions = generateTreePositions(70);
-        for(size_t i = 0; i < treePositions.size(); i++) {
+        for(auto & treePosition : treePositions) {
             auto tree = std::make_unique<Tree>();
-            tree->position = treePositions[i];
+            tree->position = treePosition;
             beginScene.objects.push_back(move(tree));
         }
 
@@ -141,33 +136,15 @@ public:
     }
 
     void onKey(int key, int scanCode, int action, int mods) override {
-        beginScene.keyboard[key] = action;
-
-        // Reset
-        beginScene.camera->Inputs(key);
 
     }
 
     void onCursorPos(double cursorX, double cursorY) override {
-        beginScene.cursor.x = cursorX;
-        beginScene.cursor.y = cursorY;
+
     }
 
     void onMouseButton(int button, int action, int mods) override{
-        if(button == GLFW_MOUSE_BUTTON_LEFT) {
-            beginScene.cursor.left = action;
-            if (beginScene.cursor.left == GLFW_PRESS) {
-//                if (beginScene.camera->firstClick){
-//                    glfwSetCursorPos(window, 512, 512);
-//                    beginScene.camera->firstClick = false;
-//                }
-                beginScene.camera->MouseRotation(beginScene.cursor.x, beginScene.cursor.y);
-            }
-            beginScene.cursor.left = action == GLFW_RELEASE;
-//            if (beginScene.cursor.left == GLFW_RELEASE){
-//                beginScene.camera->firstClick = true;
-//            }
-        }
+
     }
 
     void onIdle() override {
@@ -183,12 +160,6 @@ public:
         // Clear depth and color buffers
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-
-//        auto cameraMat = translate(glm::mat4{1.0f}, {0.0f, -15.0f, -50});
-//        program.setUniform("ViewMatrix", glm::lookAt({cos((float) glfwGetTime())* 75,75.0f,sin((float) glfwGetTime())*-75.0f},{0.0f,1.0f,0.0f},glm::vec3{0.0f,1,0.0f}));
-//        program.setUniform("ProjectionMatrix",  beginScene.camera->projectionMatrix);
-//        program.setUniform("ViewMatrix", beginScene.camera->viewMatrix);
-
         if(!beginScene.camera->cameraAroundVillage && !beginScene.camera->wasSet) {
             auto horse = std::make_unique<Horse>();
             beginScene.objects.push_back(move(horse));
@@ -199,7 +170,6 @@ public:
 
         }
 
-        // Update and render all objects
         beginScene.update(dt);
         beginScene.render();
 

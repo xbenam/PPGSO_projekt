@@ -7,7 +7,6 @@
 
 Camera::Camera(float fow, float ratio, float near, float far) {
     float fowInRad = (ppgso::PI/180.0f) * fow;
-
     projectionMatrix = glm::perspective(fowInRad, ratio, near, far);
 }
 
@@ -34,9 +33,9 @@ glm::vec3 Camera::bezierPoint(const glm::vec3 &p0, const glm::vec3 &p1, const gl
     return p01121223122323341223233423343445;
 }
 
-glm::vec3 Camera::cameraInterpolation(float time) {
-    glm::vec3 actualPosition = bezierPoint(verteciesOfMovement[0], verteciesOfMovement[1], verteciesOfMovement[2], verteciesOfMovement[3],
-                verteciesOfMovement[4], verteciesOfMovement[5], time);
+glm::vec3 Camera::cameraInterpolation(float time, std::vector<glm::vec3> vertecies) {
+    glm::vec3 actualPosition = bezierPoint(vertecies[0], vertecies[1], vertecies[2], vertecies[3],
+                                           vertecies[4], vertecies[5], time);
     return actualPosition;
 }
 
@@ -44,68 +43,23 @@ void Camera::update(float dt) {
     time += dt;
 
     if(time/30 <= 1.0f)
-        position = cameraInterpolation((time/30));
+        position = cameraInterpolation((time/30), verticesOfMovement);
     else
         cameraAroundVillage = false;
 
+    if(cameraAroundMill) {
+        wasSet = false;
+        cameraAroundVillage = true; // musí byť, aby sa nesplnila podmienka vo village pri generovaní koňa
+        timeMillCamera += dt;
+        if(timeMillCamera <= 30)
+            position = cameraInterpolation((timeMillCamera/30), verticesOfMillCamera);
+        else {
+            wasSet = true;
+            cameraAroundVillage = false;
+            cameraAroundMill = false;
+        }
+
+    }
+
     viewMatrix = lookAt(position, orientation, up);
-}
-
-glm::vec3 Camera::cast(double u, double v) {
-    // Create point in Screen coordinates
-    glm::vec4 screenPosition{u,v,0.0f,1.0f};
-
-    // Use inverse matrices to get the point in world coordinates
-    auto invProjection = glm::inverse(projectionMatrix);
-    auto invView = glm::inverse(viewMatrix);
-
-    // Compute position on the camera plane
-    auto planePosition = invView * invProjection * screenPosition;
-    planePosition /= planePosition.w;
-
-    // Create direction vector
-    auto direction = glm::normalize(planePosition - glm::vec4{position,1.0f});
-    return glm::vec3{direction};
-}
-
-void Camera::Inputs(int key){
-    if(key == GLFW_KEY_S){
-        position += speed * orientation;
-    }
-    if(key == GLFW_KEY_W){
-        position += speed * -orientation;
-    }
-    if(key == GLFW_KEY_A){
-        position += speed * glm::normalize(glm::cross(orientation, up));
-    }
-    if(key == GLFW_KEY_D){
-        position += speed * -glm::normalize(glm::cross(orientation, up));
-    }
-    if(key == GLFW_KEY_SPACE){
-        position += speed * up;
-    }
-    if(key == GLFW_KEY_LEFT_CONTROL){
-        position += speed * -up;
-    }
-    if(key == GLFW_KEY_E){
-//        orientation = glm::rotate(orientation, glm::radians(-rotY), up);
-        orientation.x += speed * 0.5;
-    }
-    if(key == GLFW_KEY_Q){
-        orientation.x += speed * -0.5;
-    }
-}
-
-void Camera::MouseRotation(double curX, double curY){
-
-    float rotX = 15.0f * (float) (curY - 512) / 512;
-    float rotY = 15.0f * (float) (curX - 512) / 512;
-
-    glm::vec3 newOrientation = glm::rotate(orientation, glm::radians(-rotX), glm::normalize(glm::cross(orientation, up)));
-
-    if(!(glm::angle(newOrientation, up) <= glm::radians(5.0f) or glm::angle(newOrientation, -up) > glm::radians(5.0f))){
-        orientation = newOrientation;
-    }
-
-    orientation = glm::rotate(orientation, glm::radians(-rotY), up);
 }

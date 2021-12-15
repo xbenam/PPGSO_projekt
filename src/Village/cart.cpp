@@ -30,11 +30,9 @@ void Cart::render(Scene &scene) {
     glm::vec3 fireplace;
     for (auto &obj : scene.objects) {
 
-        // Ignore self in scene
         if (obj.get() == this) continue;
 
-        // We only need to collide with asteroids and projectiles, ignore other objects
-        auto wisp = dynamic_cast<Wisp *>(obj.get()); // dynamic_pointer_cast<Asteroid>(obj);
+        auto wisp = dynamic_cast<Wisp *>(obj.get());
         if (!wisp) continue;
         scene.Light2pos = {wisp->position.x, wisp->position.y, wisp->position.z};
     }

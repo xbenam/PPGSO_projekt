@@ -1,5 +1,4 @@
-#ifndef PPGSO_CART_H
-#define PPGSO_CART_H
+#pragma once
 
 #include <vector>
 #include <ppgso/ppgso.h>
@@ -23,6 +22,3 @@ public:
 
     void render(Scene &scene) override;
 };
-
-
-#endif //PPGSO_CART_H

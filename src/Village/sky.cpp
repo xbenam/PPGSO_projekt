@@ -22,19 +22,17 @@ Sky::Sky() {
 }
 
 bool Sky::update(Scene &scene, float time) {
-    // Offset for UV mapping, creates illusion of scrolling
+    textureOffset.y += time/210;
     generateModelMatrix();
     return true;
 }
 
 void Sky::render(Scene &scene) {
-    // Disable writing to the depth buffer so we render a "background"
     glDepthMask(GL_FALSE);
 
-    // NOTE: this object does not use camera, just renders the entire quad as is
     shader->use();
 
-    // Render mesh, not using any projections, we just render in 2D
+    shader->setUniform("TextureOffset", textureOffset);
     shader->setUniform("ModelMatrix", modelMatrix);
     shader->setUniform("ViewMatrix", glm::mat4{1.0f});
     shader->setUniform("ProjectionMatrix", glm::mat4{1.0f});

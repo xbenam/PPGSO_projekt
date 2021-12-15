@@ -19,9 +19,7 @@ Leaf::Leaf() {
 }
 
 bool Leaf::update(Scene &scene, float dt) {
-//    speed = {glm::linearRand(-0.02f, 0.02f), 0.0005f,glm::linearRand(0.0f, -0.002f)};
     age += dt;
-//    std::cout << dt << "\t" << age << std::endl;
     if (position.y > 0.0f){
         position -= speed;
         position.y -= dt;

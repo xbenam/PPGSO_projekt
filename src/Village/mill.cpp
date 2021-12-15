@@ -16,7 +16,6 @@ Mill::Mill() {
     if (!meshMillBase) meshMillBase = std::make_unique<ppgso::Mesh>("mill_base.obj");
     if (!textureBase) textureBase = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("mill_base.bmp"));
     if (!blades) blades = std::make_unique<Blades>(position);
-
 }
 
 bool Mill::update(Scene &scene, float time) {
@@ -36,16 +35,13 @@ void Mill::render(Scene &scene) {
     glm::vec3 fireplace;
     for (auto &obj : scene.objects) {
 
-        // Ignore self in scene
         if (obj.get() == this) continue;
 
-        // We only need to collide with asteroids and projectiles, ignore other objects
-        auto wisp = dynamic_cast<Wisp *>(obj.get()); // dynamic_pointer_cast<Asteroid>(obj);
+        auto wisp = dynamic_cast<Wisp *>(obj.get());
         if (!wisp) continue;
         scene.Light2pos = {wisp->position.x, wisp->position.y, wisp->position.z};
     }
     // light
-//    shader->setUniform("LightDirection", scene.dirLightDirection);
     shader->setUniform("viewPos",scene.camera->position);
     shader->setUniform("light[0].position",scene.Light1pos);
     shader->setUniform("light[0].color", scene.light1Color);

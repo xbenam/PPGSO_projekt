@@ -1,5 +1,4 @@
-#ifndef PPGSO_WALLS_H
-#define PPGSO_WALLS_H
+#pragma once
 
 #include <vector>
 #include <ppgso/ppgso.h>
@@ -18,6 +17,3 @@ public:
 
     void render(Scene &scene) override;
 };
-
-
-#endif //PPGSO_WALLS_H

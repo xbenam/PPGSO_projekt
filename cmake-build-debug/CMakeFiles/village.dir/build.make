@@ -160,24 +160,10 @@ CMakeFiles/village.dir/src/Village/sky.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village.dir/src/Village/sky.cpp.s"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\sky.cpp -o CMakeFiles\village.dir\src\Village\sky.cpp.s
 
-CMakeFiles/village.dir/src/Village/cube.cpp.obj: CMakeFiles/village.dir/flags.make
-CMakeFiles/village.dir/src/Village/cube.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
-CMakeFiles/village.dir/src/Village/cube.cpp.obj: ../src/Village/cube.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/village.dir/src/Village/cube.cpp.obj"
-	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\cube.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\cube.cpp
-
-CMakeFiles/village.dir/src/Village/cube.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/village.dir/src/Village/cube.cpp.i"
-	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\cube.cpp > CMakeFiles\village.dir\src\Village\cube.cpp.i
-
-CMakeFiles/village.dir/src/Village/cube.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village.dir/src/Village/cube.cpp.s"
-	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\cube.cpp -o CMakeFiles\village.dir\src\Village\cube.cpp.s
-
 CMakeFiles/village.dir/src/Village/mill.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/mill.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/mill.cpp.obj: ../src/Village/mill.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/village.dir/src/Village/mill.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/village.dir/src/Village/mill.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\mill.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\mill.cpp
 
 CMakeFiles/village.dir/src/Village/mill.cpp.i: cmake_force
@@ -191,7 +177,7 @@ CMakeFiles/village.dir/src/Village/mill.cpp.s: cmake_force
 CMakeFiles/village.dir/src/Village/blades.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/blades.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/blades.cpp.obj: ../src/Village/blades.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/village.dir/src/Village/blades.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/village.dir/src/Village/blades.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\blades.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\blades.cpp
 
 CMakeFiles/village.dir/src/Village/blades.cpp.i: cmake_force
@@ -205,7 +191,7 @@ CMakeFiles/village.dir/src/Village/blades.cpp.s: cmake_force
 CMakeFiles/village.dir/src/Village/campfire.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/campfire.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/campfire.cpp.obj: ../src/Village/campfire.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/village.dir/src/Village/campfire.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/village.dir/src/Village/campfire.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\campfire.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\campfire.cpp
 
 CMakeFiles/village.dir/src/Village/campfire.cpp.i: cmake_force
@@ -219,7 +205,7 @@ CMakeFiles/village.dir/src/Village/campfire.cpp.s: cmake_force
 CMakeFiles/village.dir/src/Village/horse.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/horse.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/horse.cpp.obj: ../src/Village/horse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/village.dir/src/Village/horse.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/village.dir/src/Village/horse.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\horse.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\horse.cpp
 
 CMakeFiles/village.dir/src/Village/horse.cpp.i: cmake_force
@@ -233,7 +219,7 @@ CMakeFiles/village.dir/src/Village/horse.cpp.s: cmake_force
 CMakeFiles/village.dir/src/Village/walls.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/walls.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/walls.cpp.obj: ../src/Village/walls.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/village.dir/src/Village/walls.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/village.dir/src/Village/walls.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\walls.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\walls.cpp
 
 CMakeFiles/village.dir/src/Village/walls.cpp.i: cmake_force
@@ -247,7 +233,7 @@ CMakeFiles/village.dir/src/Village/walls.cpp.s: cmake_force
 CMakeFiles/village.dir/src/Village/cart.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/cart.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/cart.cpp.obj: ../src/Village/cart.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/village.dir/src/Village/cart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/village.dir/src/Village/cart.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\cart.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\cart.cpp
 
 CMakeFiles/village.dir/src/Village/cart.cpp.i: cmake_force
@@ -261,7 +247,7 @@ CMakeFiles/village.dir/src/Village/cart.cpp.s: cmake_force
 CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj: ../src/Village/cartWheels.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\cartWheels.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\cartWheels.cpp
 
 CMakeFiles/village.dir/src/Village/cartWheels.cpp.i: cmake_force
@@ -275,7 +261,7 @@ CMakeFiles/village.dir/src/Village/cartWheels.cpp.s: cmake_force
 CMakeFiles/village.dir/src/Village/house.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/house.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/house.cpp.obj: ../src/Village/house.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/village.dir/src/Village/house.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/village.dir/src/Village/house.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\house.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\house.cpp
 
 CMakeFiles/village.dir/src/Village/house.cpp.i: cmake_force
@@ -289,7 +275,7 @@ CMakeFiles/village.dir/src/Village/house.cpp.s: cmake_force
 CMakeFiles/village.dir/src/Village/tree.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/tree.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/tree.cpp.obj: ../src/Village/tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/village.dir/src/Village/tree.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/village.dir/src/Village/tree.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\tree.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\tree.cpp
 
 CMakeFiles/village.dir/src/Village/tree.cpp.i: cmake_force
@@ -300,24 +286,10 @@ CMakeFiles/village.dir/src/Village/tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village.dir/src/Village/tree.cpp.s"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\tree.cpp -o CMakeFiles\village.dir\src\Village\tree.cpp.s
 
-CMakeFiles/village.dir/src/Village/flag.cpp.obj: CMakeFiles/village.dir/flags.make
-CMakeFiles/village.dir/src/Village/flag.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
-CMakeFiles/village.dir/src/Village/flag.cpp.obj: ../src/Village/flag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/village.dir/src/Village/flag.cpp.obj"
-	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\flag.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\flag.cpp
-
-CMakeFiles/village.dir/src/Village/flag.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/village.dir/src/Village/flag.cpp.i"
-	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\flag.cpp > CMakeFiles\village.dir\src\Village\flag.cpp.i
-
-CMakeFiles/village.dir/src/Village/flag.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/village.dir/src/Village/flag.cpp.s"
-	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\flag.cpp -o CMakeFiles\village.dir\src\Village\flag.cpp.s
-
 CMakeFiles/village.dir/src/Village/axe.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/axe.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/axe.cpp.obj: ../src/Village/axe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/village.dir/src/Village/axe.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/village.dir/src/Village/axe.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\axe.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\axe.cpp
 
 CMakeFiles/village.dir/src/Village/axe.cpp.i: cmake_force
@@ -331,7 +303,7 @@ CMakeFiles/village.dir/src/Village/axe.cpp.s: cmake_force
 CMakeFiles/village.dir/src/Village/leaf.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/leaf.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/leaf.cpp.obj: ../src/Village/leaf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/village.dir/src/Village/leaf.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/village.dir/src/Village/leaf.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\leaf.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\leaf.cpp
 
 CMakeFiles/village.dir/src/Village/leaf.cpp.i: cmake_force
@@ -345,7 +317,7 @@ CMakeFiles/village.dir/src/Village/leaf.cpp.s: cmake_force
 CMakeFiles/village.dir/src/Village/smoke.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/smoke.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/smoke.cpp.obj: ../src/Village/smoke.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/village.dir/src/Village/smoke.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/village.dir/src/Village/smoke.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\smoke.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\smoke.cpp
 
 CMakeFiles/village.dir/src/Village/smoke.cpp.i: cmake_force
@@ -359,7 +331,7 @@ CMakeFiles/village.dir/src/Village/smoke.cpp.s: cmake_force
 CMakeFiles/village.dir/src/Village/oak.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/oak.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/oak.cpp.obj: ../src/Village/oak.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/village.dir/src/Village/oak.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/village.dir/src/Village/oak.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\oak.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\oak.cpp
 
 CMakeFiles/village.dir/src/Village/oak.cpp.i: cmake_force
@@ -373,7 +345,7 @@ CMakeFiles/village.dir/src/Village/oak.cpp.s: cmake_force
 CMakeFiles/village.dir/src/Village/blackScreen.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/blackScreen.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/blackScreen.cpp.obj: ../src/Village/blackScreen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/village.dir/src/Village/blackScreen.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/village.dir/src/Village/blackScreen.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\blackScreen.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\blackScreen.cpp
 
 CMakeFiles/village.dir/src/Village/blackScreen.cpp.i: cmake_force
@@ -387,7 +359,7 @@ CMakeFiles/village.dir/src/Village/blackScreen.cpp.s: cmake_force
 CMakeFiles/village.dir/src/Village/wisp.cpp.obj: CMakeFiles/village.dir/flags.make
 CMakeFiles/village.dir/src/Village/wisp.cpp.obj: CMakeFiles/village.dir/includes_CXX.rsp
 CMakeFiles/village.dir/src/Village/wisp.cpp.obj: ../src/Village/wisp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/village.dir/src/Village/wisp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/village.dir/src/Village/wisp.cpp.obj"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\village.dir\src\Village\wisp.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\wisp.cpp
 
 CMakeFiles/village.dir/src/Village/wisp.cpp.i: cmake_force
@@ -406,7 +378,6 @@ village_OBJECTS = \
 "CMakeFiles/village.dir/src/Village/scene.cpp.obj" \
 "CMakeFiles/village.dir/src/Village/camera.cpp.obj" \
 "CMakeFiles/village.dir/src/Village/sky.cpp.obj" \
-"CMakeFiles/village.dir/src/Village/cube.cpp.obj" \
 "CMakeFiles/village.dir/src/Village/mill.cpp.obj" \
 "CMakeFiles/village.dir/src/Village/blades.cpp.obj" \
 "CMakeFiles/village.dir/src/Village/campfire.cpp.obj" \
@@ -416,7 +387,6 @@ village_OBJECTS = \
 "CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj" \
 "CMakeFiles/village.dir/src/Village/house.cpp.obj" \
 "CMakeFiles/village.dir/src/Village/tree.cpp.obj" \
-"CMakeFiles/village.dir/src/Village/flag.cpp.obj" \
 "CMakeFiles/village.dir/src/Village/axe.cpp.obj" \
 "CMakeFiles/village.dir/src/Village/leaf.cpp.obj" \
 "CMakeFiles/village.dir/src/Village/smoke.cpp.obj" \
@@ -433,7 +403,6 @@ village.exe: CMakeFiles/village.dir/src/Village/object.cpp.obj
 village.exe: CMakeFiles/village.dir/src/Village/scene.cpp.obj
 village.exe: CMakeFiles/village.dir/src/Village/camera.cpp.obj
 village.exe: CMakeFiles/village.dir/src/Village/sky.cpp.obj
-village.exe: CMakeFiles/village.dir/src/Village/cube.cpp.obj
 village.exe: CMakeFiles/village.dir/src/Village/mill.cpp.obj
 village.exe: CMakeFiles/village.dir/src/Village/blades.cpp.obj
 village.exe: CMakeFiles/village.dir/src/Village/campfire.cpp.obj
@@ -443,7 +412,6 @@ village.exe: CMakeFiles/village.dir/src/Village/cart.cpp.obj
 village.exe: CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj
 village.exe: CMakeFiles/village.dir/src/Village/house.cpp.obj
 village.exe: CMakeFiles/village.dir/src/Village/tree.cpp.obj
-village.exe: CMakeFiles/village.dir/src/Village/flag.cpp.obj
 village.exe: CMakeFiles/village.dir/src/Village/axe.cpp.obj
 village.exe: CMakeFiles/village.dir/src/Village/leaf.cpp.obj
 village.exe: CMakeFiles/village.dir/src/Village/smoke.cpp.obj
@@ -458,7 +426,7 @@ village.exe: ../dependencies/lib/mingw/libglew32.a
 village.exe: CMakeFiles/village.dir/linklibs.rsp
 village.exe: CMakeFiles/village.dir/objects1.rsp
 village.exe: CMakeFiles/village.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable village.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable village.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\village.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

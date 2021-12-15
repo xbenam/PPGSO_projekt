@@ -1,9 +1,4 @@
-//
-// Created by Marti on 15. 12. 2021.
-//
-
-#ifndef PPGSO_BLACKSCREEN_H
-#define PPGSO_BLACKSCREEN_H
+#pragma once
 
 class BlackScreen : public Object{
 private:
@@ -19,4 +14,3 @@ public:
     void render(Scene &scene) override;
 };
 
-#endif //PPGSO_BLACKSCREEN_H

@@ -1,5 +1,4 @@
-#ifndef PPGSO_CARTWHEELS_H
-#define PPGSO_CARTWHEELS_H
+#pragma once
 
 #include <vector>
 #include <ppgso/ppgso.h>
@@ -21,6 +20,3 @@ public:
 
     void render(Scene &scene) override;
 };
-
-
-#endif //PPGSO_CARTWHEELS_H

@@ -1,5 +1,4 @@
-#ifndef PPGSO_HOUSE_H
-#define PPGSO_HOUSE_H
+#pragma once
 
 #include <vector>
 #include <ppgso/ppgso.h>
@@ -24,6 +23,3 @@ public:
 
     void generateSmoke(Scene &scene);
 };
-
-
-#endif //PPGSO_HOUSE_H

@@ -6,8 +6,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/village.dir/src/Village/campfire.cpp.obj"
   "CMakeFiles/village.dir/src/Village/cart.cpp.obj"
   "CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj"
-  "CMakeFiles/village.dir/src/Village/cube.cpp.obj"
-  "CMakeFiles/village.dir/src/Village/flag.cpp.obj"
   "CMakeFiles/village.dir/src/Village/ground.cpp.obj"
   "CMakeFiles/village.dir/src/Village/horse.cpp.obj"
   "CMakeFiles/village.dir/src/Village/house.cpp.obj"

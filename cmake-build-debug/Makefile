@@ -850,63 +850,6 @@ src/Village/cartWheels.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/cartWheels.cpp.s
 .PHONY : src/Village/cartWheels.cpp.s
 
-src/Village/cube.obj: src/Village/cube.cpp.obj
-
-.PHONY : src/Village/cube.obj
-
-# target to build an object file
-src/Village/cube.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/cube.cpp.obj
-.PHONY : src/Village/cube.cpp.obj
-
-src/Village/cube.i: src/Village/cube.cpp.i
-
-.PHONY : src/Village/cube.i
-
-# target to preprocess a source file
-src/Village/cube.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/cube.cpp.i
-.PHONY : src/Village/cube.cpp.i
-
-src/Village/cube.s: src/Village/cube.cpp.s
-
-.PHONY : src/Village/cube.s
-
-# target to generate assembly for a file
-src/Village/cube.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/cube.cpp.s
-.PHONY : src/Village/cube.cpp.s
-
-src/Village/flag.obj: src/Village/flag.cpp.obj
-
-.PHONY : src/Village/flag.obj
-
-# target to build an object file
-src/Village/flag.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/flag.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/flag.cpp.obj
-.PHONY : src/Village/flag.cpp.obj
-
-src/Village/flag.i: src/Village/flag.cpp.i
-
-.PHONY : src/Village/flag.i
-
-# target to preprocess a source file
-src/Village/flag.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/flag.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/flag.cpp.i
-.PHONY : src/Village/flag.cpp.i
-
-src/Village/flag.s: src/Village/flag.cpp.s
-
-.PHONY : src/Village/flag.s
-
-# target to generate assembly for a file
-src/Village/flag.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ppgso.dir\build.make CMakeFiles/ppgso.dir/src/Village/flag.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\village.dir\build.make CMakeFiles/village.dir/src/Village/flag.cpp.s
-.PHONY : src/Village/flag.cpp.s
-
 src/Village/ground.obj: src/Village/ground.cpp.obj
 
 .PHONY : src/Village/ground.obj
@@ -1396,12 +1339,6 @@ help:
 	@echo ... src/Village/cartWheels.obj
 	@echo ... src/Village/cartWheels.i
 	@echo ... src/Village/cartWheels.s
-	@echo ... src/Village/cube.obj
-	@echo ... src/Village/cube.i
-	@echo ... src/Village/cube.s
-	@echo ... src/Village/flag.obj
-	@echo ... src/Village/flag.i
-	@echo ... src/Village/flag.s
 	@echo ... src/Village/ground.obj
 	@echo ... src/Village/ground.i
 	@echo ... src/Village/ground.s

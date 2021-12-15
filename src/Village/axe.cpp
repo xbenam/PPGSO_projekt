@@ -16,9 +16,6 @@ std::unique_ptr<ppgso::Shader> Axe::shader;
 
 Axe::Axe() {
     scale *= 1.5;
-//    rotation.z += ppgso::PI/2;
-//    rotation.x += ppgso::PI/2;
-//    rotation.y -= ppgso::PI/2;
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("axe.bmp"));
     if (!mesh) mesh = std::make_unique<ppgso::Mesh>("axe.obj");
@@ -26,14 +23,8 @@ Axe::Axe() {
 
 bool Axe::update(Scene &scene, float dt) {
     time += dt;
-//    std::cout << std::cos(time) << "\t" << std::cos(dt) << std::endl;
     rotation.z = -ppgso::PI/4 + ppgso::PI/4 * std::cos(time*2);
-//    rotation.z = ppgso::PI/4 * -std::cos(time*2);
     position.z = 1 * std::cos(time*2);
-//    rotation.x = -std::sin(time*2);
-//    rotation.z = -std::cos(time*2);
-//    rotation.y = -std::sin(time*2);
-//    rotation +=  std::sin(time)/1000;
     generateModelMatrix();
     return true;
 }
@@ -45,16 +36,13 @@ void Axe::render(Scene &scene) {
     glm::vec3 fireplace;
     for (auto &obj : scene.objects) {
 
-        // Ignore self in scene
         if (obj.get() == this) continue;
 
-        // We only need to collide with asteroids and projectiles, ignore other objects
-        auto wisp = dynamic_cast<Wisp *>(obj.get()); // dynamic_pointer_cast<Asteroid>(obj);
+        auto wisp = dynamic_cast<Wisp *>(obj.get());
         if (!wisp) continue;
         scene.Light2pos = {wisp->position.x, wisp->position.y, wisp->position.z};
     }
     // light
-//    shader->setUniform("LightDirection", scene.dirLightDirection);
     shader->setUniform("viewPos",scene.camera->position);
     shader->setUniform("light[0].position",scene.Light1pos);
     shader->setUniform("light[0].color", scene.light1Color);

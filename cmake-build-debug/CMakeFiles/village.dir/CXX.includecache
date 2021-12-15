@@ -1012,32 +1012,6 @@ glm/glm.hpp
 ppgso/ppgso.h
 -
 
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/ground.cpp
-ground.h
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/ground.h
-scene.h
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
-wisp.h
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/wisp.h
-shaders/diffuse_vert_glsl.h
--
-shaders/diffuse_frag_glsl.h
--
-
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/ground.h
-iostream
--
-vector
--
-ppgso/ppgso.h
--
-shaders/color_vert_glsl.h
--
-shaders/color_frag_glsl.h
--
-object.h
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
-
 D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
 memory
 -
@@ -1060,27 +1034,27 @@ D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
 camera.h
 D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/camera.h
 
-D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/wisp.h
-iostream
+D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/sky.cpp
+sky.h
+D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/sky.h
+scene.h
+D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/scene.h
+shaders/texture_vert_glsl.h
 -
+shaders/texture_frag_glsl.h
+-
+
+D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/sky.h
 ppgso/ppgso.h
 -
 object.h
 D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/object.h
 
-shaders/color_frag_glsl.h
+shaders/texture_frag_glsl.h
 string
 -
 
-shaders/color_vert_glsl.h
-string
--
-
-shaders/diffuse_frag_glsl.h
-string
--
-
-shaders/diffuse_vert_glsl.h
+shaders/texture_vert_glsl.h
 string
 -
 

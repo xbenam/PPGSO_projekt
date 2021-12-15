@@ -11,8 +11,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/campfire.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/campfire.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/cart.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/cart.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/cartWheels.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/cartWheels.cpp.obj"
-  "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/cube.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/cube.cpp.obj"
-  "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/flag.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/flag.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/ground.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/ground.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/horse.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/horse.cpp.obj"
   "D:/Skola/FIIT/3._semester/PPGSO_projekt/src/Village/house.cpp" "D:/Skola/FIIT/3._semester/PPGSO_projekt/cmake-build-debug/CMakeFiles/village.dir/src/Village/house.cpp.obj"

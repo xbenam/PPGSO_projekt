@@ -1,5 +1,4 @@
-#ifndef PPGSO_TREE_H
-#define PPGSO_TREE_H
+#pragma once
 
 #include <ppgso/ppgso.h>
 #include "object.h"
@@ -18,6 +17,3 @@ public:
 
     void render(Scene &scene) override;
 };
-
-
-#endif //PPGSO_TREE_H

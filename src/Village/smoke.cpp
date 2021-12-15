@@ -1,7 +1,3 @@
-//
-// Created by Marti on 15. 12. 2021.
-//
-
 #include "smoke.h"
 #include "scene.h"
 #include "wisp.h"
@@ -24,29 +20,25 @@ Smoke::Smoke() {
 
 bool Smoke::update(Scene &scene, float dt) {
     age += dt;
-//    std::cout << dt << "\t" << age << std::endl;
     if (position.y > 0.0f){
-        speed = {glm::linearRand(-0.005f, 0.005f), 0,glm::linearRand(0.0f, 0.002f)};
+        speed = {glm::linearRand(-0.005f, 0.005f), 0,glm::linearRand(0.0f, 0.02f)};
         position -= speed;
         position.y += dt/2;
     }
     if(age > 5.0f)
         return false;
     for (auto &obj : scene.objects) {
-        // Ignore self in scene
+
         if (obj.get() == this) continue;
 
-        // We only need to collide with asteroids and projectiles, ignore other objects
-        auto anotherSmoke = dynamic_cast<Smoke*>(obj.get()); // dynamic_pointer_cast<Asteroid>(obj);
+        auto anotherSmoke = dynamic_cast<Smoke*>(obj.get());
         if (!anotherSmoke ) continue;
 
         if (age < 0.2f) continue;
         auto a = distance(position, obj->position);
         auto b = (obj->scale.y + scale.y) * 1.2f;
-//        std::cout << a << "\t" << b << std::endl;
         if (a < b) {
             if (scale.y < 0.00001f) continue;
-            // Generate smaller asteroids
             auto smokeParticle = std::make_unique<Smoke>();
             smokeParticle->position = position;
             smokeParticle->scale = scale / 2.0f;
@@ -63,16 +55,13 @@ void Smoke::render(Scene &scene) {
     glm::vec3 fireplace;
     for (auto &obj : scene.objects) {
 
-        // Ignore self in scene
         if (obj.get() == this) continue;
 
-        // We only need to collide with asteroids and projectiles, ignore other objects
-        auto wisp = dynamic_cast<Wisp *>(obj.get()); // dynamic_pointer_cast<Asteroid>(obj);
+        auto wisp = dynamic_cast<Wisp *>(obj.get());
         if (!wisp) continue;
         scene.Light2pos = {wisp->position.x, wisp->position.y, wisp->position.z};
     }
     // light
-//    shader->setUniform("LightDirection", scene.dirLightDirection);
     shader->setUniform("viewPos",scene.camera->position);
     shader->setUniform("light[0].position",scene.Light1pos);
     shader->setUniform("light[0].color", scene.light1Color);

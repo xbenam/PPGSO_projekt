@@ -1,7 +1,3 @@
-//
-// Created by Marti on 10. 12. 2021.
-//
-
 #pragma once
 
 #include <ppgso/ppgso.h>
@@ -15,6 +11,8 @@ private:
     static std::unique_ptr<ppgso::Mesh> mesh;
     static std::unique_ptr<ppgso::Shader> shader;
     static std::unique_ptr<ppgso::Texture> texture;
+
+    glm::vec2 textureOffset;
 public:
     /*!
      * Create new Sky background

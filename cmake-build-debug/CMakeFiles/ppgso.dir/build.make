@@ -384,20 +384,6 @@ CMakeFiles/ppgso.dir/src/Village/tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ppgso.dir/src/Village/tree.cpp.s"
 	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\tree.cpp -o CMakeFiles\ppgso.dir\src\Village\tree.cpp.s
 
-CMakeFiles/ppgso.dir/src/Village/flag.cpp.obj: CMakeFiles/ppgso.dir/flags.make
-CMakeFiles/ppgso.dir/src/Village/flag.cpp.obj: CMakeFiles/ppgso.dir/includes_CXX.rsp
-CMakeFiles/ppgso.dir/src/Village/flag.cpp.obj: ../src/Village/flag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ppgso.dir/src/Village/flag.cpp.obj"
-	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ppgso.dir\src\Village\flag.cpp.obj -c D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\flag.cpp
-
-CMakeFiles/ppgso.dir/src/Village/flag.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ppgso.dir/src/Village/flag.cpp.i"
-	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\flag.cpp > CMakeFiles\ppgso.dir\src\Village\flag.cpp.i
-
-CMakeFiles/ppgso.dir/src/Village/flag.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ppgso.dir/src/Village/flag.cpp.s"
-	"D:\Program files\CLion 2020.2.3\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Skola\FIIT\3._semester\PPGSO_projekt\src\Village\flag.cpp -o CMakeFiles\ppgso.dir\src\Village\flag.cpp.s
-
 # Object files for target ppgso
 ppgso_OBJECTS = \
 "CMakeFiles/ppgso.dir/ppgso/mesh.cpp.obj" \
@@ -421,8 +407,7 @@ ppgso_OBJECTS = \
 "CMakeFiles/ppgso.dir/src/Village/cart.cpp.obj" \
 "CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.obj" \
 "CMakeFiles/ppgso.dir/src/Village/house.cpp.obj" \
-"CMakeFiles/ppgso.dir/src/Village/tree.cpp.obj" \
-"CMakeFiles/ppgso.dir/src/Village/flag.cpp.obj"
+"CMakeFiles/ppgso.dir/src/Village/tree.cpp.obj"
 
 # External object files for target ppgso
 ppgso_EXTERNAL_OBJECTS =
@@ -449,10 +434,9 @@ libppgso.a: CMakeFiles/ppgso.dir/src/Village/cart.cpp.obj
 libppgso.a: CMakeFiles/ppgso.dir/src/Village/cartWheels.cpp.obj
 libppgso.a: CMakeFiles/ppgso.dir/src/Village/house.cpp.obj
 libppgso.a: CMakeFiles/ppgso.dir/src/Village/tree.cpp.obj
-libppgso.a: CMakeFiles/ppgso.dir/src/Village/flag.cpp.obj
 libppgso.a: CMakeFiles/ppgso.dir/build.make
 libppgso.a: CMakeFiles/ppgso.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library libppgso.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Skola\FIIT\3._semester\PPGSO_projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX static library libppgso.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\ppgso.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ppgso.dir\link.txt --verbose=$(VERBOSE)
 
