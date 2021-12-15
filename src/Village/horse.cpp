@@ -38,15 +38,17 @@ bool Horse::update(Scene &scene, float dt) {
                 angle = ppgso::PI/2 * (timeRotate / 4);
             }
         }
-        direction = {sin(angle), 0, cos(angle)};
-        rotation = {0, 0, angle};
-        position += direction * dt;
-        cart->position = {position.x - sin(angle) * 1.3, position.y + 0.2, position.z - cos(angle) * 1.3};
-        cart->rotation = rotation;
-        cart->scale = scale;
-        cart->update(scene, time);
-        scene.camera->orientation = position;
-        scene.camera->position = {position.x - sin(angle) * 3, position.y + 1, position.z - cos(angle) * 3};
+        if(time < 42){
+            direction = {sin(angle), 0, cos(angle)};
+            rotation = {0, 0, angle};
+            position += direction * dt;
+            cart->position = {position.x - sin(angle) * 1.3, position.y + 0.2, position.z - cos(angle) * 1.3};
+            cart->rotation = rotation;
+            cart->scale = scale;
+            cart->update(scene, time);
+            scene.camera->orientation = position;
+            scene.camera->position = {position.x - sin(angle) * 3, position.y + 1, position.z - cos(angle) * 3};
+        }
     }
     generateModelMatrix();
     return true;

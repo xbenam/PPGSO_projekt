@@ -27,8 +27,8 @@ bool Axe::update(Scene &scene, float dt) {
     time += dt;
 //    std::cout << std::cos(time) << "\t" << std::cos(dt) << std::endl;
     rotation.x = ppgso::PI/4+ ppgso::PI/4 * -std::cos(time*2);
-    rotation.z =  ppgso::PI/4 * -std::cos(time*2);
-    position.z = 1 + std::cos(time*2);
+    rotation.z = ppgso::PI/4 * -std::cos(time*2);
+    position.z = position.z + 1 * std::cos(time*2);
 //    rotation.x = -std::sin(time*2);
 //    rotation.z = -std::cos(time*2);
 //    rotation.y = -std::sin(time*2);
