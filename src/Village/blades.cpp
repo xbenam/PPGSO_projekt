@@ -21,7 +21,7 @@ Blades::Blades(glm::vec3 base_position) {
 
 bool Blades::update(Scene &scene, float dt) {
     rotation.x += dt * 3;
-    position += scale * 100.0f * glm::vec3{0.5f,3.0f,-0.1f};
+//    position += scale * 100.0f * glm::vec3{0.5f,3.0f,-0.1f};
     generateModelMatrix();
 //    rot += 1;
 //    auto vrt = glm::rotate(glm::mat4{1}, rot, {1, 0.0f, 0.0f});

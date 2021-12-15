@@ -22,6 +22,9 @@ Mill::Mill() {
 
 bool Mill::update(Scene &scene, float time) {
     blades->position = position;
+    blades->position.y = 3.0f;
+    blades->position.x = position.x - sin(rotation.z) * 0.1f - 0.5;
+    blades->position.z = position.z - cos(rotation.z) * 0.1f - 0.1;
     blades->rotation.z = rotation.z;
     blades->scale = scale;
     generateModelMatrix();

@@ -14,7 +14,7 @@ std::unique_ptr<ppgso::Texture> Campfire::texture;
 std::unique_ptr<ppgso::Shader> Campfire::shader;
 
 Campfire::Campfire() {
-    scale *= 0.5f;
+    scale *= 0.25f;
     position.y += 0.5f;
     if (!shader) shader = std::make_unique<ppgso::Shader>(diffuse_vert_glsl, diffuse_frag_glsl);
     if (!texture) texture = std::make_unique<ppgso::Texture>(ppgso::image::loadBMP("campfire.bmp"));

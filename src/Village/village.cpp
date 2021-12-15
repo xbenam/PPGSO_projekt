@@ -99,6 +99,7 @@ private:
         auto mill = std::make_unique<Mill>();
         mill->position.x += 20.0f;
         mill->position.z += 9.0f;
+        mill->rotation.z += ppgso::PI;
         mill->scale *= 0.5f;
         beginScene.objects.push_back(move(mill));
 
@@ -111,7 +112,7 @@ private:
         auto axe = std::make_unique<Axe>();
         axe->position.x += 16.0f;
         axe->position.y += 1.0f;
-        axe->position.z += 20.0f;
+        axe->position.z += 28.0f;
         beginScene.objects.push_back(move(axe));
     }
 public:
